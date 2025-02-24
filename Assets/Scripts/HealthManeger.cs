@@ -7,7 +7,7 @@ public class NewBehaviourScript : MonoBehaviour
 {
     public Image healthBar;
     public float healthAmount = 100f;
-    // Start is called before the first frame update
+    
     void Start()
     {
         
@@ -16,7 +16,21 @@ public class NewBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (healthAmount <= 0)
+        {
+            Application.LoadLevel(Application.loadedLevel);
+        }
+        
         if (Input.GetKeyDown(KeyCode.Return))
+        {
+            TakeDamage(20);
+        }
+
+        if( Input.GetKeyDown(KeyCode.Space))
+        {
+            Heal(5);
+        }    
+            
     }
     public void TakeDamage(float damage)
     {
