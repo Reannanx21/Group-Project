@@ -28,7 +28,7 @@ public class NewBehaviourScript : MonoBehaviour
 
         if( Input.GetKeyDown(KeyCode.E))
         {
-            Heal(5);
+            Heal(10);
         }    
             
     }
