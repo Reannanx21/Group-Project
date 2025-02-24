@@ -1,19 +1,28 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class CoinManager : MonoBehaviour
 {
-    public int coinCount;
-    // Start is called before the first frame update
-    void Start()
+    public static CoinManager instance;
+
+    private int coins;
+    [SerializeField] private TMP_Text coinsDisplay;
+
+    private void Awake()
     {
-        
+        if (!instance)
+        {
+            instance = this;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnGUI()
     {
-        
+        coinsDisplay.text = coins.ToString();
+    }
+
+    public void ChangeCoins(int amount)
+    {
+        coins += amount;
     }
 }
