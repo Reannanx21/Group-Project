@@ -15,7 +15,7 @@ public class Coin : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("player") && !hasTriggered)
+        if (collision.CompareTag("Player") && !hasTriggered)
         {
             hasTriggered = true;
             coinManager.ChangeCoins(value);
