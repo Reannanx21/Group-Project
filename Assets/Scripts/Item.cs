@@ -18,7 +18,7 @@ public class Item : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      inventoryManager = GameObject.Find("InventoryCanvas")?.GetComponent<InventoryManager>();
+        inventoryManager = FindObjectOfType<InventoryManager>();
         if (inventoryManager == null)
         {
             Debug.LogError("InventoryManager not found on InventoryCanvas!");
