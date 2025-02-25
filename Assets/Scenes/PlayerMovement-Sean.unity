@@ -837,7 +837,6 @@ GameObject:
   - component: {fileID: 1712668970}
   - component: {fileID: 1712668969}
   - component: {fileID: 1712668974}
-  - component: {fileID: 1712668975}
   m_Layer: 0
   m_Name: testidle_0
   m_TagString: Player
@@ -902,7 +901,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 30
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -1018,24 +1017,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8.01
-  jump: 20
+  jump: 10
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
-  boxSize: {x: 0, y: 0}
-  castDistance: 0
---- !u!114 &1712668975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1712668968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97d8372e5576c6d4a97ed1699b02e64c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+    m_Bits: 8
+  boxSize: {x: 0.48, y: 0.54}
+  castDistance: 1.59
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
