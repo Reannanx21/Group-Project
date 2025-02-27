@@ -358,6 +358,37 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &114971042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 114971043}
+  m_Layer: 0
+  m_Name: Ha boi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &114971043
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114971042}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.333244, y: 5.8876314, z: -0.8767343}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &144665767
 GameObject:
   m_ObjectHideFlags: 0
@@ -1369,7 +1400,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.28347206, y: 0.02443695}
+  m_Offset: {x: 71.32239, y: 1.6754694}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1380,7 +1411,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.4271278, y: 2.593296}
+  m_Size: {x: 12.577934, y: 5.895361}
   m_EdgeRadius: 0
 --- !u!4 &862564728
 Transform:
@@ -1391,7 +1422,7 @@ Transform:
   m_GameObject: {fileID: 862564724}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -24.79, y: -26.55, z: 1.31}
+  m_LocalPosition: {x: -21.2, y: -26.55, z: 1.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1530,7 +1561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a82ae1cd26cac2849ba54ce5bb44d655, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 50
   jump: 50
 --- !u!114 &992821589
 MonoBehaviour:
@@ -3262,3 +3293,4 @@ SceneRoots:
   - {fileID: 1282505025}
   - {fileID: 862564728}
   - {fileID: 33314991}
+  - {fileID: 114971043}
