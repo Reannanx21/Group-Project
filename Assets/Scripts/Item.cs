@@ -13,6 +13,10 @@ public class Item : MonoBehaviour
     [SerializeField]
     private Sprite Sprite;
 
+    [TextArea]
+    [SerializeField]
+    private string itemDescription;
+
     private InventoryManager inventoryManager;
 
     // Start is called before the first frame update
