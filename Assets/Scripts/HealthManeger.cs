@@ -26,9 +26,9 @@ public class NewBehaviourScript : MonoBehaviour
             TakeDamage(20);
         }
 
-        if( Input.GetKeyDown(KeyCode.Space))
+        if( Input.GetKeyDown(KeyCode.E))
         {
-            Heal(5);
+            Heal(10);
         }    
             
     }
