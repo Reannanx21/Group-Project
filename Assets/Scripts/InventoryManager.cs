@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System;
+using UnityEngine.EventSystems;
 using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
@@ -7,6 +9,7 @@ public class InventoryManager : MonoBehaviour
     public GameObject InventoryMenu;
     private bool menuActivated;
     public itemSlot[] itemSlot;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +34,7 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    public void AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription);
+    public void AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
     {
         for (int i = 0; i < itemSlot.Length; i ++)
         {
