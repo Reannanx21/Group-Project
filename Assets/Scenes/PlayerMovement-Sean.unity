@@ -344,9 +344,9 @@ GameObject:
   m_Component:
   - component: {fileID: 757397259}
   - component: {fileID: 757397258}
-  - component: {fileID: 757397257}
   - component: {fileID: 757397261}
   - component: {fileID: 757397260}
+  - component: {fileID: 757397262}
   m_Layer: 0
   m_Name: Evil ass square
   m_TagString: Untagged
@@ -354,21 +354,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &757397257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 757397256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe401131d3fbe664386efa25cfebbcf8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1712668973}
-  followDistance: 10
-  stoppingDistance: 2
 --- !u!212 &757397258
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -508,6 +493,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &757397262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757397256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7b3819fada7efc48bfedaf5c3b72a62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1712668968}
+  speed: 20
 --- !u!1 &858495153
 GameObject:
   m_ObjectHideFlags: 0
