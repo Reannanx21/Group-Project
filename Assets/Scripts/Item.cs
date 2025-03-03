@@ -35,7 +35,7 @@ public class Item : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-            inventoryManager.AddItem(itemName, quantity, Sprite);            
+            inventoryManager.AddItem(itemName, quantity, Sprite, itemDescription);
             Destroy(gameObject);
         }
     }
