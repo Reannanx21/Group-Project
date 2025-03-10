@@ -1203,6 +1203,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: moonlit background parallax effect 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: ed08f5ebe098417449c5dbd898fad6ac, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 7878350319992209165, guid: ed08f5ebe098417449c5dbd898fad6ac, type: 3}
       propertyPath: m_LocalScale.x
       value: 8
@@ -1275,6 +1279,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: moonlit continuous background (mountain) 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 8fabc8d016c7f924a993c9b626191a60, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 7878350319992209165, guid: 8fabc8d016c7f924a993c9b626191a60, type: 3}
       propertyPath: m_LocalScale.x
       value: 8
@@ -6201,6 +6209,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 7c37e6bb17e90194681cef4d380110f2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 7878350319992209165, guid: 7c37e6bb17e90194681cef4d380110f2, type: 3}
       propertyPath: m_LocalScale.x
       value: 8
