@@ -13,6 +13,10 @@ public class itemSlot : MonoBehaviour, IPointerClickHandler
     public Sprite itemSprite;
     public bool isFull;
     public string itemDescription;
+    public Sprite emptySprite;
+
+    [SerializeField]
+    private int maxNumberOfItems; 
 
     //=======ITEM SLOT=====//
     [SerializeField]
@@ -37,18 +41,50 @@ public class itemSlot : MonoBehaviour, IPointerClickHandler
     }
 
 
-    public void AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
+    public int AddItem(string itemName, int quantity, Sprite itemSprite, string itemDescription)
     {
-        this.itemName = itemName;
-        this.quantity = quantity;
-        this.itemSprite = itemSprite;
-        this.itemDescription = itemDescription;
-        isFull = true;
+        // check to see if slot is allready full
+        if (isFull)
+            return quantity;
 
-        quantityText.text = quantity.ToString();
-        quantityText.enabled = true;
+        //update name 
+        this.itemName = itemName;
+
+        //update image
+        this.itemSprite = itemSprite;
         itemImage.sprite = itemSprite;
+
+        //update desription
+        this.itemDescription = itemDescription;
+
+        //update quantity
+        this.quantity += quantity;
+        if (this.quantity >= maxNumberOfItems)
+        {
+            quantityText.text = maxNumberOfItems.ToString();
+            quantityText.enabled = true;
+            isFull = true;
+
+
+            //return leftovers
+            int extraItems = this.quantity - maxNumberOfItems;
+            this.quantity = maxNumberOfItems;
+            return extraItems;
+        }
+
+        //update quintity text
+        quantityText.text = this.quantity.ToString();
+        quantityText.enabled = true;
+
+        return 0;
     }
+
+
+
+
+
+
+    
 
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -69,6 +105,15 @@ public class itemSlot : MonoBehaviour, IPointerClickHandler
        inventoryManager.DeselectAllSlots();
         selectedShader.SetActive(true);
         thisItemSelected = true;
+        ItemDescriptionNameText.text = itemName;
+        ItemDescriptionText.text = itemDescription;
+        itemDescriptionImage.sprite = itemSprite;
+        if (itemDescriptionImage.sprite == null)
+        {
+            itemDescriptionImage.sprite = emptySprite;
+        }
+
+
     }
 
     public void OnRightClick()
