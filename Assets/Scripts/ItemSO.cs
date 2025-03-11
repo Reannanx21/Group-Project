@@ -15,7 +15,7 @@ public class ItemSO : ScriptableObject
     {
         if(statToChange == StatToChange.health)
         {
-            GameObject.Find("HealthManeger").GetComponent<healthAmount>()
+            //GameObject.Find("HealthManeger").GetComponent<healthAmount>();
         }
     }
 

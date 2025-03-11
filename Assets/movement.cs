@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void CheckGrounded()
     {
-        isGroundedFlag = Physics2D.BoxCast(transform.position, boxSize, 0, Vector2.down, castDistance, groundLayer);
+        //isGroundedFlag = Physics2D.BoxCast(transform.position, boxSize, 0, Vector2.down, castDistance, groundLayer);
     }
 
 
