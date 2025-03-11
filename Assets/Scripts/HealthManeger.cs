@@ -1,49 +1,62 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NewBehaviourScript : MonoBehaviour
+public class PlayerHealth : MonoBehaviour
 {
-    public Image healthBar;
-    public float healthAmount = 100f;
-    
+    public float health = 100f;  // Starting health
+    public float maxHealth = 100f;  // Maximum health
+    public Image healthBar;  // Health bar UI element
+
+    private float lastHealth = -1f;  // Tracks the last health value
+
     void Start()
     {
-        
+        if (maxHealth == 0)
+        {
+            maxHealth = 100f;
+        }
+
+        health = maxHealth;
+
+        if (healthBar != null)
+        {
+            healthBar.gameObject.SetActive(true);
+            UpdateHealthBar();
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (healthAmount <= 0)
+        if (health != lastHealth)
         {
-            Application.LoadLevel(Application.loadedLevel);
+            if (healthBar != null)
+            {
+                UpdateHealthBar();
+            }
+            lastHealth = health;
         }
-        
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
-            TakeDamage(20);
-        }
-
-        if( Input.GetKeyDown(KeyCode.E))
-        {
-            Heal(10);
-        }    
-            
     }
+
+    void UpdateHealthBar()
+    {
+        if (healthBar == null) return;
+
+        healthBar.fillAmount = Mathf.Clamp(health / maxHealth, 0, 1);
+
+        // Force UI refresh
+        healthBar.canvasRenderer.SetAlpha(1.0f);
+        healthBar.CrossFadeAlpha(1.0f, 0, true);
+    }
+
     public void TakeDamage(float damage)
     {
-        healthAmount -= damage;
-        healthBar.fillAmount = healthAmount / 100f;
+        health = Mathf.Clamp(health - damage, 0, maxHealth);
+        UpdateHealthBar();
     }
 
-    public void Heal(float healingAmount)
+    public void Heal(float healAmount)
     {
-        healthAmount += healingAmount;
-        healthAmount = Mathf.Clamp(healthAmount, 0, 100);
-
-        healthBar.fillAmount = healthAmount / 100f;
+        health = Mathf.Clamp(health + healAmount, 0, maxHealth);
+        UpdateHealthBar();
     }
-
 }
