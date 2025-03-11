@@ -13,8 +13,8 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
-  - 
+  - Background
+  - Foreground Deck
   - 
   - 
   - 
@@ -42,4 +42,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background main
+    uniqueID: 479719927
     locked: 0

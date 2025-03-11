@@ -5,11 +5,10 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
-
+    private Animator animator;
     private float Move;
 
     public float speed;
-
     public float jump;
 
     public LayerMask groundLayer;
@@ -17,19 +16,23 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 boxSize;
     public float castDistance;
 
-    private bool isGroundedFlag;
-
-    // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
     {
         Move = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(Move * speed, rb.velocity.y);
-        if (Input.GetButtonDown("Jump") && isGroundedFlag)
+
+        if (animator != null)
+        {
+            animator.SetBool("HenryWalk", Mathf.Abs(Move) > 0.01f);
+        }
+
+        if (Input.GetButtonDown("Jump"))
         {
             rb.velocity = new Vector2(rb.velocity.x, 0);
             rb.AddForce(new Vector2(0, jump * 15), ForceMode2D.Impulse);

@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: e0bdbc38eb082e847b77f914611d49df
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: avery walk anim 1_Frame_0
+    originalName: 
+    pivot: {x: 0.915493, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 86
+      y: 4
+      width: 71
+      height: 74
+    spriteID: 4f138022d9263ff4aa5e394f2158190e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 86, y: 4}
+  - name: avery walk anim 1_Frame_1
+    originalName: 
+    pivot: {x: 0.87837845, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 74
+      height: 74
+    spriteID: abb9d35990c911248b40974308053d26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: avery walk anim 1_Frame_2
+    originalName: 
+    pivot: {x: 0.915493, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 165
+      y: 4
+      width: 71
+      height: 74
+    spriteID: 95fac33d8a3fc02429e8fb05c1023761
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 165, y: 4}
+  - name: avery walk anim 1_Frame_3
+    originalName: 
+    pivot: {x: 1.015625, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 444
+      y: 86
+      width: 64
+      height: 74
+    spriteID: 14767b54f91e83c4793d3b99a7ccfb9a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 444, y: 86}
+  - name: avery walk anim 1_Frame_4
+    originalName: 
+    pivot: {x: 1, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 86
+      width: 65
+      height: 74
+    spriteID: 4560ca7587fede745b3ede0d00f6a8bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 86}
+  - name: avery walk anim 1_Frame_5
+    originalName: 
+    pivot: {x: 0.9558824, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 244
+      y: 4
+      width: 68
+      height: 74
+    spriteID: 0ecab1b6d2725a14d80310fe2d383897
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 244, y: 4}
+  - name: avery walk anim 1_Frame_6
+    originalName: 
+    pivot: {x: 1, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 225
+      y: 86
+      width: 65
+      height: 74
+    spriteID: b204f5d34caa1874ea363d1bdd4922e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 225, y: 86}
+  - name: avery walk anim 1_Frame_7
+    originalName: 
+    pivot: {x: 1, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 298
+      y: 86
+      width: 65
+      height: 74
+    spriteID: 56699fcfdabbc804c861c50fdcdac804
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 298, y: 86}
+  - name: avery walk anim 1_Frame_8
+    originalName: 
+    pivot: {x: 1, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 371
+      y: 86
+      width: 65
+      height: 74
+    spriteID: 0173cf5682122924b989700c8ff6ca0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 371, y: 86}
+  - name: avery walk anim 1_Frame_9
+    originalName: 
+    pivot: {x: 1, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 168
+      width: 65
+      height: 74
+    spriteID: 29b19a238cda51e47b421d7c5762fa32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 168}
+  - name: avery walk anim 1_Frame_10
+    originalName: 
+    pivot: {x: 1, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 168
+      width: 65
+      height: 74
+    spriteID: df4418ebc81cc3046b6d3e119593c391
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 168}
+  - name: avery walk anim 1_Frame_11
+    originalName: 
+    pivot: {x: 1, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 150
+      y: 168
+      width: 65
+      height: 74
+    spriteID: 1b2b4a7077e4b734f92a81995c4b213c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 150, y: 168}
+  - name: avery walk anim 1_Frame_12
+    originalName: 
+    pivot: {x: 1, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 223
+      y: 168
+      width: 65
+      height: 74
+    spriteID: f8f0e1b43df00224088b48f73947aeef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 223, y: 168}
+  - name: avery walk anim 1_Frame_13
+    originalName: 
+    pivot: {x: 1, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 296
+      y: 168
+      width: 65
+      height: 74
+    spriteID: 3cdb7feae01bd09438c70e6801b130f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 296, y: 168}
+  - name: avery walk anim 1_Frame_14
+    originalName: 
+    pivot: {x: 1, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 369
+      y: 168
+      width: 65
+      height: 74
+    spriteID: 20efc09f8457f744c9fd698aec442ef3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 369, y: 168}
+  - name: avery walk anim 1_Frame_15
+    originalName: 
+    pivot: {x: 1, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 442
+      y: 168
+      width: 65
+      height: 74
+    spriteID: 39f9f83f55326044cb12949faa616f83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 442, y: 168}
+  - name: avery walk anim 1_Frame_16
+    originalName: 
+    pivot: {x: 1, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 250
+      width: 65
+      height: 74
+    spriteID: 3bdd2c61496f7734f96d375e9cbccf4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 250}
+  - name: avery walk anim 1_Frame_17
+    originalName: 
+    pivot: {x: 1, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 250
+      width: 65
+      height: 74
+    spriteID: a16ce5c363dab3f439060a83ed4f14dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 250}
+  - name: avery walk anim 1_Frame_18
+    originalName: 
+    pivot: {x: 1, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 150
+      y: 250
+      width: 65
+      height: 74
+    spriteID: 7756505ad6a5cbd47b0d465191240312
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 150, y: 250}
+  - name: avery walk anim 1_Frame_19
+    originalName: 
+    pivot: {x: 1, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 223
+      y: 250
+      width: 65
+      height: 74
+    spriteID: 63d941f96957e8f40b67bb1aefc5698e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 223, y: 250}
+  - name: avery walk anim 1_Frame_20
+    originalName: 
+    pivot: {x: 0.9848485, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 4
+      width: 66
+      height: 74
+    spriteID: 12ac2a654ef06fe4b977919eeaf4006d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 320, y: 4}
+  - name: avery walk anim 1_Frame_21
+    originalName: 
+    pivot: {x: 0.9848485, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 394
+      y: 4
+      width: 66
+      height: 74
+    spriteID: 0ee6c2060ecbf8946a016e77bdb3259e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 394, y: 4}
+  - name: avery walk anim 1_Frame_22
+    originalName: 
+    pivot: {x: 0.9848485, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 86
+      width: 66
+      height: 74
+    spriteID: 18b20bc54ad235b45a34c68edfa4f9c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 86}
+  - name: avery walk anim 1_Frame_23
+    originalName: 
+    pivot: {x: 0.9848485, y: -0.027027028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 86
+      width: 66
+      height: 74
+    spriteID: 98d71885aebd0c748b57b412709edab1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 86}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1142803936
+    name: avery walk anim 1
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: avery walk anim 1_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 71
+        height: 74
+      spriteId: 4f138022d9263ff4aa5e394f2158190e
+    - name: avery walk anim 1_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 74
+        height: 74
+      spriteId: abb9d35990c911248b40974308053d26
+    - name: avery walk anim 1_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 71
+        height: 74
+      spriteId: 95fac33d8a3fc02429e8fb05c1023761
+    - name: avery walk anim 1_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 64
+        height: 74
+      spriteId: 14767b54f91e83c4793d3b99a7ccfb9a
+    - name: avery walk anim 1_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 65
+        height: 74
+      spriteId: 4560ca7587fede745b3ede0d00f6a8bf
+    - name: avery walk anim 1_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 68
+        height: 74
+      spriteId: 0ecab1b6d2725a14d80310fe2d383897
+    - name: avery walk anim 1_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 65
+        height: 74
+      spriteId: b204f5d34caa1874ea363d1bdd4922e6
+    - name: avery walk anim 1_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 65
+        height: 74
+      spriteId: 56699fcfdabbc804c861c50fdcdac804
+    - name: avery walk anim 1_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 65
+        height: 74
+      spriteId: 0173cf5682122924b989700c8ff6ca0d
+    - name: avery walk anim 1_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 65
+        height: 74
+      spriteId: 29b19a238cda51e47b421d7c5762fa32
+    - name: avery walk anim 1_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 65
+        height: 74
+      spriteId: df4418ebc81cc3046b6d3e119593c391
+    - name: avery walk anim 1_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 65
+        height: 74
+      spriteId: 1b2b4a7077e4b734f92a81995c4b213c
+    - name: avery walk anim 1_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 65
+        height: 74
+      spriteId: f8f0e1b43df00224088b48f73947aeef
+    - name: avery walk anim 1_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 65
+        height: 74
+      spriteId: 3cdb7feae01bd09438c70e6801b130f2
+    - name: avery walk anim 1_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 65
+        height: 74
+      spriteId: 20efc09f8457f744c9fd698aec442ef3
+    - name: avery walk anim 1_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 65
+        height: 74
+      spriteId: 39f9f83f55326044cb12949faa616f83
+    - name: avery walk anim 1_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 65
+        height: 74
+      spriteId: 3bdd2c61496f7734f96d375e9cbccf4b
+    - name: avery walk anim 1_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 65
+        height: 74
+      spriteId: a16ce5c363dab3f439060a83ed4f14dd
+    - name: avery walk anim 1_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 65
+        height: 74
+      spriteId: 7756505ad6a5cbd47b0d465191240312
+    - name: avery walk anim 1_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 65
+        height: 74
+      spriteId: 63d941f96957e8f40b67bb1aefc5698e
+    - name: avery walk anim 1_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 66
+        height: 74
+      spriteId: 12ac2a654ef06fe4b977919eeaf4006d
+    - name: avery walk anim 1_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 66
+        height: 74
+      spriteId: 0ee6c2060ecbf8946a016e77bdb3259e
+    - name: avery walk anim 1_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 66
+        height: 74
+      spriteId: 18b20bc54ad235b45a34c68edfa4f9c5
+    - name: avery walk anim 1_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 2
+        width: 66
+        height: 74
+      spriteId: 98d71885aebd0c748b57b412709edab1
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 150, y: 100}
