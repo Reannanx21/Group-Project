@@ -1872,9 +1872,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Orange
   quantity: 1
-  Sprite: {fileID: 629408054, guid: 6c160b032fb81c24c834b116c95bb34d, type: 3}
-  itemDescription: The orange is a juicy, citrus treasure, preventing scurvy, prized
-    by pirates on long sea voyages.
+  Sprite: {fileID: 21300000, guid: c0b9dde1e0f93de43a386f88c664a0fc, type: 3}
+  itemDescription: "The orange is a juicy, citrus treasure, preventing scurvy, prized
+    by pirates on long sea voyages. \nHeal +15"
 --- !u!61 &634430783
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1969,9 +1969,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Orange
   quantity: 1
-  Sprite: {fileID: 629408054, guid: 6c160b032fb81c24c834b116c95bb34d, type: 3}
-  itemDescription: The orange is a juicy, citrus treasure, preventing scurvy, prized
+  Sprite: {fileID: 21300000, guid: c0b9dde1e0f93de43a386f88c664a0fc, type: 3}
+  itemDescription: 'The orange is a juicy, citrus treasure, preventing scurvy, prized
     by pirates on long sea voyages.
+
+    Heal +15'
 --- !u!61 &638580619
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2542,11 +2544,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049b9d607de5a324da649225038d1a75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: Sword
+  itemName: ' Cutlass'
   quantity: 1
-  Sprite: {fileID: -1510307743767447528, guid: 5683d2e283c58c5439b701b9b1b21152, type: 3}
-  itemDescription: Forged in the Caribbean sea's from blood sweat and tears to cut
-    down your foes
+  Sprite: {fileID: 21300000, guid: 235db102d6c3b7147bb47245afa9ffae, type: 3}
+  itemDescription: 'Forged in the Caribbean sea''s from blood sweat and tears to
+    cut down your foes in close quarter duals.
+
+    Attack = 3'
 --- !u!61 &862564726
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3874,9 +3878,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Orange
   quantity: 1
-  Sprite: {fileID: 629408054, guid: 6c160b032fb81c24c834b116c95bb34d, type: 3}
-  itemDescription: The orange is a juicy, citrus treasure, preventing scurvy, prized
+  Sprite: {fileID: 21300000, guid: c0b9dde1e0f93de43a386f88c664a0fc, type: 3}
+  itemDescription: 'The orange is a juicy, citrus treasure, preventing scurvy, prized
     by pirates on long sea voyages.
+
+    Heal +15'
 --- !u!61 &1201711816
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4241,9 +4247,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Orange
   quantity: 1
-  Sprite: {fileID: 629408054, guid: 6c160b032fb81c24c834b116c95bb34d, type: 3}
-  itemDescription: The orange is a juicy, citrus treasure, preventing scurvy, prized
-    by pirates on long sea voyages.
+  Sprite: {fileID: 21300000, guid: c0b9dde1e0f93de43a386f88c664a0fc, type: 3}
+  itemDescription: "The orange is a juicy, citrus treasure, preventing scurvy, prized
+    by pirates on long sea voyages. \nHeal +15"
 --- !u!61 &1272962761
 BoxCollider2D:
   m_ObjectHideFlags: 0
