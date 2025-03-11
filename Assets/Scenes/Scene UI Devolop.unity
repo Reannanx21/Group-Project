@@ -2578,7 +2578,6 @@ GameObject:
   - component: {fileID: 992821592}
   - component: {fileID: 992821591}
   - component: {fileID: 992821590}
-  - component: {fileID: 992821589}
   - component: {fileID: 992821588}
   - component: {fileID: 992821593}
   m_Layer: 0
@@ -2622,18 +2621,6 @@ MonoBehaviour:
     m_Bits: 8
   boxSize: {x: 9.22, y: 2.52}
   castDistance: -4.79
---- !u!114 &992821589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 992821586}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b72921af88e02745a61056abd588c52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &992821590
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
