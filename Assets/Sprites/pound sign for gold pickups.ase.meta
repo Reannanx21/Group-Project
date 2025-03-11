@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: 8f47d9dbb02f0664b9924cdab44dad45
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: pound sign for gold pickups_Frame_0
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 34
+      height: 44
+    spriteID: 805e9eceba499e140a4f53ef212e66ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: pound sign for gold pickups_Frame_1
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 56
+      width: 34
+      height: 44
+    spriteID: e8e60c0f0f4dc4843ab1d623e805b3c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 56}
+  - name: pound sign for gold pickups_Frame_2
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 108
+      width: 34
+      height: 44
+    spriteID: aa1bd45c4536f9d4a9b2add42a28fda4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 108}
+  - name: pound sign for gold pickups_Frame_3
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 160
+      width: 34
+      height: 44
+    spriteID: 96edde4a862c98c44ab44ae9ce742221
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 160}
+  - name: pound sign for gold pickups_Frame_4
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 4
+      width: 34
+      height: 44
+    spriteID: 573ec2bd85944d34691375cb6551b64c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 4}
+  - name: pound sign for gold pickups_Frame_5
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 56
+      width: 34
+      height: 44
+    spriteID: ff7c809d8a548134e93f87d9067107f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 56}
+  - name: pound sign for gold pickups_Frame_6
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 108
+      width: 34
+      height: 44
+    spriteID: 193f297bee963af4896a23059fdf3382
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 108}
+  - name: pound sign for gold pickups_Frame_7
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 46
+      y: 160
+      width: 34
+      height: 44
+    spriteID: d09739713eca24b42becd6a5f012c510
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 46, y: 160}
+  - name: pound sign for gold pickups_Frame_8
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 4
+      width: 34
+      height: 44
+    spriteID: 9d4cd923bd2251f46a1137bf2b9b8884
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 4}
+  - name: pound sign for gold pickups_Frame_9
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 56
+      width: 34
+      height: 44
+    spriteID: 3dbf120f451ae3d4aa89ea1c35429748
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 56}
+  - name: pound sign for gold pickups_Frame_10
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 108
+      width: 34
+      height: 44
+    spriteID: 5836121c657311c4fa9571d55d62d4c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 108}
+  - name: pound sign for gold pickups_Frame_11
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 160
+      width: 34
+      height: 44
+    spriteID: 0e23e7558083cc34e9fe78a30fdbfd10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 160}
+  - name: pound sign for gold pickups_Frame_12
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 130
+      y: 4
+      width: 34
+      height: 44
+    spriteID: d7f5abbc22f143649b5857f880f919e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 4}
+  - name: pound sign for gold pickups_Frame_13
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 130
+      y: 56
+      width: 34
+      height: 44
+    spriteID: eb9dd8517700e2549ae7046b27594f66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 56}
+  - name: pound sign for gold pickups_Frame_14
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 130
+      y: 108
+      width: 34
+      height: 44
+    spriteID: bee73156d314ce24a8a423538c170234
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 108}
+  - name: pound sign for gold pickups_Frame_15
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 130
+      y: 160
+      width: 34
+      height: 44
+    spriteID: b13eeda593d9d674cb96fa0885b46f5c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 130, y: 160}
+  - name: pound sign for gold pickups_Frame_16
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 172
+      y: 4
+      width: 34
+      height: 44
+    spriteID: 2316eab23d2a05040a6c3e384a389cc7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 172, y: 4}
+  - name: pound sign for gold pickups_Frame_17
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 172
+      y: 56
+      width: 34
+      height: 44
+    spriteID: d90af355935e1d146a86b630fdb9a649
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 172, y: 56}
+  - name: pound sign for gold pickups_Frame_18
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 172
+      y: 108
+      width: 34
+      height: 44
+    spriteID: 42f8d4a10bafbde478e4533ddd4ae901
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 172, y: 108}
+  - name: pound sign for gold pickups_Frame_19
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 172
+      y: 160
+      width: 34
+      height: 44
+    spriteID: 1f0aafd1045bcfd49bc8ef197e425d8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 172, y: 160}
+  - name: pound sign for gold pickups_Frame_20
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 4
+      width: 34
+      height: 44
+    spriteID: 0b31e02e1c01f0b418dc265ad34015e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 4}
+  - name: pound sign for gold pickups_Frame_21
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 56
+      width: 34
+      height: 44
+    spriteID: 86f33becd5c7b7f46bf75aa99bee76d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 56}
+  - name: pound sign for gold pickups_Frame_22
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 108
+      width: 34
+      height: 44
+    spriteID: 47a7b483c7eb63a40ac26cf0022fc19f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 108}
+  - name: pound sign for gold pickups_Frame_23
+    originalName: 
+    pivot: {x: 0.44117647, y: -0.06818181}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 214
+      y: 160
+      width: 34
+      height: 44
+    spriteID: 962bd94a4daebe440b609fd7b4670b00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 214, y: 160}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -59444549
+    name: pound sign for gold pickups
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: pound sign for gold pickups_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: 805e9eceba499e140a4f53ef212e66ef
+    - name: pound sign for gold pickups_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: e8e60c0f0f4dc4843ab1d623e805b3c9
+    - name: pound sign for gold pickups_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: aa1bd45c4536f9d4a9b2add42a28fda4
+    - name: pound sign for gold pickups_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: 96edde4a862c98c44ab44ae9ce742221
+    - name: pound sign for gold pickups_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: 573ec2bd85944d34691375cb6551b64c
+    - name: pound sign for gold pickups_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: ff7c809d8a548134e93f87d9067107f7
+    - name: pound sign for gold pickups_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: 193f297bee963af4896a23059fdf3382
+    - name: pound sign for gold pickups_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: d09739713eca24b42becd6a5f012c510
+    - name: pound sign for gold pickups_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: 9d4cd923bd2251f46a1137bf2b9b8884
+    - name: pound sign for gold pickups_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: 3dbf120f451ae3d4aa89ea1c35429748
+    - name: pound sign for gold pickups_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: 5836121c657311c4fa9571d55d62d4c3
+    - name: pound sign for gold pickups_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: 0e23e7558083cc34e9fe78a30fdbfd10
+    - name: pound sign for gold pickups_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: d7f5abbc22f143649b5857f880f919e3
+    - name: pound sign for gold pickups_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: eb9dd8517700e2549ae7046b27594f66
+    - name: pound sign for gold pickups_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: bee73156d314ce24a8a423538c170234
+    - name: pound sign for gold pickups_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: b13eeda593d9d674cb96fa0885b46f5c
+    - name: pound sign for gold pickups_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: 2316eab23d2a05040a6c3e384a389cc7
+    - name: pound sign for gold pickups_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: d90af355935e1d146a86b630fdb9a649
+    - name: pound sign for gold pickups_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: 42f8d4a10bafbde478e4533ddd4ae901
+    - name: pound sign for gold pickups_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: 1f0aafd1045bcfd49bc8ef197e425d8f
+    - name: pound sign for gold pickups_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: 0b31e02e1c01f0b418dc265ad34015e4
+    - name: pound sign for gold pickups_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: 86f33becd5c7b7f46bf75aa99bee76d9
+    - name: pound sign for gold pickups_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: 47a7b483c7eb63a40ac26cf0022fc19f
+    - name: pound sign for gold pickups_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 3
+        width: 34
+        height: 44
+      spriteId: 962bd94a4daebe440b609fd7b4670b00
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 50, y: 50}
