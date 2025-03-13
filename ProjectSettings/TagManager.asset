@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Coin
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - Background
   - Foreground Deck
   - 
-  - 
+  - Enemy
   - 
   - 
   - 
