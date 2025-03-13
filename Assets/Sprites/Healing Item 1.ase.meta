@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 00674b40a05481f428b21a72adb96fe4
+guid: 6c300224cbf5e2e469bd08151f423d37
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Healing Item
+  - name: Healing Item 1
     originalName: 
     pivot: {x: 0.5714286, y: -0.6956522}
     alignment: 9
@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 21
       height: 23
-    spriteID: 1e98566934456ef41921d89bb3fea957
+    spriteID: ffc0563c00e8063468cafe11ca962a71
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,13 +144,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -717850991
-    name: Healing Item
+    guid: -558364480
+    name: Healing Item 1
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Healing Item
+    - name: Healing Item 1
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -158,13 +158,11 @@ ScriptedImporter:
         y: 16
         width: 21
         height: 23
-      spriteId: 1e98566934456ef41921d89bb3fea957
+      spriteId: ffc0563c00e8063468cafe11ca962a71
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
-  secondarySpriteTextures:
-  - name: _Emission
-    texture: {fileID: -8328923581568760697, guid: 6c300224cbf5e2e469bd08151f423d37, type: 3}
+  secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 128, y: 128}
