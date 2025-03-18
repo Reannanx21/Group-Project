@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 994
       width: 85
       height: 113
-    spriteID: a6cbab197c79e2a4ea4b938a46c12825
+    spriteID: a77b87b9edcf12141a7ac02676dd35e6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 1115
       width: 85
       height: 113
-    spriteID: 2702cc486a3dc8d49920b1db8d2f40b1
+    spriteID: 4355928550b7ad64fbb8c63a1d162fd2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 1236
       width: 85
       height: 113
-    spriteID: 60839f67abb8cb141ba34af3c81a0e7d
+    spriteID: ab892b5f9841e804c8cd37d1da3488db
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 854
       width: 85
       height: 132
-    spriteID: 7aee4f85479cc244d8fe59ea5265b952
+    spriteID: 2bd9633dbaec5b649a19e02e1359aba4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -212,7 +212,7 @@ ScriptedImporter:
       y: 705
       width: 85
       height: 141
-    spriteID: 777c669e0e97cc44a81450c0901b84f1
+    spriteID: f0e4f71eca7e5d742bbb100727b56121
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -232,7 +232,7 @@ ScriptedImporter:
       y: 551
       width: 85
       height: 146
-    spriteID: 0e05be554c691dd4e8e049a64817d813
+    spriteID: 0ca437cc8d19c934191132cebcc7b4f2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -252,7 +252,7 @@ ScriptedImporter:
       y: 933
       width: 102
       height: 158
-    spriteID: 88607234bf033bd4b9914ef5fdc694db
+    spriteID: e6c0a2960cfecb249b661805d52d3140
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -272,7 +272,7 @@ ScriptedImporter:
       y: 1792
       width: 133
       height: 186
-    spriteID: d1ae24529ea421f4880e8432b5eaa701
+    spriteID: 5ca6452d76bee034daccec7f148815b4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -292,7 +292,7 @@ ScriptedImporter:
       y: 1228
       width: 143
       height: 198
-    spriteID: 306ceba14194eba46b14b611c5f0a6b2
+    spriteID: 3b1e5681f3b7b3d419458504214381f3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -312,7 +312,7 @@ ScriptedImporter:
       y: 4
       width: 155
       height: 195
-    spriteID: a9c9d8b4ac3f89741b071a0bd69ea2dd
+    spriteID: eb9a92b65f63778479c185b25c4e270a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -332,7 +332,7 @@ ScriptedImporter:
       y: 826
       width: 167
       height: 203
-    spriteID: 561f501fcf6fdb04c87afc3e4de054bf
+    spriteID: 36d58d5077268c040bbfedf761af9be0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -352,7 +352,7 @@ ScriptedImporter:
       y: 1236
       width: 166
       height: 201
-    spriteID: 0e91cb27da1125e49957c618cf503c75
+    spriteID: c3efe23d5ed702641ae536d9381e863c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -372,7 +372,7 @@ ScriptedImporter:
       y: 1852
       width: 168
       height: 189
-    spriteID: b3011212ac0772f48b2d88ec5937dea9
+    spriteID: 1d67ca703e54f36449f94b2457937f58
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -392,7 +392,7 @@ ScriptedImporter:
       y: 1651
       width: 170
       height: 193
-    spriteID: d54abd2e3c315b843ad5c70335e45b81
+    spriteID: d463ff57f10d34f4a88c286767901125
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -412,7 +412,7 @@ ScriptedImporter:
       y: 210
       width: 186
       height: 200
-    spriteID: dde342f00152b394a988713153c96637
+    spriteID: 0b0de28a753d1324c9db7e89d6cbf84f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -432,7 +432,7 @@ ScriptedImporter:
       y: 1445
       width: 168
       height: 198
-    spriteID: c5a7640c875d3a24f8458771f76de96b
+    spriteID: 28358a119123787478b21e006d31b4bf
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -452,7 +452,7 @@ ScriptedImporter:
       y: 4
       width: 189
       height: 198
-    spriteID: 69a38b233f5caae4186ee77f4e19cd73
+    spriteID: 3184111e34a54d84387447646bc33872
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -472,7 +472,7 @@ ScriptedImporter:
       y: 624
       width: 176
       height: 194
-    spriteID: 683bb31a5bf4a3a47a4dc3791d9be010
+    spriteID: 29381a2e40ca4ed4d8812202c7d24c98
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -492,7 +492,7 @@ ScriptedImporter:
       y: 418
       width: 174
       height: 198
-    spriteID: 43abe1cac2e151946b8ade9aa8ab7b29
+    spriteID: b05a47f3e006ee440871778c7a40ead4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -512,7 +512,7 @@ ScriptedImporter:
       y: 1037
       width: 176
       height: 191
-    spriteID: 5067b8f101507e14780c0c43d98d1485
+    spriteID: 2d815cbea22c1b44689ee52a8ae32ba0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -532,7 +532,7 @@ ScriptedImporter:
       y: 353
       width: 164
       height: 178
-    spriteID: d97b4b89949ae394b8c825d313df4222
+    spriteID: c2755b40f1e00e241b2dadb9b44754d5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -552,7 +552,7 @@ ScriptedImporter:
       y: 1434
       width: 155
       height: 182
-    spriteID: d67ba0d9ed4422c41af791919e4e7bed
+    spriteID: e0ced1378ab1e604aa5fa9a598bfad5f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -572,7 +572,7 @@ ScriptedImporter:
       y: 1459
       width: 158
       height: 171
-    spriteID: e2ee93a989c9806438e92e48a5294064
+    spriteID: ed1fadd5e5a41234284d3e6ea83b4586
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -592,7 +592,7 @@ ScriptedImporter:
       y: 4
       width: 171
       height: 176
-    spriteID: 0b1936e55735a8244ad623406c591951
+    spriteID: 0f007203821e0dc4cbbedb11746dc4a2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -612,7 +612,7 @@ ScriptedImporter:
       y: 876
       width: 168
       height: 169
-    spriteID: a2bfa3a227cf5184798c73451333aee3
+    spriteID: 807cd0c3d21e5b7459947ad78a4334ac
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -632,7 +632,7 @@ ScriptedImporter:
       y: 4
       width: 174
       height: 171
-    spriteID: ebbe8d5fe8990eb4590ad0726e9bdc1a
+    spriteID: 2e4c89acf5ae1944e80816c8a1b4a4ac
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -652,7 +652,7 @@ ScriptedImporter:
       y: 1624
       width: 169
       height: 164
-    spriteID: f0b7962608c556a4c90043d5af5ce706
+    spriteID: a49648b3a8841494ea54dc9934253b9d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -672,7 +672,7 @@ ScriptedImporter:
       y: 1053
       width: 170
       height: 167
-    spriteID: 0f71fb1a289202e42a29414074b69330
+    spriteID: c6463ed9af2933c4daf7cbc90c412033
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -692,7 +692,7 @@ ScriptedImporter:
       y: 1796
       width: 168
       height: 163
-    spriteID: 72d2d7d0ca868bc4ea9b9116686b6d15
+    spriteID: ec311bc678a60204f8ad86145e4cba16
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -712,7 +712,7 @@ ScriptedImporter:
       y: 1289
       width: 167
       height: 162
-    spriteID: 4aef9580eb517b6449f967850729c28d
+    spriteID: f2b0394bccfa5a14fb1b6776a0830375
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -732,7 +732,7 @@ ScriptedImporter:
       y: 707
       width: 178
       height: 161
-    spriteID: fc2e5093450f3264f80f84810d84cbf5
+    spriteID: e7c6fabc0ab7da844b772c37f2ceb778
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -752,7 +752,7 @@ ScriptedImporter:
       y: 176
       width: 175
       height: 169
-    spriteID: 73b86494f5fdf67478ba97258440d8ce
+    spriteID: 132d7c478b679614d998174dae42637e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -772,7 +772,7 @@ ScriptedImporter:
       y: 539
       width: 180
       height: 160
-    spriteID: 3caca4d6b3ef2c34c81eb46bffe38097
+    spriteID: 40b10da20d89f064986da219af6d7447
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -792,7 +792,7 @@ ScriptedImporter:
       y: 4
       width: 181
       height: 164
-    spriteID: a999a11691dd11940bf0b13366f090a8
+    spriteID: 84439736cb19d1e4f9a60f512f66aa19
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -812,7 +812,7 @@ ScriptedImporter:
       y: 170
       width: 183
       height: 157
-    spriteID: 96d2e2e6a1643b048abdd760bc22773f
+    spriteID: a578e1c3f22abe54f976d4dd8eb8420d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -832,7 +832,7 @@ ScriptedImporter:
       y: 335
       width: 185
       height: 155
-    spriteID: 61e1d7fcc28562c4281de5b5ca13367c
+    spriteID: 4dc3f526227e30344885b532b299175b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -852,7 +852,7 @@ ScriptedImporter:
       y: 4
       width: 186
       height: 158
-    spriteID: f8e4204b2f5822841a96031f0b73b575
+    spriteID: 21f9399d6e9c97949a2aee6aa19bc6d2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -872,7 +872,7 @@ ScriptedImporter:
       y: 498
       width: 184
       height: 154
-    spriteID: c5d1f7c2913ba21458309ff7510f5233
+    spriteID: 3bcf4f239c37a8348a41ae53faf63b84
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -892,7 +892,7 @@ ScriptedImporter:
       y: 979
       width: 186
       height: 146
-    spriteID: 0025ed27c9a979c45a93fd9839ec3fbe
+    spriteID: db3653d19e3db9a49ba8fe19410a0e70
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -912,7 +912,7 @@ ScriptedImporter:
       y: 1638
       width: 180
       height: 146
-    spriteID: 21635c689820fc042be3df369f1911af
+    spriteID: 0a5346903b1106643a4987669d34ed33
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -932,7 +932,7 @@ ScriptedImporter:
       y: 820
       width: 180
       height: 151
-    spriteID: 5ee0004103f26424eb534dd9cf49e6d7
+    spriteID: d37457b23587ab04a948112bd504195a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -952,7 +952,7 @@ ScriptedImporter:
       y: 660
       width: 179
       height: 152
-    spriteID: 6ac5b921310e7634dbf1828addb6660a
+    spriteID: d967d592e1eb75941abb8acaf5d0ccdd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -972,7 +972,7 @@ ScriptedImporter:
       y: 1133
       width: 183
       height: 148
-    spriteID: b657c7b26354aa045b4f53c07c08b0e3
+    spriteID: ac33d34b099e8ed488880ce00b9ccaaa
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -992,7 +992,7 @@ ScriptedImporter:
       y: 146
       width: 175
       height: 137
-    spriteID: 64c0e79d24294c64fa9dbfdeac91a24d
+    spriteID: 15b0989dba60fc946a70d8201fd150bd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1012,7 +1012,7 @@ ScriptedImporter:
       y: 4
       width: 179
       height: 134
-    spriteID: c9ec90203f6be5f4fbcf99801e8b6295
+    spriteID: cb646a1b7b0d52e4b9065716d5bf4d21
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1032,7 +1032,7 @@ ScriptedImporter:
       y: 701
       width: 173
       height: 125
-    spriteID: 520020ca8b53834448e71fa74910fad7
+    spriteID: 906f4aaa58332c34ca859f9c540b918d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1052,7 +1052,7 @@ ScriptedImporter:
       y: 291
       width: 175
       height: 129
-    spriteID: 63338989f16e7ea4396f74731ecff38f
+    spriteID: 1a2d073ce3aa7f54aa048cbe104fe852
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1072,7 +1072,7 @@ ScriptedImporter:
       y: 428
       width: 175
       height: 128
-    spriteID: e65a4af98709f22488c017c1a4a59aad
+    spriteID: e18b875313e54ac408fb53d56e545f76
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1092,7 +1092,7 @@ ScriptedImporter:
       y: 564
       width: 173
       height: 129
-    spriteID: 2a2407907a4f8434e82ee9135cf7ece1
+    spriteID: 74d996f7614a708468a15529e346efe2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1112,7 +1112,7 @@ ScriptedImporter:
       y: 964
       width: 166
       height: 121
-    spriteID: ebf1765bfa0c6ef468e8cfedabeba32a
+    spriteID: d2321595d17fb5540a7bb9586043ea2b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1132,7 +1132,7 @@ ScriptedImporter:
       y: 834
       width: 170
       height: 122
-    spriteID: f4910447b3af56242ae0b9a427b44329
+    spriteID: e994ea40860eb6a4ba8f252090f06992
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1152,7 +1152,7 @@ ScriptedImporter:
       y: 1093
       width: 163
       height: 122
-    spriteID: 29af8ca2982ef654e85117fc0ac59642
+    spriteID: e2cfcd0c21eb6704990334ed02e20449
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1172,7 +1172,7 @@ ScriptedImporter:
       y: 1223
       width: 160
       height: 116
-    spriteID: 8113f749cbcc6ff469f16f9fc20061e2
+    spriteID: c186e8b7dda2fc849bea40bf39532d53
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1192,7 +1192,7 @@ ScriptedImporter:
       y: 1347
       width: 160
       height: 113
-    spriteID: 2a7c0f3ba9e07654ab026683b4418334
+    spriteID: 8f2a92ee0e043f64db90d1dd8a298932
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1212,7 +1212,7 @@ ScriptedImporter:
       y: 1468
       width: 153
       height: 113
-    spriteID: 04bd5c6893b88044392b2df89af67fd3
+    spriteID: 9cf8a1075086a824e8a66f43cf3193e3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1232,7 +1232,7 @@ ScriptedImporter:
       y: 1589
       width: 153
       height: 113
-    spriteID: 7d66db485a69cd746b1a79d28b9ef51a
+    spriteID: b60e6abb68955fd499dfc283f5d7c965
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1252,7 +1252,7 @@ ScriptedImporter:
       y: 1831
       width: 152
       height: 113
-    spriteID: d7c6cb2e6fd21844c9008cd2af6b858b
+    spriteID: 3658ac2d1f2d8d046865af05b7086321
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1272,7 +1272,7 @@ ScriptedImporter:
       y: 207
       width: 152
       height: 113
-    spriteID: df03f2fd1c7bae2459d60d2b8dbdb05c
+    spriteID: 3245ff8adc91cfd4ca6d4354748ce007
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1292,7 +1292,7 @@ ScriptedImporter:
       y: 328
       width: 151
       height: 113
-    spriteID: c5be10d7790691245a6f79ce8877a069
+    spriteID: 751d052949ec5f04b8b2b8ecf60b9a5b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1312,7 +1312,7 @@ ScriptedImporter:
       y: 449
       width: 150
       height: 113
-    spriteID: ccc07b6b86ea7d346b677a485d9df003
+    spriteID: cf477188dbc807c45b63200530c9e12a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1332,7 +1332,7 @@ ScriptedImporter:
       y: 570
       width: 150
       height: 113
-    spriteID: df87f46fca0bdb64ab91b201e3c1a254
+    spriteID: 2e4e189c11e4c2a4da04ec0db456f349
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1352,7 +1352,7 @@ ScriptedImporter:
       y: 691
       width: 145
       height: 113
-    spriteID: 24ca6a82c716a5148ac0762cc85c4a6e
+    spriteID: 7a3929c86716de14692c6b54db274d9e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1372,7 +1372,7 @@ ScriptedImporter:
       y: 1710
       width: 153
       height: 113
-    spriteID: 193d289a7475473469cc81f64c24acae
+    spriteID: 043287bbacfd5ce4682bcc061bf69ed0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1392,7 +1392,7 @@ ScriptedImporter:
       y: 812
       width: 145
       height: 113
-    spriteID: b2a6219974af479489745bc4153a0b5a
+    spriteID: 011ad27a7bbae434dabd35957d497e30
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1412,7 +1412,7 @@ ScriptedImporter:
       y: 1099
       width: 141
       height: 113
-    spriteID: db58f8435646d5c4caccfc2965ca3b8e
+    spriteID: cfba03f872dd5e145a84579ded45a5da
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1432,7 +1432,7 @@ ScriptedImporter:
       y: 1220
       width: 139
       height: 113
-    spriteID: 7a7c3c542e7b7bb41a08f36c152c0af1
+    spriteID: b34d0eccecaeaf34d9fb6754b7616116
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1452,7 +1452,7 @@ ScriptedImporter:
       y: 1341
       width: 133
       height: 113
-    spriteID: d86ed9144abdee746bf0c4c56a8d582d
+    spriteID: ef655d163c2128a409916cc0cc728be5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1472,7 +1472,7 @@ ScriptedImporter:
       y: 1583
       width: 130
       height: 113
-    spriteID: 704fc3c2c5eacd145821523639b6e8b6
+    spriteID: 404a84e3823b4f54a9357cb4f66664d1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1492,7 +1492,7 @@ ScriptedImporter:
       y: 1462
       width: 131
       height: 113
-    spriteID: ec96e41dc2b70b940bb36d1270171067
+    spriteID: abb6f0aef7dc8f748b3c939d2755facb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1512,7 +1512,7 @@ ScriptedImporter:
       y: 1825
       width: 129
       height: 113
-    spriteID: 50bc7018c834d1943aefd9b5b022bf28
+    spriteID: f711fb3ab04cca944aaace67eb8dcf25
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1532,7 +1532,7 @@ ScriptedImporter:
       y: 1704
       width: 130
       height: 113
-    spriteID: da561cfdfe99c8a4eaaa027a9af1de39
+    spriteID: d0d7e09c148297f49912c0e574c1e7d8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1552,7 +1552,7 @@ ScriptedImporter:
       y: 188
       width: 128
       height: 113
-    spriteID: 17a32f73e011f4d48867671ae40e2b1a
+    spriteID: 779902cdf5a824b4eb468b826ba5e381
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1572,7 +1572,7 @@ ScriptedImporter:
       y: 309
       width: 126
       height: 113
-    spriteID: 87ccb5a79a84ec043ac6f9e21360e217
+    spriteID: 01d1bf1d723417647b307b23b3873acb
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1592,7 +1592,7 @@ ScriptedImporter:
       y: 430
       width: 125
       height: 113
-    spriteID: d3edbee04bee7ca49934e828f17e8fde
+    spriteID: aece9ec81925b0948b4bb78a16f9335a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1612,7 +1612,7 @@ ScriptedImporter:
       y: 1357
       width: 85
       height: 113
-    spriteID: 54f86e0b95380d044a975e5592d4698c
+    spriteID: a1be972383b48ba429f80918a92182ae
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1632,7 +1632,7 @@ ScriptedImporter:
       y: 1478
       width: 85
       height: 113
-    spriteID: d599aa3a2f8c2084c9b1fddc81c3126c
+    spriteID: b2a15782f4982be47b6d6fa2eb0838fd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1652,7 +1652,7 @@ ScriptedImporter:
       y: 1599
       width: 85
       height: 113
-    spriteID: 123f65c56c6936540a76b46d920e5dd5
+    spriteID: e7de8fc84bbeb20469c681169fcee6b1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1672,7 +1672,7 @@ ScriptedImporter:
       y: 1720
       width: 85
       height: 113
-    spriteID: b71c857d94d738847b8fab7a99d28d31
+    spriteID: 3baf4a0882739754e97efdf42f0ea24c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1692,7 +1692,7 @@ ScriptedImporter:
       y: 1841
       width: 85
       height: 113
-    spriteID: 43fc79502ca9eac49b6921f79e5f6ceb
+    spriteID: d9b448402d3bc1b4dbd1cbe8dca8f8ac
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1712,7 +1712,7 @@ ScriptedImporter:
       y: 183
       width: 85
       height: 113
-    spriteID: 391fe61ee3df833498c0aee4dc3c463d
+    spriteID: 1ad6d964e5f0ff24bac958909e57a943
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1732,7 +1732,7 @@ ScriptedImporter:
       y: 304
       width: 85
       height: 113
-    spriteID: 4750df15af811564aa75a536af824047
+    spriteID: ce57c4b9679119744a6831971b3e1fa7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1752,7 +1752,7 @@ ScriptedImporter:
       y: 425
       width: 85
       height: 113
-    spriteID: f95da79543e0b334cb3707605a64c6d4
+    spriteID: f2bdc37e4ef391a4b9fef35e9da0e8cd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1772,7 +1772,7 @@ ScriptedImporter:
       y: 546
       width: 85
       height: 113
-    spriteID: 4181a310e228dc242b1124fb421a69bd
+    spriteID: 16cb4d482c535c945aa3d5bae8b5391b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1792,7 +1792,7 @@ ScriptedImporter:
       y: 667
       width: 85
       height: 113
-    spriteID: 38923f18f8de67b44890f707c23f752b
+    spriteID: 8e748545dad761241a8fadaa563141ac
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1812,7 +1812,7 @@ ScriptedImporter:
       y: 788
       width: 85
       height: 113
-    spriteID: 3b466f452bffbc443acee42d50b1e52d
+    spriteID: ea8045a2b4e515a4381d10f416768b26
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1832,7 +1832,7 @@ ScriptedImporter:
       y: 909
       width: 85
       height: 113
-    spriteID: 982d1cf7bb1efef4c914e49593af49ec
+    spriteID: ea7760b31d9ba2240aa961ef5497bb7a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1852,7 +1852,7 @@ ScriptedImporter:
       y: 1030
       width: 85
       height: 113
-    spriteID: a40dd56bdfbd6384da534695abc905f9
+    spriteID: d7db3845cb9aa1e4a93fead7a3dab5ce
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1872,7 +1872,7 @@ ScriptedImporter:
       y: 1151
       width: 85
       height: 113
-    spriteID: 87a36b24a7a48064e81f45110abea316
+    spriteID: 89005cd7f65f35844a2237785d958eec
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1892,7 +1892,7 @@ ScriptedImporter:
       y: 1272
       width: 85
       height: 113
-    spriteID: 1f396580055d0cc439e81bdd578f4672
+    spriteID: 5e2c15722b0505042beb5f33a7c71728
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1912,7 +1912,7 @@ ScriptedImporter:
       y: 1393
       width: 85
       height: 113
-    spriteID: 6861176535a06a54387051db279e9294
+    spriteID: 76abbdb5346281741acf576a784879e2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1932,7 +1932,7 @@ ScriptedImporter:
       y: 1514
       width: 85
       height: 113
-    spriteID: 628d9975a6a6e854a9780672fdcd6847
+    spriteID: 27b216721ed73de478fb6cf9163ce927
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1952,7 +1952,7 @@ ScriptedImporter:
       y: 1635
       width: 85
       height: 113
-    spriteID: 792724ad811f8764a8e88dd0844e5f9c
+    spriteID: 24ba801ce97233d48a06b8a4a3e2a805
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1972,7 +1972,7 @@ ScriptedImporter:
       y: 1756
       width: 85
       height: 113
-    spriteID: e0522d74a41d6aa489ef7f7cbe0f2418
+    spriteID: 621f6a03c3905bc4fb3c3cb4a6cc0aa3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1992,7 +1992,7 @@ ScriptedImporter:
       y: 1877
       width: 85
       height: 113
-    spriteID: 62674b74957fe7a4abc6aa765999d4de
+    spriteID: 13061322cdabb5341af5d1023bb2e88f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -2012,7 +2012,7 @@ ScriptedImporter:
       y: 4
       width: 85
       height: 113
-    spriteID: 6520d9ba3c8d2c043a0dda01c7bd1a58
+    spriteID: 0afb023a98f68444b96f55edb677ceac
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -2032,7 +2032,7 @@ ScriptedImporter:
       y: 125
       width: 85
       height: 113
-    spriteID: c4b8b34ec014d6242ac748e79e6802f9
+    spriteID: e77f0b68de9c8dc4a87c1a973cd9f540
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -2052,7 +2052,7 @@ ScriptedImporter:
       y: 246
       width: 85
       height: 113
-    spriteID: ef7a0b9227832634bb4f75a933759859
+    spriteID: c7cd9d0aec8ef464ab6599a0256aa9fd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -2072,7 +2072,7 @@ ScriptedImporter:
       y: 367
       width: 85
       height: 113
-    spriteID: 796ee33edb5250e439ae659009593752
+    spriteID: 8656cda0f40a419419e88dc6c34e979c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -2092,7 +2092,7 @@ ScriptedImporter:
       y: 488
       width: 85
       height: 113
-    spriteID: 1fc4b0bff2b0abc438754bd7f0ea34fa
+    spriteID: 484222a49c25f934ba6f4f2495d59971
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -2112,7 +2112,7 @@ ScriptedImporter:
       y: 609
       width: 85
       height: 113
-    spriteID: 9cc75e0495a6f3a459b5a84a0babd6a4
+    spriteID: 6f4ca14a6d84bb54ea6abc448543a1ac
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -2121,6 +2121,406 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 1295, y: 609}
+  - name: cannon explosion animation (2)_Frame_100
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1295
+      y: 730
+      width: 85
+      height: 113
+    spriteID: 230ad656ebd99a944b1c7279bd1913d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1295, y: 730}
+  - name: cannon explosion animation (2)_Frame_101
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1295
+      y: 851
+      width: 85
+      height: 113
+    spriteID: 58d9ea65415b49344bbaec0484d2721d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1295, y: 851}
+  - name: cannon explosion animation (2)_Frame_102
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1295
+      y: 972
+      width: 85
+      height: 113
+    spriteID: 4cb927d142b66b94cb7297f6555472ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1295, y: 972}
+  - name: cannon explosion animation (2)_Frame_103
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1295
+      y: 1093
+      width: 85
+      height: 113
+    spriteID: ea6e923324e163a4c950bca36ba8a3ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1295, y: 1093}
+  - name: cannon explosion animation (2)_Frame_104
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1295
+      y: 1214
+      width: 85
+      height: 113
+    spriteID: d65b64441c49dc94e9c05be12c01fdf3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1295, y: 1214}
+  - name: cannon explosion animation (2)_Frame_105
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1295
+      y: 1335
+      width: 85
+      height: 113
+    spriteID: 124598eb9a64a3c46a3ecbe745c56804
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1295, y: 1335}
+  - name: cannon explosion animation (2)_Frame_106
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1295
+      y: 1456
+      width: 85
+      height: 113
+    spriteID: 7538c2dae80c5cf4fadea2abdb9e535d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1295, y: 1456}
+  - name: cannon explosion animation (2)_Frame_107
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1295
+      y: 1577
+      width: 85
+      height: 113
+    spriteID: 15d6a488c65f8a64ba4b1ffe4a7708a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1295, y: 1577}
+  - name: cannon explosion animation (2)_Frame_108
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1295
+      y: 1698
+      width: 85
+      height: 113
+    spriteID: 7fadb27b73b664746a06444962478be9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1295, y: 1698}
+  - name: cannon explosion animation (2)_Frame_109
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1295
+      y: 1819
+      width: 85
+      height: 113
+    spriteID: 16913795e2d48b14ea5a98c431a1dfdc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1295, y: 1819}
+  - name: cannon explosion animation (2)_Frame_110
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1388
+      y: 4
+      width: 85
+      height: 113
+    spriteID: 9fbe65fff441f3347987da7a42605d38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1388, y: 4}
+  - name: cannon explosion animation (2)_Frame_111
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1388
+      y: 125
+      width: 85
+      height: 113
+    spriteID: 845f733138b85dd41b76cc324ba25c76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1388, y: 125}
+  - name: cannon explosion animation (2)_Frame_112
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1388
+      y: 246
+      width: 85
+      height: 113
+    spriteID: 17752ca01d03ae74993724b93084e34c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1388, y: 246}
+  - name: cannon explosion animation (2)_Frame_113
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1388
+      y: 367
+      width: 85
+      height: 113
+    spriteID: 8b846fad4b110e04d9a1e096183a7dc9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1388, y: 367}
+  - name: cannon explosion animation (2)_Frame_114
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1388
+      y: 488
+      width: 85
+      height: 113
+    spriteID: 8062164d2dc7fc442b90c5b47b04f049
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1388, y: 488}
+  - name: cannon explosion animation (2)_Frame_115
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1388
+      y: 609
+      width: 85
+      height: 113
+    spriteID: 7677f126bbe32374f81ffe0b2984ed2d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1388, y: 609}
+  - name: cannon explosion animation (2)_Frame_116
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1388
+      y: 730
+      width: 85
+      height: 113
+    spriteID: 4cb6234b6e28e174dae10e9abbdddd83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1388, y: 730}
+  - name: cannon explosion animation (2)_Frame_117
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1388
+      y: 851
+      width: 85
+      height: 113
+    spriteID: e43a03bcd73bec4419b1492167010c05
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1388, y: 851}
+  - name: cannon explosion animation (2)_Frame_118
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1388
+      y: 972
+      width: 85
+      height: 113
+    spriteID: 464d6fb7c1062374180d796fcd7e2bc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1388, y: 972}
+  - name: cannon explosion animation (2)_Frame_119
+    originalName: 
+    pivot: {x: 0.57647055, y: -0.78761053}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1388
+      y: 1093
+      width: 85
+      height: 113
+    spriteID: c02af757d7c30fd42838fd4bf6cd1fc6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1388, y: 1093}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -2138,7 +2538,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: a6cbab197c79e2a4ea4b938a46c12825
+      spriteId: a77b87b9edcf12141a7ac02676dd35e6
     - name: cannon explosion animation (2)_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
@@ -2147,7 +2547,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 2702cc486a3dc8d49920b1db8d2f40b1
+      spriteId: 4355928550b7ad64fbb8c63a1d162fd2
     - name: cannon explosion animation (2)_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
@@ -2156,7 +2556,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 60839f67abb8cb141ba34af3c81a0e7d
+      spriteId: ab892b5f9841e804c8cd37d1da3488db
     - name: cannon explosion animation (2)_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
@@ -2165,7 +2565,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 132
-      spriteId: 7aee4f85479cc244d8fe59ea5265b952
+      spriteId: 2bd9633dbaec5b649a19e02e1359aba4
     - name: cannon explosion animation (2)_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
@@ -2174,7 +2574,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 141
-      spriteId: 777c669e0e97cc44a81450c0901b84f1
+      spriteId: f0e4f71eca7e5d742bbb100727b56121
     - name: cannon explosion animation (2)_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
@@ -2183,7 +2583,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 146
-      spriteId: 0e05be554c691dd4e8e049a64817d813
+      spriteId: 0ca437cc8d19c934191132cebcc7b4f2
     - name: cannon explosion animation (2)_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
@@ -2192,7 +2592,7 @@ ScriptedImporter:
         y: 89
         width: 102
         height: 158
-      spriteId: 88607234bf033bd4b9914ef5fdc694db
+      spriteId: e6c0a2960cfecb249b661805d52d3140
     - name: cannon explosion animation (2)_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
@@ -2201,7 +2601,7 @@ ScriptedImporter:
         y: 89
         width: 133
         height: 186
-      spriteId: d1ae24529ea421f4880e8432b5eaa701
+      spriteId: 5ca6452d76bee034daccec7f148815b4
     - name: cannon explosion animation (2)_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
@@ -2210,7 +2610,7 @@ ScriptedImporter:
         y: 89
         width: 143
         height: 198
-      spriteId: 306ceba14194eba46b14b611c5f0a6b2
+      spriteId: 3b1e5681f3b7b3d419458504214381f3
     - name: cannon explosion animation (2)_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
@@ -2219,7 +2619,7 @@ ScriptedImporter:
         y: 89
         width: 155
         height: 195
-      spriteId: a9c9d8b4ac3f89741b071a0bd69ea2dd
+      spriteId: eb9a92b65f63778479c185b25c4e270a
     - name: cannon explosion animation (2)_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
@@ -2228,7 +2628,7 @@ ScriptedImporter:
         y: 89
         width: 167
         height: 203
-      spriteId: 561f501fcf6fdb04c87afc3e4de054bf
+      spriteId: 36d58d5077268c040bbfedf761af9be0
     - name: cannon explosion animation (2)_Frame_11
       frameIndex: 11
       additiveSortOrder: 0
@@ -2237,7 +2637,7 @@ ScriptedImporter:
         y: 89
         width: 166
         height: 201
-      spriteId: 0e91cb27da1125e49957c618cf503c75
+      spriteId: c3efe23d5ed702641ae536d9381e863c
     - name: cannon explosion animation (2)_Frame_12
       frameIndex: 12
       additiveSortOrder: 0
@@ -2246,7 +2646,7 @@ ScriptedImporter:
         y: 89
         width: 168
         height: 189
-      spriteId: b3011212ac0772f48b2d88ec5937dea9
+      spriteId: 1d67ca703e54f36449f94b2457937f58
     - name: cannon explosion animation (2)_Frame_13
       frameIndex: 13
       additiveSortOrder: 0
@@ -2255,7 +2655,7 @@ ScriptedImporter:
         y: 89
         width: 170
         height: 193
-      spriteId: d54abd2e3c315b843ad5c70335e45b81
+      spriteId: d463ff57f10d34f4a88c286767901125
     - name: cannon explosion animation (2)_Frame_14
       frameIndex: 14
       additiveSortOrder: 0
@@ -2264,7 +2664,7 @@ ScriptedImporter:
         y: 89
         width: 186
         height: 200
-      spriteId: dde342f00152b394a988713153c96637
+      spriteId: 0b0de28a753d1324c9db7e89d6cbf84f
     - name: cannon explosion animation (2)_Frame_15
       frameIndex: 15
       additiveSortOrder: 0
@@ -2273,7 +2673,7 @@ ScriptedImporter:
         y: 89
         width: 168
         height: 198
-      spriteId: c5a7640c875d3a24f8458771f76de96b
+      spriteId: 28358a119123787478b21e006d31b4bf
     - name: cannon explosion animation (2)_Frame_16
       frameIndex: 16
       additiveSortOrder: 0
@@ -2282,7 +2682,7 @@ ScriptedImporter:
         y: 89
         width: 189
         height: 198
-      spriteId: 69a38b233f5caae4186ee77f4e19cd73
+      spriteId: 3184111e34a54d84387447646bc33872
     - name: cannon explosion animation (2)_Frame_17
       frameIndex: 17
       additiveSortOrder: 0
@@ -2291,7 +2691,7 @@ ScriptedImporter:
         y: 89
         width: 176
         height: 194
-      spriteId: 683bb31a5bf4a3a47a4dc3791d9be010
+      spriteId: 29381a2e40ca4ed4d8812202c7d24c98
     - name: cannon explosion animation (2)_Frame_18
       frameIndex: 18
       additiveSortOrder: 0
@@ -2300,7 +2700,7 @@ ScriptedImporter:
         y: 89
         width: 174
         height: 198
-      spriteId: 43abe1cac2e151946b8ade9aa8ab7b29
+      spriteId: b05a47f3e006ee440871778c7a40ead4
     - name: cannon explosion animation (2)_Frame_19
       frameIndex: 19
       additiveSortOrder: 0
@@ -2309,7 +2709,7 @@ ScriptedImporter:
         y: 89
         width: 176
         height: 191
-      spriteId: 5067b8f101507e14780c0c43d98d1485
+      spriteId: 2d815cbea22c1b44689ee52a8ae32ba0
     - name: cannon explosion animation (2)_Frame_20
       frameIndex: 20
       additiveSortOrder: 0
@@ -2318,7 +2718,7 @@ ScriptedImporter:
         y: 89
         width: 164
         height: 178
-      spriteId: d97b4b89949ae394b8c825d313df4222
+      spriteId: c2755b40f1e00e241b2dadb9b44754d5
     - name: cannon explosion animation (2)_Frame_21
       frameIndex: 21
       additiveSortOrder: 0
@@ -2327,7 +2727,7 @@ ScriptedImporter:
         y: 89
         width: 155
         height: 182
-      spriteId: d67ba0d9ed4422c41af791919e4e7bed
+      spriteId: e0ced1378ab1e604aa5fa9a598bfad5f
     - name: cannon explosion animation (2)_Frame_22
       frameIndex: 22
       additiveSortOrder: 0
@@ -2336,7 +2736,7 @@ ScriptedImporter:
         y: 89
         width: 158
         height: 171
-      spriteId: e2ee93a989c9806438e92e48a5294064
+      spriteId: ed1fadd5e5a41234284d3e6ea83b4586
     - name: cannon explosion animation (2)_Frame_23
       frameIndex: 23
       additiveSortOrder: 0
@@ -2345,7 +2745,7 @@ ScriptedImporter:
         y: 89
         width: 171
         height: 176
-      spriteId: 0b1936e55735a8244ad623406c591951
+      spriteId: 0f007203821e0dc4cbbedb11746dc4a2
     - name: cannon explosion animation (2)_Frame_24
       frameIndex: 24
       additiveSortOrder: 0
@@ -2354,7 +2754,7 @@ ScriptedImporter:
         y: 89
         width: 168
         height: 169
-      spriteId: a2bfa3a227cf5184798c73451333aee3
+      spriteId: 807cd0c3d21e5b7459947ad78a4334ac
     - name: cannon explosion animation (2)_Frame_25
       frameIndex: 25
       additiveSortOrder: 0
@@ -2363,7 +2763,7 @@ ScriptedImporter:
         y: 89
         width: 174
         height: 171
-      spriteId: ebbe8d5fe8990eb4590ad0726e9bdc1a
+      spriteId: 2e4c89acf5ae1944e80816c8a1b4a4ac
     - name: cannon explosion animation (2)_Frame_26
       frameIndex: 26
       additiveSortOrder: 0
@@ -2372,7 +2772,7 @@ ScriptedImporter:
         y: 89
         width: 169
         height: 164
-      spriteId: f0b7962608c556a4c90043d5af5ce706
+      spriteId: a49648b3a8841494ea54dc9934253b9d
     - name: cannon explosion animation (2)_Frame_27
       frameIndex: 27
       additiveSortOrder: 0
@@ -2381,7 +2781,7 @@ ScriptedImporter:
         y: 89
         width: 170
         height: 167
-      spriteId: 0f71fb1a289202e42a29414074b69330
+      spriteId: c6463ed9af2933c4daf7cbc90c412033
     - name: cannon explosion animation (2)_Frame_28
       frameIndex: 28
       additiveSortOrder: 0
@@ -2390,7 +2790,7 @@ ScriptedImporter:
         y: 89
         width: 168
         height: 163
-      spriteId: 72d2d7d0ca868bc4ea9b9116686b6d15
+      spriteId: ec311bc678a60204f8ad86145e4cba16
     - name: cannon explosion animation (2)_Frame_29
       frameIndex: 29
       additiveSortOrder: 0
@@ -2399,7 +2799,7 @@ ScriptedImporter:
         y: 89
         width: 167
         height: 162
-      spriteId: 4aef9580eb517b6449f967850729c28d
+      spriteId: f2b0394bccfa5a14fb1b6776a0830375
     - name: cannon explosion animation (2)_Frame_30
       frameIndex: 30
       additiveSortOrder: 0
@@ -2408,7 +2808,7 @@ ScriptedImporter:
         y: 89
         width: 178
         height: 161
-      spriteId: fc2e5093450f3264f80f84810d84cbf5
+      spriteId: e7c6fabc0ab7da844b772c37f2ceb778
     - name: cannon explosion animation (2)_Frame_31
       frameIndex: 31
       additiveSortOrder: 0
@@ -2417,7 +2817,7 @@ ScriptedImporter:
         y: 89
         width: 175
         height: 169
-      spriteId: 73b86494f5fdf67478ba97258440d8ce
+      spriteId: 132d7c478b679614d998174dae42637e
     - name: cannon explosion animation (2)_Frame_32
       frameIndex: 32
       additiveSortOrder: 0
@@ -2426,7 +2826,7 @@ ScriptedImporter:
         y: 89
         width: 180
         height: 160
-      spriteId: 3caca4d6b3ef2c34c81eb46bffe38097
+      spriteId: 40b10da20d89f064986da219af6d7447
     - name: cannon explosion animation (2)_Frame_33
       frameIndex: 33
       additiveSortOrder: 0
@@ -2435,7 +2835,7 @@ ScriptedImporter:
         y: 89
         width: 181
         height: 164
-      spriteId: a999a11691dd11940bf0b13366f090a8
+      spriteId: 84439736cb19d1e4f9a60f512f66aa19
     - name: cannon explosion animation (2)_Frame_34
       frameIndex: 34
       additiveSortOrder: 0
@@ -2444,7 +2844,7 @@ ScriptedImporter:
         y: 89
         width: 183
         height: 157
-      spriteId: 96d2e2e6a1643b048abdd760bc22773f
+      spriteId: a578e1c3f22abe54f976d4dd8eb8420d
     - name: cannon explosion animation (2)_Frame_35
       frameIndex: 35
       additiveSortOrder: 0
@@ -2453,7 +2853,7 @@ ScriptedImporter:
         y: 89
         width: 185
         height: 155
-      spriteId: 61e1d7fcc28562c4281de5b5ca13367c
+      spriteId: 4dc3f526227e30344885b532b299175b
     - name: cannon explosion animation (2)_Frame_36
       frameIndex: 36
       additiveSortOrder: 0
@@ -2462,7 +2862,7 @@ ScriptedImporter:
         y: 89
         width: 186
         height: 158
-      spriteId: f8e4204b2f5822841a96031f0b73b575
+      spriteId: 21f9399d6e9c97949a2aee6aa19bc6d2
     - name: cannon explosion animation (2)_Frame_37
       frameIndex: 37
       additiveSortOrder: 0
@@ -2471,7 +2871,7 @@ ScriptedImporter:
         y: 89
         width: 184
         height: 154
-      spriteId: c5d1f7c2913ba21458309ff7510f5233
+      spriteId: 3bcf4f239c37a8348a41ae53faf63b84
     - name: cannon explosion animation (2)_Frame_38
       frameIndex: 38
       additiveSortOrder: 0
@@ -2480,7 +2880,7 @@ ScriptedImporter:
         y: 89
         width: 186
         height: 146
-      spriteId: 0025ed27c9a979c45a93fd9839ec3fbe
+      spriteId: db3653d19e3db9a49ba8fe19410a0e70
     - name: cannon explosion animation (2)_Frame_39
       frameIndex: 39
       additiveSortOrder: 0
@@ -2489,7 +2889,7 @@ ScriptedImporter:
         y: 89
         width: 180
         height: 146
-      spriteId: 21635c689820fc042be3df369f1911af
+      spriteId: 0a5346903b1106643a4987669d34ed33
     - name: cannon explosion animation (2)_Frame_40
       frameIndex: 40
       additiveSortOrder: 0
@@ -2498,7 +2898,7 @@ ScriptedImporter:
         y: 89
         width: 180
         height: 151
-      spriteId: 5ee0004103f26424eb534dd9cf49e6d7
+      spriteId: d37457b23587ab04a948112bd504195a
     - name: cannon explosion animation (2)_Frame_41
       frameIndex: 41
       additiveSortOrder: 0
@@ -2507,7 +2907,7 @@ ScriptedImporter:
         y: 89
         width: 179
         height: 152
-      spriteId: 6ac5b921310e7634dbf1828addb6660a
+      spriteId: d967d592e1eb75941abb8acaf5d0ccdd
     - name: cannon explosion animation (2)_Frame_42
       frameIndex: 42
       additiveSortOrder: 0
@@ -2516,7 +2916,7 @@ ScriptedImporter:
         y: 89
         width: 183
         height: 148
-      spriteId: b657c7b26354aa045b4f53c07c08b0e3
+      spriteId: ac33d34b099e8ed488880ce00b9ccaaa
     - name: cannon explosion animation (2)_Frame_43
       frameIndex: 43
       additiveSortOrder: 0
@@ -2525,7 +2925,7 @@ ScriptedImporter:
         y: 89
         width: 175
         height: 137
-      spriteId: 64c0e79d24294c64fa9dbfdeac91a24d
+      spriteId: 15b0989dba60fc946a70d8201fd150bd
     - name: cannon explosion animation (2)_Frame_44
       frameIndex: 44
       additiveSortOrder: 0
@@ -2534,7 +2934,7 @@ ScriptedImporter:
         y: 89
         width: 179
         height: 134
-      spriteId: c9ec90203f6be5f4fbcf99801e8b6295
+      spriteId: cb646a1b7b0d52e4b9065716d5bf4d21
     - name: cannon explosion animation (2)_Frame_45
       frameIndex: 45
       additiveSortOrder: 0
@@ -2543,7 +2943,7 @@ ScriptedImporter:
         y: 89
         width: 173
         height: 125
-      spriteId: 520020ca8b53834448e71fa74910fad7
+      spriteId: 906f4aaa58332c34ca859f9c540b918d
     - name: cannon explosion animation (2)_Frame_46
       frameIndex: 46
       additiveSortOrder: 0
@@ -2552,7 +2952,7 @@ ScriptedImporter:
         y: 89
         width: 175
         height: 129
-      spriteId: 63338989f16e7ea4396f74731ecff38f
+      spriteId: 1a2d073ce3aa7f54aa048cbe104fe852
     - name: cannon explosion animation (2)_Frame_47
       frameIndex: 47
       additiveSortOrder: 0
@@ -2561,7 +2961,7 @@ ScriptedImporter:
         y: 89
         width: 175
         height: 128
-      spriteId: e65a4af98709f22488c017c1a4a59aad
+      spriteId: e18b875313e54ac408fb53d56e545f76
     - name: cannon explosion animation (2)_Frame_48
       frameIndex: 48
       additiveSortOrder: 0
@@ -2570,7 +2970,7 @@ ScriptedImporter:
         y: 89
         width: 173
         height: 129
-      spriteId: 2a2407907a4f8434e82ee9135cf7ece1
+      spriteId: 74d996f7614a708468a15529e346efe2
     - name: cannon explosion animation (2)_Frame_49
       frameIndex: 49
       additiveSortOrder: 0
@@ -2579,7 +2979,7 @@ ScriptedImporter:
         y: 89
         width: 166
         height: 121
-      spriteId: ebf1765bfa0c6ef468e8cfedabeba32a
+      spriteId: d2321595d17fb5540a7bb9586043ea2b
     - name: cannon explosion animation (2)_Frame_50
       frameIndex: 50
       additiveSortOrder: 0
@@ -2588,7 +2988,7 @@ ScriptedImporter:
         y: 89
         width: 170
         height: 122
-      spriteId: f4910447b3af56242ae0b9a427b44329
+      spriteId: e994ea40860eb6a4ba8f252090f06992
     - name: cannon explosion animation (2)_Frame_51
       frameIndex: 51
       additiveSortOrder: 0
@@ -2597,7 +2997,7 @@ ScriptedImporter:
         y: 89
         width: 163
         height: 122
-      spriteId: 29af8ca2982ef654e85117fc0ac59642
+      spriteId: e2cfcd0c21eb6704990334ed02e20449
     - name: cannon explosion animation (2)_Frame_52
       frameIndex: 52
       additiveSortOrder: 0
@@ -2606,7 +3006,7 @@ ScriptedImporter:
         y: 89
         width: 160
         height: 116
-      spriteId: 8113f749cbcc6ff469f16f9fc20061e2
+      spriteId: c186e8b7dda2fc849bea40bf39532d53
     - name: cannon explosion animation (2)_Frame_53
       frameIndex: 53
       additiveSortOrder: 0
@@ -2615,7 +3015,7 @@ ScriptedImporter:
         y: 89
         width: 160
         height: 113
-      spriteId: 2a7c0f3ba9e07654ab026683b4418334
+      spriteId: 8f2a92ee0e043f64db90d1dd8a298932
     - name: cannon explosion animation (2)_Frame_54
       frameIndex: 54
       additiveSortOrder: 0
@@ -2624,7 +3024,7 @@ ScriptedImporter:
         y: 89
         width: 153
         height: 113
-      spriteId: 04bd5c6893b88044392b2df89af67fd3
+      spriteId: 9cf8a1075086a824e8a66f43cf3193e3
     - name: cannon explosion animation (2)_Frame_55
       frameIndex: 55
       additiveSortOrder: 0
@@ -2633,7 +3033,7 @@ ScriptedImporter:
         y: 89
         width: 153
         height: 113
-      spriteId: 7d66db485a69cd746b1a79d28b9ef51a
+      spriteId: b60e6abb68955fd499dfc283f5d7c965
     - name: cannon explosion animation (2)_Frame_56
       frameIndex: 56
       additiveSortOrder: 0
@@ -2642,7 +3042,7 @@ ScriptedImporter:
         y: 89
         width: 152
         height: 113
-      spriteId: d7c6cb2e6fd21844c9008cd2af6b858b
+      spriteId: 3658ac2d1f2d8d046865af05b7086321
     - name: cannon explosion animation (2)_Frame_57
       frameIndex: 57
       additiveSortOrder: 0
@@ -2651,7 +3051,7 @@ ScriptedImporter:
         y: 89
         width: 152
         height: 113
-      spriteId: df03f2fd1c7bae2459d60d2b8dbdb05c
+      spriteId: 3245ff8adc91cfd4ca6d4354748ce007
     - name: cannon explosion animation (2)_Frame_58
       frameIndex: 58
       additiveSortOrder: 0
@@ -2660,7 +3060,7 @@ ScriptedImporter:
         y: 89
         width: 151
         height: 113
-      spriteId: c5be10d7790691245a6f79ce8877a069
+      spriteId: 751d052949ec5f04b8b2b8ecf60b9a5b
     - name: cannon explosion animation (2)_Frame_59
       frameIndex: 59
       additiveSortOrder: 0
@@ -2669,7 +3069,7 @@ ScriptedImporter:
         y: 89
         width: 150
         height: 113
-      spriteId: ccc07b6b86ea7d346b677a485d9df003
+      spriteId: cf477188dbc807c45b63200530c9e12a
     - name: cannon explosion animation (2)_Frame_60
       frameIndex: 60
       additiveSortOrder: 0
@@ -2678,7 +3078,7 @@ ScriptedImporter:
         y: 89
         width: 150
         height: 113
-      spriteId: df87f46fca0bdb64ab91b201e3c1a254
+      spriteId: 2e4e189c11e4c2a4da04ec0db456f349
     - name: cannon explosion animation (2)_Frame_61
       frameIndex: 61
       additiveSortOrder: 0
@@ -2687,7 +3087,7 @@ ScriptedImporter:
         y: 89
         width: 145
         height: 113
-      spriteId: 24ca6a82c716a5148ac0762cc85c4a6e
+      spriteId: 7a3929c86716de14692c6b54db274d9e
     - name: cannon explosion animation (2)_Frame_62
       frameIndex: 62
       additiveSortOrder: 0
@@ -2696,7 +3096,7 @@ ScriptedImporter:
         y: 89
         width: 153
         height: 113
-      spriteId: 193d289a7475473469cc81f64c24acae
+      spriteId: 043287bbacfd5ce4682bcc061bf69ed0
     - name: cannon explosion animation (2)_Frame_63
       frameIndex: 63
       additiveSortOrder: 0
@@ -2705,7 +3105,7 @@ ScriptedImporter:
         y: 89
         width: 145
         height: 113
-      spriteId: b2a6219974af479489745bc4153a0b5a
+      spriteId: 011ad27a7bbae434dabd35957d497e30
     - name: cannon explosion animation (2)_Frame_64
       frameIndex: 64
       additiveSortOrder: 0
@@ -2714,7 +3114,7 @@ ScriptedImporter:
         y: 89
         width: 141
         height: 113
-      spriteId: db58f8435646d5c4caccfc2965ca3b8e
+      spriteId: cfba03f872dd5e145a84579ded45a5da
     - name: cannon explosion animation (2)_Frame_65
       frameIndex: 65
       additiveSortOrder: 0
@@ -2723,7 +3123,7 @@ ScriptedImporter:
         y: 89
         width: 139
         height: 113
-      spriteId: 7a7c3c542e7b7bb41a08f36c152c0af1
+      spriteId: b34d0eccecaeaf34d9fb6754b7616116
     - name: cannon explosion animation (2)_Frame_66
       frameIndex: 66
       additiveSortOrder: 0
@@ -2732,7 +3132,7 @@ ScriptedImporter:
         y: 89
         width: 133
         height: 113
-      spriteId: d86ed9144abdee746bf0c4c56a8d582d
+      spriteId: ef655d163c2128a409916cc0cc728be5
     - name: cannon explosion animation (2)_Frame_67
       frameIndex: 67
       additiveSortOrder: 0
@@ -2741,7 +3141,7 @@ ScriptedImporter:
         y: 89
         width: 130
         height: 113
-      spriteId: 704fc3c2c5eacd145821523639b6e8b6
+      spriteId: 404a84e3823b4f54a9357cb4f66664d1
     - name: cannon explosion animation (2)_Frame_68
       frameIndex: 68
       additiveSortOrder: 0
@@ -2750,7 +3150,7 @@ ScriptedImporter:
         y: 89
         width: 131
         height: 113
-      spriteId: ec96e41dc2b70b940bb36d1270171067
+      spriteId: abb6f0aef7dc8f748b3c939d2755facb
     - name: cannon explosion animation (2)_Frame_69
       frameIndex: 69
       additiveSortOrder: 0
@@ -2759,7 +3159,7 @@ ScriptedImporter:
         y: 89
         width: 129
         height: 113
-      spriteId: 50bc7018c834d1943aefd9b5b022bf28
+      spriteId: f711fb3ab04cca944aaace67eb8dcf25
     - name: cannon explosion animation (2)_Frame_70
       frameIndex: 70
       additiveSortOrder: 0
@@ -2768,7 +3168,7 @@ ScriptedImporter:
         y: 89
         width: 130
         height: 113
-      spriteId: da561cfdfe99c8a4eaaa027a9af1de39
+      spriteId: d0d7e09c148297f49912c0e574c1e7d8
     - name: cannon explosion animation (2)_Frame_71
       frameIndex: 71
       additiveSortOrder: 0
@@ -2777,7 +3177,7 @@ ScriptedImporter:
         y: 89
         width: 128
         height: 113
-      spriteId: 17a32f73e011f4d48867671ae40e2b1a
+      spriteId: 779902cdf5a824b4eb468b826ba5e381
     - name: cannon explosion animation (2)_Frame_72
       frameIndex: 72
       additiveSortOrder: 0
@@ -2786,7 +3186,7 @@ ScriptedImporter:
         y: 89
         width: 126
         height: 113
-      spriteId: 87ccb5a79a84ec043ac6f9e21360e217
+      spriteId: 01d1bf1d723417647b307b23b3873acb
     - name: cannon explosion animation (2)_Frame_73
       frameIndex: 73
       additiveSortOrder: 0
@@ -2795,7 +3195,7 @@ ScriptedImporter:
         y: 89
         width: 125
         height: 113
-      spriteId: d3edbee04bee7ca49934e828f17e8fde
+      spriteId: aece9ec81925b0948b4bb78a16f9335a
     - name: cannon explosion animation (2)_Frame_74
       frameIndex: 74
       additiveSortOrder: 0
@@ -2804,7 +3204,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 54f86e0b95380d044a975e5592d4698c
+      spriteId: a1be972383b48ba429f80918a92182ae
     - name: cannon explosion animation (2)_Frame_75
       frameIndex: 75
       additiveSortOrder: 0
@@ -2813,7 +3213,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: d599aa3a2f8c2084c9b1fddc81c3126c
+      spriteId: b2a15782f4982be47b6d6fa2eb0838fd
     - name: cannon explosion animation (2)_Frame_76
       frameIndex: 76
       additiveSortOrder: 0
@@ -2822,7 +3222,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 123f65c56c6936540a76b46d920e5dd5
+      spriteId: e7de8fc84bbeb20469c681169fcee6b1
     - name: cannon explosion animation (2)_Frame_77
       frameIndex: 77
       additiveSortOrder: 0
@@ -2831,7 +3231,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: b71c857d94d738847b8fab7a99d28d31
+      spriteId: 3baf4a0882739754e97efdf42f0ea24c
     - name: cannon explosion animation (2)_Frame_78
       frameIndex: 78
       additiveSortOrder: 0
@@ -2840,7 +3240,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 43fc79502ca9eac49b6921f79e5f6ceb
+      spriteId: d9b448402d3bc1b4dbd1cbe8dca8f8ac
     - name: cannon explosion animation (2)_Frame_79
       frameIndex: 79
       additiveSortOrder: 0
@@ -2849,7 +3249,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 391fe61ee3df833498c0aee4dc3c463d
+      spriteId: 1ad6d964e5f0ff24bac958909e57a943
     - name: cannon explosion animation (2)_Frame_80
       frameIndex: 80
       additiveSortOrder: 0
@@ -2858,7 +3258,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 4750df15af811564aa75a536af824047
+      spriteId: ce57c4b9679119744a6831971b3e1fa7
     - name: cannon explosion animation (2)_Frame_81
       frameIndex: 81
       additiveSortOrder: 0
@@ -2867,7 +3267,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: f95da79543e0b334cb3707605a64c6d4
+      spriteId: f2bdc37e4ef391a4b9fef35e9da0e8cd
     - name: cannon explosion animation (2)_Frame_82
       frameIndex: 82
       additiveSortOrder: 0
@@ -2876,7 +3276,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 4181a310e228dc242b1124fb421a69bd
+      spriteId: 16cb4d482c535c945aa3d5bae8b5391b
     - name: cannon explosion animation (2)_Frame_83
       frameIndex: 83
       additiveSortOrder: 0
@@ -2885,7 +3285,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 38923f18f8de67b44890f707c23f752b
+      spriteId: 8e748545dad761241a8fadaa563141ac
     - name: cannon explosion animation (2)_Frame_84
       frameIndex: 84
       additiveSortOrder: 0
@@ -2894,7 +3294,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 3b466f452bffbc443acee42d50b1e52d
+      spriteId: ea8045a2b4e515a4381d10f416768b26
     - name: cannon explosion animation (2)_Frame_85
       frameIndex: 85
       additiveSortOrder: 0
@@ -2903,7 +3303,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 982d1cf7bb1efef4c914e49593af49ec
+      spriteId: ea7760b31d9ba2240aa961ef5497bb7a
     - name: cannon explosion animation (2)_Frame_86
       frameIndex: 86
       additiveSortOrder: 0
@@ -2912,7 +3312,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: a40dd56bdfbd6384da534695abc905f9
+      spriteId: d7db3845cb9aa1e4a93fead7a3dab5ce
     - name: cannon explosion animation (2)_Frame_87
       frameIndex: 87
       additiveSortOrder: 0
@@ -2921,7 +3321,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 87a36b24a7a48064e81f45110abea316
+      spriteId: 89005cd7f65f35844a2237785d958eec
     - name: cannon explosion animation (2)_Frame_88
       frameIndex: 88
       additiveSortOrder: 0
@@ -2930,7 +3330,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 1f396580055d0cc439e81bdd578f4672
+      spriteId: 5e2c15722b0505042beb5f33a7c71728
     - name: cannon explosion animation (2)_Frame_89
       frameIndex: 89
       additiveSortOrder: 0
@@ -2939,7 +3339,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 6861176535a06a54387051db279e9294
+      spriteId: 76abbdb5346281741acf576a784879e2
     - name: cannon explosion animation (2)_Frame_90
       frameIndex: 90
       additiveSortOrder: 0
@@ -2948,7 +3348,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 628d9975a6a6e854a9780672fdcd6847
+      spriteId: 27b216721ed73de478fb6cf9163ce927
     - name: cannon explosion animation (2)_Frame_91
       frameIndex: 91
       additiveSortOrder: 0
@@ -2957,7 +3357,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 792724ad811f8764a8e88dd0844e5f9c
+      spriteId: 24ba801ce97233d48a06b8a4a3e2a805
     - name: cannon explosion animation (2)_Frame_92
       frameIndex: 92
       additiveSortOrder: 0
@@ -2966,7 +3366,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: e0522d74a41d6aa489ef7f7cbe0f2418
+      spriteId: 621f6a03c3905bc4fb3c3cb4a6cc0aa3
     - name: cannon explosion animation (2)_Frame_93
       frameIndex: 93
       additiveSortOrder: 0
@@ -2975,7 +3375,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 62674b74957fe7a4abc6aa765999d4de
+      spriteId: 13061322cdabb5341af5d1023bb2e88f
     - name: cannon explosion animation (2)_Frame_94
       frameIndex: 94
       additiveSortOrder: 0
@@ -2984,7 +3384,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 6520d9ba3c8d2c043a0dda01c7bd1a58
+      spriteId: 0afb023a98f68444b96f55edb677ceac
     - name: cannon explosion animation (2)_Frame_95
       frameIndex: 95
       additiveSortOrder: 0
@@ -2993,7 +3393,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: c4b8b34ec014d6242ac748e79e6802f9
+      spriteId: e77f0b68de9c8dc4a87c1a973cd9f540
     - name: cannon explosion animation (2)_Frame_96
       frameIndex: 96
       additiveSortOrder: 0
@@ -3002,7 +3402,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: ef7a0b9227832634bb4f75a933759859
+      spriteId: c7cd9d0aec8ef464ab6599a0256aa9fd
     - name: cannon explosion animation (2)_Frame_97
       frameIndex: 97
       additiveSortOrder: 0
@@ -3011,7 +3411,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 796ee33edb5250e439ae659009593752
+      spriteId: 8656cda0f40a419419e88dc6c34e979c
     - name: cannon explosion animation (2)_Frame_98
       frameIndex: 98
       additiveSortOrder: 0
@@ -3020,7 +3420,7 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 1fc4b0bff2b0abc438754bd7f0ea34fa
+      spriteId: 484222a49c25f934ba6f4f2495d59971
     - name: cannon explosion animation (2)_Frame_99
       frameIndex: 99
       additiveSortOrder: 0
@@ -3029,7 +3429,187 @@ ScriptedImporter:
         y: 89
         width: 85
         height: 113
-      spriteId: 9cc75e0495a6f3a459b5a84a0babd6a4
+      spriteId: 6f4ca14a6d84bb54ea6abc448543a1ac
+    - name: cannon explosion animation (2)_Frame_100
+      frameIndex: 100
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: 230ad656ebd99a944b1c7279bd1913d7
+    - name: cannon explosion animation (2)_Frame_101
+      frameIndex: 101
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: 58d9ea65415b49344bbaec0484d2721d
+    - name: cannon explosion animation (2)_Frame_102
+      frameIndex: 102
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: 4cb927d142b66b94cb7297f6555472ea
+    - name: cannon explosion animation (2)_Frame_103
+      frameIndex: 103
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: ea6e923324e163a4c950bca36ba8a3ec
+    - name: cannon explosion animation (2)_Frame_104
+      frameIndex: 104
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: d65b64441c49dc94e9c05be12c01fdf3
+    - name: cannon explosion animation (2)_Frame_105
+      frameIndex: 105
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: 124598eb9a64a3c46a3ecbe745c56804
+    - name: cannon explosion animation (2)_Frame_106
+      frameIndex: 106
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: 7538c2dae80c5cf4fadea2abdb9e535d
+    - name: cannon explosion animation (2)_Frame_107
+      frameIndex: 107
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: 15d6a488c65f8a64ba4b1ffe4a7708a5
+    - name: cannon explosion animation (2)_Frame_108
+      frameIndex: 108
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: 7fadb27b73b664746a06444962478be9
+    - name: cannon explosion animation (2)_Frame_109
+      frameIndex: 109
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: 16913795e2d48b14ea5a98c431a1dfdc
+    - name: cannon explosion animation (2)_Frame_110
+      frameIndex: 110
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: 9fbe65fff441f3347987da7a42605d38
+    - name: cannon explosion animation (2)_Frame_111
+      frameIndex: 111
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: 845f733138b85dd41b76cc324ba25c76
+    - name: cannon explosion animation (2)_Frame_112
+      frameIndex: 112
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: 17752ca01d03ae74993724b93084e34c
+    - name: cannon explosion animation (2)_Frame_113
+      frameIndex: 113
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: 8b846fad4b110e04d9a1e096183a7dc9
+    - name: cannon explosion animation (2)_Frame_114
+      frameIndex: 114
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: 8062164d2dc7fc442b90c5b47b04f049
+    - name: cannon explosion animation (2)_Frame_115
+      frameIndex: 115
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: 7677f126bbe32374f81ffe0b2984ed2d
+    - name: cannon explosion animation (2)_Frame_116
+      frameIndex: 116
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: 4cb6234b6e28e174dae10e9abbdddd83
+    - name: cannon explosion animation (2)_Frame_117
+      frameIndex: 117
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: e43a03bcd73bec4419b1492167010c05
+    - name: cannon explosion animation (2)_Frame_118
+      frameIndex: 118
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: 464d6fb7c1062374180d796fcd7e2bc5
+    - name: cannon explosion animation (2)_Frame_119
+      frameIndex: 119
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 89
+        width: 85
+        height: 113
+      spriteId: c02af757d7c30fd42838fd4bf6cd1fc6
     linkedCells: []
     parentIndex: -1
   platformSettings: []
