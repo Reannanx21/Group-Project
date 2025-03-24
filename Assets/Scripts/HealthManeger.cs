@@ -8,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
     public float maxHealth = 100f;
     public Image healthBar;
     private bool isDead = false;
+    [SerializeField] private float debugDamageAmount = 20.0f;
 
     void Start()
     {
@@ -18,6 +19,14 @@ public class PlayerHealth : MonoBehaviour
 
         health = maxHealth;
         InitializeHealthBar();
+    }
+
+     void Update()
+    {
+        if (Input.GetButtonDown("DebugTakeDamage"))
+        {
+            TakeDamage(debugDamageAmount);
+        }
     }
 
     void InitializeHealthBar()
@@ -61,6 +70,7 @@ public class PlayerHealth : MonoBehaviour
         health += amount;
         health = Mathf.Clamp(health, 0, maxHealth);
         Debug.Log("Healed current health" + health);
+        UpdateHealthBar();
     }
 
 

@@ -1,18 +1,46 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BreakableObject : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private Animator anim;
+    private bool isBroken = false;
+
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Break()
     {
-        
+        if (!isBroken)
+        {
+            isBroken = true;
+            anim.GetBool("isBroken"); // Triggers the animation
+            StartCoroutine(DestroyAfterAnimation());
+        }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Break();
+        }
+    }
+
+
+    private IEnumerator DestroyAfterAnimation()
+    {
+        float animationTime = anim.GetCurrentAnimatorStateInfo(0).length; // Get animation duration
+        float extraTime = 0.1f; // Additional delay time (in seconds)
+
+        yield return new WaitForSeconds(animationTime + extraTime); // Wait for animation + extra delay
+
+        Destroy(gameObject); // Destroy after the delay
+    }
+
+
 }
+
+
+
