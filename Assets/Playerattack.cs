@@ -4,40 +4,51 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
+    private Animator anim;
     public GameObject attackPoint;
-    public float radius;
+    public float radius = 0.5f;
     public LayerMask enemies;
     public float damage = 10f;
+    private bool isAttacking = false;
 
-    void Update()
+    void Start()
     {
-        if (Input.GetMouseButtonDown(0)) // Left-click to attack
+        anim = GetComponent<Animator>();
+        if (anim == null)
         {
-            Attack();
+            Debug.LogError("Animator is missing on the player!");
         }
     }
 
-    public void Attack()
+    void Update()
     {
-        Debug.Log("Attack function called!"); // ✅ Check if Attack() is triggered
+        if (Input.GetMouseButtonDown(0) && !isAttacking)
+        {
+            StartCoroutine(AttackRoutine());
+        }
+    }
 
+    private IEnumerator AttackRoutine()
+    {
+        isAttacking = true;
+        anim.SetTrigger("Attack");
+
+        yield return new WaitForSeconds(0.5f); // Adjust based on animation length
+
+        isAttacking = false;
+    }
+
+    public void Attack() // Call this via an Animation Event
+    {
         Collider2D[] enemiesHit = Physics2D.OverlapCircleAll(attackPoint.transform.position, radius, enemies);
-        Debug.Log($"Enemies detected: {enemiesHit.Length}"); // ✅ Check how many enemies are found
-
         foreach (Collider2D enemyCollider in enemiesHit)
         {
             if (enemyCollider != null)
             {
-                Debug.Log($"Hit Enemy: {enemyCollider.name}"); // ✅ Confirm which enemy is hit
-
                 EnemyHealth enemyHealth = enemyCollider.GetComponent<EnemyHealth>();
                 if (enemyHealth != null)
                 {
                     enemyHealth.TakeDamage(damage);
-                }
-                else
-                {
-                    Debug.LogError("EnemyHealth component not found on: " + enemyCollider.name);
                 }
             }
         }

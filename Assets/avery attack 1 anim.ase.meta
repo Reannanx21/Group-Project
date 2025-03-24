@@ -1,0 +1,951 @@
+fileFormatVersion: 2
+guid: b56489dc390b8ef48a10017ae0c8ede0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: avery attack 1 anim_Frame_0
+    originalName: 
+    pivot: {x: 1, y: -0.04109589}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 85
+      width: 64
+      height: 73
+    spriteID: 971bd6efab78c3049b81b4f6bfb03175
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 85}
+  - name: avery attack 1 anim_Frame_1
+    originalName: 
+    pivot: {x: 1, y: -0.04109589}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 166
+      width: 64
+      height: 73
+    spriteID: 174075cbb3450af438f0d81c01bc31d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 166}
+  - name: avery attack 1 anim_Frame_2
+    originalName: 
+    pivot: {x: 1, y: -0.04109589}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 66
+      height: 73
+    spriteID: e56a41ae233bd0841bc70b76f784f627
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: avery attack 1 anim_Frame_3
+    originalName: 
+    pivot: {x: 1, y: -0.04109589}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 424
+      width: 56
+      height: 73
+    spriteID: 556303214f843e74586eecb483565e6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 424}
+  - name: avery attack 1 anim_Frame_4
+    originalName: 
+    pivot: {x: 1, y: -0.04109589}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 271
+      y: 166
+      width: 47
+      height: 73
+    spriteID: 8cc7737a08814ae4cb34aeff853b549b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 271, y: 166}
+  - name: avery attack 1 anim_Frame_5
+    originalName: 
+    pivot: {x: 1, y: -0.04109589}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 271
+      y: 85
+      width: 48
+      height: 73
+    spriteID: 91aab2499e4992248a0e071dad3f3397
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 271, y: 85}
+  - name: avery attack 1 anim_Frame_6
+    originalName: 
+    pivot: {x: 0.99999994, y: -0.04109589}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 328
+      width: 50
+      height: 73
+    spriteID: 5fcbe7bfbb3c4f4449ee8ac1383fdb22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 206, y: 328}
+  - name: avery attack 1 anim_Frame_7
+    originalName: 
+    pivot: {x: 0.99999994, y: -0.04109589}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 409
+      width: 50
+      height: 73
+    spriteID: 386bf93702278e048b49f69cc72e3d65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 206, y: 409}
+  - name: avery attack 1 anim_Frame_8
+    originalName: 
+    pivot: {x: 1, y: -0.04109589}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 271
+      y: 247
+      width: 46
+      height: 73
+    spriteID: 0ea89d9f1429d4f4cb8ec1c1c201918f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 271, y: 247}
+  - name: avery attack 1 anim_Frame_9
+    originalName: 
+    pivot: {x: 0.92, y: -0.04109589}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 271
+      y: 4
+      width: 50
+      height: 73
+    spriteID: ff7b8ae023b6b9345b3521218ef1f7e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 271, y: 4}
+  - name: avery attack 1 anim_Frame_10
+    originalName: 
+    pivot: {x: 0.8214286, y: -0.04109589}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 247
+      width: 56
+      height: 73
+    spriteID: 75cf3d88d7745a64883bf1123866eee0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 206, y: 247}
+  - name: avery attack 1 anim_Frame_11
+    originalName: 
+    pivot: {x: 0.80701756, y: -0.04109589}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 4
+      width: 57
+      height: 73
+    spriteID: f717f2d6cb52c8545a078ce06b5dabbf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 206, y: 4}
+  - name: avery attack 1 anim_Frame_12
+    originalName: 
+    pivot: {x: 0.80701756, y: -0.04109589}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 85
+      width: 57
+      height: 73
+    spriteID: 4369c5e0b429fea42ad4c4182947cf4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 206, y: 85}
+  - name: avery attack 1 anim_Frame_13
+    originalName: 
+    pivot: {x: 0.80701756, y: -0.04109589}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 206
+      y: 166
+      width: 57
+      height: 73
+    spriteID: 4bb3755620b229e44ba5c9b6d53abad9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 206, y: 166}
+  - name: avery attack 1 anim_Frame_14
+    originalName: 
+    pivot: {x: 0.80701756, y: -0.038961038}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 247
+      width: 57
+      height: 77
+    spriteID: ecb7043c71ebd244d96cb640fbd636dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 247}
+  - name: avery attack 1 anim_Frame_15
+    originalName: 
+    pivot: {x: 0.8214286, y: -0.038961038}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 332
+      width: 56
+      height: 77
+    spriteID: ed5af5925db50484e840c61e0b7f42e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 332}
+  - name: avery attack 1 anim_Frame_16
+    originalName: 
+    pivot: {x: 0.8214286, y: -0.038961038}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 417
+      width: 56
+      height: 77
+    spriteID: 545945fa5e389294198696b4c43be082
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 417}
+  - name: avery attack 1 anim_Frame_17
+    originalName: 
+    pivot: {x: 0.8214286, y: -0.038961038}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 4
+      width: 56
+      height: 77
+    spriteID: 3dd4fbeb843d93244b381511a7ebca18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 4}
+  - name: avery attack 1 anim_Frame_18
+    originalName: 
+    pivot: {x: 0.8214286, y: -0.038961038}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 89
+      width: 56
+      height: 77
+    spriteID: d1a9a2bbcb112834ba4aef6696247e8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 89}
+  - name: avery attack 1 anim_Frame_19
+    originalName: 
+    pivot: {x: 0.8214286, y: -0.038961038}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 174
+      width: 56
+      height: 77
+    spriteID: 728dfcda11ea9854baaeabac0ae806a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 174}
+  - name: avery attack 1 anim_Frame_20
+    originalName: 
+    pivot: {x: 0.8214286, y: -0.038961038}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 259
+      width: 56
+      height: 77
+    spriteID: 50374c5e7df41114db4a7ee05d251ebc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 259}
+  - name: avery attack 1 anim_Frame_21
+    originalName: 
+    pivot: {x: 0.8214286, y: -0.039473683}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 344
+      width: 56
+      height: 76
+    spriteID: 305e227e219eb28478984091b3fcdd06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 344}
+  - name: avery attack 1 anim_Frame_22
+    originalName: 
+    pivot: {x: 0.8214286, y: -0.039473683}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 428
+      width: 56
+      height: 76
+    spriteID: 0eba016a4adfdde4cb68a561bb44dfee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 428}
+  - name: avery attack 1 anim_Frame_23
+    originalName: 
+    pivot: {x: 0.8214286, y: -0.039473683}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 4
+      width: 56
+      height: 76
+    spriteID: c154ed1d579498942bbdcea978eb2854
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 4}
+  - name: avery attack 1 anim_Frame_24
+    originalName: 
+    pivot: {x: 0.8214286, y: -0.039473683}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 88
+      width: 56
+      height: 76
+    spriteID: 2f0dbcea037c27d4faf6cfd105a81839
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 88}
+  - name: avery attack 1 anim_Frame_25
+    originalName: 
+    pivot: {x: 0.8214286, y: -0.039473683}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 172
+      width: 56
+      height: 76
+    spriteID: 0abe266cc33da054e9766fb04d60182d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 172}
+  - name: avery attack 1 anim_Frame_26
+    originalName: 
+    pivot: {x: 0.8214286, y: -0.039473683}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 256
+      width: 56
+      height: 76
+    spriteID: 4409b8443bdc4724580f360fa73d37d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 256}
+  - name: avery attack 1 anim_Frame_27
+    originalName: 
+    pivot: {x: 0.8214286, y: -0.039473683}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 340
+      width: 56
+      height: 76
+    spriteID: 31fcfa35297595842ac74c0b23aefc27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 340}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1828911889
+    name: avery attack 1 anim
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: avery attack 1 anim_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 3
+        width: 64
+        height: 73
+      spriteId: 971bd6efab78c3049b81b4f6bfb03175
+    - name: avery attack 1 anim_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 3
+        width: 64
+        height: 73
+      spriteId: 174075cbb3450af438f0d81c01bc31d0
+    - name: avery attack 1 anim_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 3
+        width: 66
+        height: 73
+      spriteId: e56a41ae233bd0841bc70b76f784f627
+    - name: avery attack 1 anim_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 3
+        width: 56
+        height: 73
+      spriteId: 556303214f843e74586eecb483565e6e
+    - name: avery attack 1 anim_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 28
+        y: 3
+        width: 47
+        height: 73
+      spriteId: 8cc7737a08814ae4cb34aeff853b549b
+    - name: avery attack 1 anim_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 27
+        y: 3
+        width: 48
+        height: 73
+      spriteId: 91aab2499e4992248a0e071dad3f3397
+    - name: avery attack 1 anim_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 3
+        width: 50
+        height: 73
+      spriteId: 5fcbe7bfbb3c4f4449ee8ac1383fdb22
+    - name: avery attack 1 anim_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 3
+        width: 50
+        height: 73
+      spriteId: 386bf93702278e048b49f69cc72e3d65
+    - name: avery attack 1 anim_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 46
+        height: 73
+      spriteId: 0ea89d9f1429d4f4cb8ec1c1c201918f
+    - name: avery attack 1 anim_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 50
+        height: 73
+      spriteId: ff7b8ae023b6b9345b3521218ef1f7e2
+    - name: avery attack 1 anim_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 56
+        height: 73
+      spriteId: 75cf3d88d7745a64883bf1123866eee0
+    - name: avery attack 1 anim_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 57
+        height: 73
+      spriteId: f717f2d6cb52c8545a078ce06b5dabbf
+    - name: avery attack 1 anim_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 57
+        height: 73
+      spriteId: 4369c5e0b429fea42ad4c4182947cf4c
+    - name: avery attack 1 anim_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 57
+        height: 73
+      spriteId: 4bb3755620b229e44ba5c9b6d53abad9
+    - name: avery attack 1 anim_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 57
+        height: 77
+      spriteId: ecb7043c71ebd244d96cb640fbd636dc
+    - name: avery attack 1 anim_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 56
+        height: 77
+      spriteId: ed5af5925db50484e840c61e0b7f42e0
+    - name: avery attack 1 anim_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 56
+        height: 77
+      spriteId: 545945fa5e389294198696b4c43be082
+    - name: avery attack 1 anim_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 56
+        height: 77
+      spriteId: 3dd4fbeb843d93244b381511a7ebca18
+    - name: avery attack 1 anim_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 56
+        height: 77
+      spriteId: d1a9a2bbcb112834ba4aef6696247e8f
+    - name: avery attack 1 anim_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 56
+        height: 77
+      spriteId: 728dfcda11ea9854baaeabac0ae806a6
+    - name: avery attack 1 anim_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 56
+        height: 77
+      spriteId: 50374c5e7df41114db4a7ee05d251ebc
+    - name: avery attack 1 anim_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 56
+        height: 76
+      spriteId: 305e227e219eb28478984091b3fcdd06
+    - name: avery attack 1 anim_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 56
+        height: 76
+      spriteId: 0eba016a4adfdde4cb68a561bb44dfee
+    - name: avery attack 1 anim_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 56
+        height: 76
+      spriteId: c154ed1d579498942bbdcea978eb2854
+    - name: avery attack 1 anim_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 56
+        height: 76
+      spriteId: 2f0dbcea037c27d4faf6cfd105a81839
+    - name: avery attack 1 anim_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 56
+        height: 76
+      spriteId: 0abe266cc33da054e9766fb04d60182d
+    - name: avery attack 1 anim_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 56
+        height: 76
+      spriteId: 4409b8443bdc4724580f360fa73d37d9
+    - name: avery attack 1 anim_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 3
+        width: 56
+        height: 76
+      spriteId: 31fcfa35297595842ac74c0b23aefc27
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 150, y: 100}

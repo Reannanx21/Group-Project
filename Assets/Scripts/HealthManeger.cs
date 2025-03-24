@@ -48,7 +48,7 @@ public class PlayerHealth : MonoBehaviour
         if (health <= 0) Die();
     }
 
-    public void Heal(float healAmount)
+    public void Heal2(float healAmount)
     {
         if (isDead) return;
 
