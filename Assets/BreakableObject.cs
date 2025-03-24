@@ -29,15 +29,15 @@ public class BreakableObject : MonoBehaviour
     }
 
 
-  //  private IEnumerator DestroyAfterAnimation()
-    //{
-      //  float animationTime = anim.GetCurrentAnimatorStateInfo(0).length; // Get animation duration
-       // float extraTime = 0.1f; // Additional delay time (in seconds)
+   private IEnumerator DestroyAfterAnimation()
+    {
+        float animationTime = anim.GetCurrentAnimatorStateInfo(0).length; // Get animation duration
+        float extraTime = 0.1f; // Additional delay time (in seconds)
 
-       // yield return new WaitForSeconds(animationTime + extraTime); // Wait for animation + extra delay
+        yield return new WaitForSeconds(animationTime + extraTime); // Wait for animation + extra delay
 
-       // Destroy(gameObject); // Destroy after the delay
-    //}
+        Destroy(gameObject); // Destroy after the delay
+   }
 
 
 }
