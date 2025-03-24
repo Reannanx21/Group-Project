@@ -2583,7 +2583,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -124.80703, y: -2.7999992, z: -10}
+  m_LocalPosition: {x: -124.802315, y: -2.7999992, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4384,7 +4384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ff7d6df19d025b4e85a9cd264c877e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 75
+  health: 50
   maxHealth: 100
   healthBar: {fileID: 144665768}
   debugDamageAmount: 20
@@ -4400,11 +4400,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a16e5fb60da5fa9468ecf2a8afea81f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackPoint: {fileID: 471067406}
-  radius: 11.73
+  attackPoint: {fileID: 0}
+  radius: 0.56
   enemies:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   damage: 10
 --- !u!224 &1038479177 stripped
 RectTransform:
@@ -5675,7 +5675,7 @@ Transform:
   m_GameObject: {fileID: 1282505023}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -124.80703, y: -2.7999992, z: -10}
+  m_LocalPosition: {x: -124.802315, y: -2.7999992, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6274,7 +6274,7 @@ GameObject:
   - component: {fileID: 1575174322}
   - component: {fileID: 1575174321}
   - component: {fileID: 1575174325}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: barrelbroken_Frame_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
