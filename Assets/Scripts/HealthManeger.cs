@@ -48,13 +48,22 @@ public class PlayerHealth : MonoBehaviour
         if (health <= 0) Die();
     }
 
-    public void Heal(float healAmount)
+    public void Heal2(float healAmount)
     {
         if (isDead) return;
 
         health = Mathf.Clamp(health + healAmount, 0, maxHealth);
         UpdateHealthBar();
     }
+
+    public void Heal(int amount)
+    {
+        health += amount;
+        health = Mathf.Clamp(health, 0, maxHealth);
+        Debug.Log("Healed current health" + health);
+    }
+
+
 
     void Die()
     {
