@@ -24,19 +24,20 @@ public class PlayerAttack : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && !isAttacking)
         {
-            StartCoroutine(AttackRoutine());
+            anim.SetTrigger("Attack");
+            //StartCoroutine(AttackRoutine());
         }
     }
 
-    private IEnumerator AttackRoutine()
-    {
-        isAttacking = true;
-        anim.SetTrigger("Attack");
+   // private IEnumerator AttackRoutine()
+    //{
+    //    isAttacking = true;
+    //    anim.SetTrigger("Attack");
 
-        yield return new WaitForSeconds(0.5f); // Adjust based on animation length
+     //   yield return new WaitForSeconds(0.01f); // Adjust based on animation length
 
-        isAttacking = false;
-    }
+      //  isAttacking = false;
+   // }
 
     public void Attack() // Call this via an Animation Event
     {
