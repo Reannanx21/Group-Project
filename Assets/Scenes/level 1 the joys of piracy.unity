@@ -9142,6 +9142,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gold sprite 2
       objectReference: {fileID: 0}
+    - target: {fileID: 5235738639978894087, guid: f9f600c2a5ea4b04a88964f358698659, type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7023623843571699822, guid: f9f600c2a5ea4b04a88964f358698659, type: 3}
       propertyPath: value
       value: 10000
