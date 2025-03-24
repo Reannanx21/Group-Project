@@ -17,7 +17,7 @@ public class BreakableObject : MonoBehaviour
         {
             isBroken = true;
             anim.GetBool("isBroken"); // Triggers the animation
-           // StartCoroutine(DestroyAfterAnimation());
+            StartCoroutine(DestroyAfterAnimation());
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
