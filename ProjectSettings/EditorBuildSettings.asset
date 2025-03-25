@@ -6,7 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/level 1 the joys of piracy.unity
+    path: Assets/Scenes/MainMenu.unity
+    guid: b8e2641c9be22384a9f8405229b5f426
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
     guid: f688c7484762f8340b2c0cc08877e29f
   - enabled: 1
     path: Assets/Scenes/level 2 Gunsway.unity
