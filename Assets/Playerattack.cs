@@ -48,7 +48,10 @@ public class PlayerAttack : MonoBehaviour
                 EnemyHealth enemyHealth = enemyCollider.GetComponent<EnemyHealth>();
                 if (enemyHealth != null)
                 {
-                    enemyHealth.TakeDamage(damage);
+                    // Apply damage to the enemy
+                    enemyHealth.TakeDamage(damage);  // Only pass damage, no knockback
+
+                    // Also trigger screen shake (this is called in the EnemyHealth script)
                 }
             }
         }
