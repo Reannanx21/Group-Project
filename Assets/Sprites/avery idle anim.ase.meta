@@ -123,7 +123,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: avery idle anim_Frame_0
     originalName: 
-    pivot: {x: 1.015625, y: -0.05479452}
+    pivot: {x: 1.015625, y: -0.04109589}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 64
       height: 73
-    spriteID: a45189258450f2b4aa37366ea1e871c1
+    spriteID: 653eaea4197acf24a99346b886267180
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -143,7 +143,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: avery idle anim_Frame_1
     originalName: 
-    pivot: {x: 1.015625, y: -0.05479452}
+    pivot: {x: 1.015625, y: -0.04109589}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 85
       width: 64
       height: 73
-    spriteID: 96558ead423f5314eac8000ffb6b41f2
+    spriteID: c06fb2dbaaee7794e86431309383bd54
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -163,7 +163,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 85}
   - name: avery idle anim_Frame_2
     originalName: 
-    pivot: {x: 1.015625, y: -0.05479452}
+    pivot: {x: 1.015625, y: -0.04109589}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 166
       width: 64
       height: 73
-    spriteID: 63a8cf9786a28394e88e11532e2f3692
+    spriteID: d9995a495c8eecb4b9a1a3da5fa4c6bc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -183,7 +183,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 166}
   - name: avery idle anim_Frame_3
     originalName: 
-    pivot: {x: 1.015625, y: -0.05479452}
+    pivot: {x: 1.015625, y: -0.04109589}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 247
       width: 64
       height: 73
-    spriteID: dc360767f541c8b40ae9b9e9e2093b4c
+    spriteID: 3959d4518fcfe1e47bc06039dde04db0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -203,7 +203,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 247}
   - name: avery idle anim_Frame_4
     originalName: 
-    pivot: {x: 1.015625, y: -0.05479452}
+    pivot: {x: 1.015625, y: -0.04109589}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -212,7 +212,7 @@ ScriptedImporter:
       y: 328
       width: 64
       height: 73
-    spriteID: 2c297797a85190e468df216f184d6590
+    spriteID: acbb0030cf0203b4c907b4a6dabd0c28
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -223,7 +223,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 328}
   - name: avery idle anim_Frame_5
     originalName: 
-    pivot: {x: 1.015625, y: -0.05479452}
+    pivot: {x: 1.015625, y: -0.04109589}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -232,7 +232,7 @@ ScriptedImporter:
       y: 409
       width: 64
       height: 73
-    spriteID: 8665c27f57cb08a4397f815112b57a5f
+    spriteID: c7052cca274961e40ba7d75e774e660d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -243,7 +243,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 409}
   - name: avery idle anim_Frame_6
     originalName: 
-    pivot: {x: 1.015625, y: -0.05479452}
+    pivot: {x: 1.015625, y: -0.04109589}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -252,7 +252,7 @@ ScriptedImporter:
       y: 4
       width: 64
       height: 73
-    spriteID: 850350ce5e209c74f8118f3a26bef189
+    spriteID: 1c2c8ac512584cb4da4c9bfcb45c369e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -263,7 +263,7 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 4}
   - name: avery idle anim_Frame_7
     originalName: 
-    pivot: {x: 1.015625, y: -0.05479452}
+    pivot: {x: 1.015625, y: -0.04109589}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -272,7 +272,7 @@ ScriptedImporter:
       y: 85
       width: 64
       height: 73
-    spriteID: c9cc3b1bb7ba24b44a022a0a847b2738
+    spriteID: 5972e493eac45e3479ee0bf62befb902
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -283,7 +283,7 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 85}
   - name: avery idle anim_Frame_8
     originalName: 
-    pivot: {x: 1.015625, y: -0.05479452}
+    pivot: {x: 1.015625, y: -0.04109589}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -292,7 +292,7 @@ ScriptedImporter:
       y: 166
       width: 64
       height: 73
-    spriteID: f68e4b6beab9e184884703b8b77581b4
+    spriteID: 082de277a2ba1e043a2e1615dafdf31f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -303,7 +303,7 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 166}
   - name: avery idle anim_Frame_9
     originalName: 
-    pivot: {x: 1.015625, y: -0.05479452}
+    pivot: {x: 1.015625, y: -0.04109589}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -312,7 +312,7 @@ ScriptedImporter:
       y: 247
       width: 64
       height: 73
-    spriteID: 71e5c63fd8154554f8da67c9eba050ed
+    spriteID: 6ecef37212a207d4ebdec4f22d9f57e6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -323,7 +323,7 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 247}
   - name: avery idle anim_Frame_10
     originalName: 
-    pivot: {x: 1.015625, y: -0.05479452}
+    pivot: {x: 1.015625, y: -0.04109589}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -332,7 +332,7 @@ ScriptedImporter:
       y: 328
       width: 64
       height: 73
-    spriteID: 50583814b63ef9348bc40796094f9b72
+    spriteID: da9eb9c31bb49fb47805ff039b6143e6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -343,7 +343,7 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 328}
   - name: avery idle anim_Frame_11
     originalName: 
-    pivot: {x: 1.015625, y: -0.05479452}
+    pivot: {x: 1.015625, y: -0.04109589}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -352,7 +352,7 @@ ScriptedImporter:
       y: 409
       width: 64
       height: 73
-    spriteID: 385e35753fe87b84685d052be1dfa866
+    spriteID: c79e9f2553dbe7749bb50d0446b3647c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -375,109 +375,109 @@ ScriptedImporter:
       additiveSortOrder: 0
       cellRect:
         x: 10
-        y: 4
+        y: 3
         width: 64
         height: 73
-      spriteId: a45189258450f2b4aa37366ea1e871c1
+      spriteId: 653eaea4197acf24a99346b886267180
     - name: avery idle anim_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
         x: 10
-        y: 4
+        y: 3
         width: 64
         height: 73
-      spriteId: 96558ead423f5314eac8000ffb6b41f2
+      spriteId: c06fb2dbaaee7794e86431309383bd54
     - name: avery idle anim_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
         x: 10
-        y: 4
+        y: 3
         width: 64
         height: 73
-      spriteId: 63a8cf9786a28394e88e11532e2f3692
+      spriteId: d9995a495c8eecb4b9a1a3da5fa4c6bc
     - name: avery idle anim_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
         x: 10
-        y: 4
+        y: 3
         width: 64
         height: 73
-      spriteId: dc360767f541c8b40ae9b9e9e2093b4c
+      spriteId: 3959d4518fcfe1e47bc06039dde04db0
     - name: avery idle anim_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
         x: 10
-        y: 4
+        y: 3
         width: 64
         height: 73
-      spriteId: 2c297797a85190e468df216f184d6590
+      spriteId: acbb0030cf0203b4c907b4a6dabd0c28
     - name: avery idle anim_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
         x: 10
-        y: 4
+        y: 3
         width: 64
         height: 73
-      spriteId: 8665c27f57cb08a4397f815112b57a5f
+      spriteId: c7052cca274961e40ba7d75e774e660d
     - name: avery idle anim_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
         x: 10
-        y: 4
+        y: 3
         width: 64
         height: 73
-      spriteId: 850350ce5e209c74f8118f3a26bef189
+      spriteId: 1c2c8ac512584cb4da4c9bfcb45c369e
     - name: avery idle anim_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
         x: 10
-        y: 4
+        y: 3
         width: 64
         height: 73
-      spriteId: c9cc3b1bb7ba24b44a022a0a847b2738
+      spriteId: 5972e493eac45e3479ee0bf62befb902
     - name: avery idle anim_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
         x: 10
-        y: 4
+        y: 3
         width: 64
         height: 73
-      spriteId: f68e4b6beab9e184884703b8b77581b4
+      spriteId: 082de277a2ba1e043a2e1615dafdf31f
     - name: avery idle anim_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
         x: 10
-        y: 4
+        y: 3
         width: 64
         height: 73
-      spriteId: 71e5c63fd8154554f8da67c9eba050ed
+      spriteId: 6ecef37212a207d4ebdec4f22d9f57e6
     - name: avery idle anim_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
         x: 10
-        y: 4
+        y: 3
         width: 64
         height: 73
-      spriteId: 50583814b63ef9348bc40796094f9b72
+      spriteId: da9eb9c31bb49fb47805ff039b6143e6
     - name: avery idle anim_Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
         x: 10
-        y: 4
+        y: 3
         width: 64
         height: 73
-      spriteId: 385e35753fe87b84685d052be1dfa866
+      spriteId: c79e9f2553dbe7749bb50d0446b3647c
     linkedCells: []
     parentIndex: -1
   platformSettings: []
