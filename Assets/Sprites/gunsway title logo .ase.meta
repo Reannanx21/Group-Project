@@ -1,0 +1,922 @@
+fileFormatVersion: 2
+guid: 838c8e04326c14c4c8dc601248202f77
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: gunsway title logo _Frame_0
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1314
+      width: 298
+      height: 136
+    spriteID: 29706fdcd5dbc684eb3aee5194c9e2e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1314}
+  - name: gunsway title logo _Frame_1
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1458
+      width: 298
+      height: 136
+    spriteID: 5c7a27ea5bd87ef4aacd61eb74b22df8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1458}
+  - name: gunsway title logo _Frame_2
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1602
+      width: 298
+      height: 136
+    spriteID: ac72baae0e506da4f876bc71a51d2203
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1602}
+  - name: gunsway title logo _Frame_3
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1746
+      width: 298
+      height: 136
+    spriteID: d113922f28407ae4ebde3e0e23994295
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1746}
+  - name: gunsway title logo _Frame_4
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1890
+      width: 298
+      height: 136
+    spriteID: 672c72aaed27aa847ab9c0d7c1134819
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1890}
+  - name: gunsway title logo _Frame_5
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 4
+      width: 298
+      height: 136
+    spriteID: 94ec61b0ddded1443a55726755f81ee5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 4}
+  - name: gunsway title logo _Frame_6
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 148
+      width: 298
+      height: 136
+    spriteID: f9dcb9346ec0bb7468048370b9a9cb62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 148}
+  - name: gunsway title logo _Frame_7
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 292
+      width: 298
+      height: 136
+    spriteID: 97079f3b11e27954a80e0be4e8d45ab2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 292}
+  - name: gunsway title logo _Frame_8
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 436
+      width: 298
+      height: 136
+    spriteID: fb176873e33632e4abf387fe5f2b2800
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 436}
+  - name: gunsway title logo _Frame_9
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 580
+      width: 298
+      height: 136
+    spriteID: 2f4580d23f3e3b548bdff54839e88103
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 580}
+  - name: gunsway title logo _Frame_10
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.26277372}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 734
+      width: 298
+      height: 137
+    spriteID: 53b260663ce4ad74b94d2911517dc40f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 734}
+  - name: gunsway title logo _Frame_11
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.26277372}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 879
+      width: 298
+      height: 137
+    spriteID: 5b26e860f08b34546ad79eb0a0d17682
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 879}
+  - name: gunsway title logo _Frame_12
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 298
+      height: 138
+    spriteID: cfefddeb9d02f3541a6204d48665d397
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: gunsway title logo _Frame_13
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 150
+      width: 298
+      height: 138
+    spriteID: 350c87d8d0c15fd4f85c5522367c5354
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 150}
+  - name: gunsway title logo _Frame_14
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 296
+      width: 298
+      height: 138
+    spriteID: 649d0afb3a9d9104ca5455fda8ab67be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 296}
+  - name: gunsway title logo _Frame_15
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 442
+      width: 298
+      height: 138
+    spriteID: e550a83c4efc41b4799e8047f6b0a692
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 442}
+  - name: gunsway title logo _Frame_16
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2608696}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 588
+      width: 298
+      height: 138
+    spriteID: 7355a8c43d95d014e9dcae5ed27fe774
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 588}
+  - name: gunsway title logo _Frame_17
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.26277372}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1024
+      width: 298
+      height: 137
+    spriteID: f27ddce78d62a9e4bb566a0187f7b403
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1024}
+  - name: gunsway title logo _Frame_18
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.26277372}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1169
+      width: 298
+      height: 137
+    spriteID: 5ed6ba8406e422b42818cd1ae6518b56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1169}
+  - name: gunsway title logo _Frame_19
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 724
+      width: 298
+      height: 136
+    spriteID: c92fffafa6350d740a7deebb5292f028
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 724}
+  - name: gunsway title logo _Frame_20
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 868
+      width: 298
+      height: 136
+    spriteID: 97ee072d5415de14cb19eabdba1c2e12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 868}
+  - name: gunsway title logo _Frame_21
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 1012
+      width: 298
+      height: 136
+    spriteID: 99bcf4c2f02f2104b8f6b1e98133be0b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 1012}
+  - name: gunsway title logo _Frame_22
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 1156
+      width: 298
+      height: 136
+    spriteID: 1273ff5d2899f6a45869970a086e3aa4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 1156}
+  - name: gunsway title logo _Frame_23
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 1300
+      width: 298
+      height: 136
+    spriteID: 97f9d4965829ec449aba2ce8c8fe4e04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 1300}
+  - name: gunsway title logo _Frame_24
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 1444
+      width: 298
+      height: 136
+    spriteID: a43b8e2f81b623a489e9869b25821ab6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 1444}
+  - name: gunsway title logo _Frame_25
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 1588
+      width: 298
+      height: 136
+    spriteID: 20623f56e97b78544afeeeb33c6bbb69
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 1588}
+  - name: gunsway title logo _Frame_26
+    originalName: 
+    pivot: {x: 0.4899329, y: -0.2647059}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 310
+      y: 1732
+      width: 298
+      height: 136
+    spriteID: c09e53b4f8b052846862f3157a7e888d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 310, y: 1732}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 2035505731
+    name: 'gunsway title logo '
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: gunsway title logo _Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 136
+      spriteId: 29706fdcd5dbc684eb3aee5194c9e2e0
+    - name: gunsway title logo _Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 136
+      spriteId: 5c7a27ea5bd87ef4aacd61eb74b22df8
+    - name: gunsway title logo _Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 136
+      spriteId: ac72baae0e506da4f876bc71a51d2203
+    - name: gunsway title logo _Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 136
+      spriteId: d113922f28407ae4ebde3e0e23994295
+    - name: gunsway title logo _Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 136
+      spriteId: 672c72aaed27aa847ab9c0d7c1134819
+    - name: gunsway title logo _Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 136
+      spriteId: 94ec61b0ddded1443a55726755f81ee5
+    - name: gunsway title logo _Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 136
+      spriteId: f9dcb9346ec0bb7468048370b9a9cb62
+    - name: gunsway title logo _Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 136
+      spriteId: 97079f3b11e27954a80e0be4e8d45ab2
+    - name: gunsway title logo _Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 136
+      spriteId: fb176873e33632e4abf387fe5f2b2800
+    - name: gunsway title logo _Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 136
+      spriteId: 2f4580d23f3e3b548bdff54839e88103
+    - name: gunsway title logo _Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 137
+      spriteId: 53b260663ce4ad74b94d2911517dc40f
+    - name: gunsway title logo _Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 137
+      spriteId: 5b26e860f08b34546ad79eb0a0d17682
+    - name: gunsway title logo _Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 138
+      spriteId: cfefddeb9d02f3541a6204d48665d397
+    - name: gunsway title logo _Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 138
+      spriteId: 350c87d8d0c15fd4f85c5522367c5354
+    - name: gunsway title logo _Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 138
+      spriteId: 649d0afb3a9d9104ca5455fda8ab67be
+    - name: gunsway title logo _Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 138
+      spriteId: e550a83c4efc41b4799e8047f6b0a692
+    - name: gunsway title logo _Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 138
+      spriteId: 7355a8c43d95d014e9dcae5ed27fe774
+    - name: gunsway title logo _Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 137
+      spriteId: f27ddce78d62a9e4bb566a0187f7b403
+    - name: gunsway title logo _Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 137
+      spriteId: 5ed6ba8406e422b42818cd1ae6518b56
+    - name: gunsway title logo _Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 136
+      spriteId: c92fffafa6350d740a7deebb5292f028
+    - name: gunsway title logo _Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 136
+      spriteId: 97ee072d5415de14cb19eabdba1c2e12
+    - name: gunsway title logo _Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 136
+      spriteId: 99bcf4c2f02f2104b8f6b1e98133be0b
+    - name: gunsway title logo _Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 136
+      spriteId: 1273ff5d2899f6a45869970a086e3aa4
+    - name: gunsway title logo _Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 136
+      spriteId: 97f9d4965829ec449aba2ce8c8fe4e04
+    - name: gunsway title logo _Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 136
+      spriteId: a43b8e2f81b623a489e9869b25821ab6
+    - name: gunsway title logo _Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 136
+      spriteId: 20623f56e97b78544afeeeb33c6bbb69
+    - name: gunsway title logo _Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 29
+        y: 36
+        width: 298
+        height: 136
+      spriteId: c09e53b4f8b052846862f3157a7e888d
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 350, y: 200}
