@@ -190,11 +190,7 @@ MonoBehaviour:
     it into one of the fastest and deadliest ships of the era. His crowning achievement?
     The audacious capture of the Mughal treasure ship Ganj-i-Sawai in 1695\u2014one
     of the richest hauls in pirate history, loaded with gold, silver, and jewels. 
-    \r\n\r\nUnlike most pirates who met the noose, Avery disappeared into legend,
-    his fortune and final fate unknown. Some say he lived out his days as a king
-    in Madagascar, others claim he died penniless in hiding. Either way, his legacy
-    endures as the man who got away\u2014the pirate who truly vanished into myth.
-    \r\n\r\n "
+    \r\n\r\n\n\r\n "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -221,8 +217,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
