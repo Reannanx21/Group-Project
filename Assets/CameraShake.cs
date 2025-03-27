@@ -5,7 +5,7 @@ public class CameraShake : MonoBehaviour
     public static CameraShake Instance;  // Singleton for easy access
     private Vector3 originalPos;
     private bool isShaking = false;
-    private float shakeMagnitude = 0.5f;
+    private float shakeMagnitude = 2f;
     private float shakeDuration = 0.5f;
 
     // Singleton setup
