@@ -121,18 +121,78 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: 'gunsway lantern '
+  - name: gunsway lantern _Frame_0
     originalName: 
-    pivot: {x: 0.80833334, y: -0.13419913}
+    pivot: {x: 0.816, y: -0.1336207}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 273
+      y: 4
+      width: 125
+      height: 232
+    spriteID: 95f98634c7574e44b8ffaf2b3231383b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 273, y: 4}
+  - name: gunsway lantern _Frame_1
+    originalName: 
+    pivot: {x: 0.816, y: -0.13478261}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 135
+      y: 250
+      width: 125
+      height: 230
+    spriteID: a72f90376f1a062469591fdafae212ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 135, y: 250}
+  - name: gunsway lantern _Frame_2
+    originalName: 
+    pivot: {x: 0.81300807, y: -0.1336207}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 250
+      width: 123
+      height: 232
+    spriteID: 99e03e010f7d1f4439e7b8efae6a81f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 250}
+  - name: gunsway lantern _Frame_3
+    originalName: 
+    pivot: {x: 0.8174603, y: -0.13025211}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 120
-      height: 231
-    spriteID: 3b8e1082a3d8c984bab9cf40d0a19822
+      width: 126
+      height: 238
+    spriteID: d194d6793a41f2742b70e0c103de085f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,6 +201,46 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: gunsway lantern _Frame_4
+    originalName: 
+    pivot: {x: 0.81300807, y: -0.12809917}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 250
+      width: 123
+      height: 242
+    spriteID: 96e87305660020146a134cab39d31350
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 250}
+  - name: gunsway lantern _Frame_5
+    originalName: 
+    pivot: {x: 0.81889766, y: -0.13135593}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 138
+      y: 4
+      width: 127
+      height: 236
+    spriteID: cab5f6812d55cd84fafdd8c50c71e125
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 138, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -150,19 +250,64 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: 'gunsway lantern '
+    - name: gunsway lantern _Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 3
+        x: 8
         y: 31
-        width: 120
-        height: 231
-      spriteId: 3b8e1082a3d8c984bab9cf40d0a19822
+        width: 125
+        height: 232
+      spriteId: 95f98634c7574e44b8ffaf2b3231383b
+    - name: gunsway lantern _Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 31
+        width: 125
+        height: 230
+      spriteId: a72f90376f1a062469591fdafae212ed
+    - name: gunsway lantern _Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 31
+        width: 123
+        height: 232
+      spriteId: 99e03e010f7d1f4439e7b8efae6a81f2
+    - name: gunsway lantern _Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 31
+        width: 126
+        height: 238
+      spriteId: d194d6793a41f2742b70e0c103de085f
+    - name: gunsway lantern _Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 31
+        width: 123
+        height: 242
+      spriteId: 96e87305660020146a134cab39d31350
+    - name: gunsway lantern _Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 31
+        width: 127
+        height: 236
+      spriteId: cab5f6812d55cd84fafdd8c50c71e125
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 200, y: 300}
+  canvasSize: {x: 220, y: 300}
