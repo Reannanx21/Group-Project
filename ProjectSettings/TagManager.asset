@@ -16,7 +16,7 @@ TagManager:
   - Background
   - Foreground Deck
   - Breakable
-  - 
+  - Player
   - 
   - 
   - 
@@ -45,4 +45,7 @@ TagManager:
     locked: 0
   - name: Background main
     uniqueID: 479719927
+    locked: 0
+  - name: 'Lantern '
+    uniqueID: 580004597
     locked: 0

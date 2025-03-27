@@ -403,7 +403,7 @@ MonoBehaviour:
   m_Intensity: 14.48
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 00000000f7f1971c
+  m_ApplyToSortingLayers: 00000000f7f1971cf52a9222
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -590,7 +590,7 @@ MonoBehaviour:
   m_Intensity: 14.48
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 00000000f7f1971c
+  m_ApplyToSortingLayers: 00000000f7f1971cf52a9222
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -777,10 +777,10 @@ MonoBehaviour:
   m_Intensity: 14.48
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 00000000f7f1971c
+  m_ApplyToSortingLayers: 00000000f52a9222
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
-  m_LightOrder: 0
+  m_LightOrder: 3
   m_AlphaBlendOnOverlap: 0
   m_OverlapOperation: 0
   m_NormalMapDistance: 1.52
@@ -848,8 +848,16 @@ PrefabInstance:
       value: 'gunsway lantern '
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 79d7bc85304a0e2458fda9d9707ffe76, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 79d7bc85304a0e2458fda9d9707ffe76, type: 3}
       propertyPath: m_SortingOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 79d7bc85304a0e2458fda9d9707ffe76, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 79d7bc85304a0e2458fda9d9707ffe76, type: 3}
       propertyPath: m_LocalScale.x
@@ -1330,7 +1338,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 00000000f7f1971c
+  m_ApplyToSortingLayers: 00000000f7f1971cf52a9222
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -1472,7 +1480,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 00000000f7f1971c
+  m_ApplyToSortingLayers: 00000000f7f1971cf52a9222
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -1519,7 +1527,7 @@ GameObject:
   - component: {fileID: 790957648}
   - component: {fileID: 790957647}
   - component: {fileID: 790957646}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Henry every
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2014,7 +2022,7 @@ MonoBehaviour:
   m_Intensity: 14.48
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 00000000f7f1971c
+  m_ApplyToSortingLayers: 00000000f7f1971cf52a9222
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -2124,7 +2132,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 00000000f7f1971c
+  m_ApplyToSortingLayers: 00000000f7f1971cf52a9222
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -2699,7 +2707,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1179741360}
   - component: {fileID: 1179741361}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2741,12 +2749,12 @@ MonoBehaviour:
   m_Intensity: 1.34
   m_LightVolumeIntensity: 0
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 00000000f7f1971c
+  m_ApplyToSortingLayers: 00000000f7f1971cf52a9222
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
   m_AlphaBlendOnOverlap: 0
-  m_OverlapOperation: 0
+  m_OverlapOperation: 1
   m_NormalMapDistance: 3
   m_NormalMapQuality: 2
   m_UseNormalMap: 0
@@ -3116,7 +3124,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 00000000f7f1971c
+  m_ApplyToSortingLayers: 00000000f7f1971cf52a9222
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -3333,7 +3341,7 @@ MonoBehaviour:
   m_Intensity: 14.48
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 00000000f7f1971c
+  m_ApplyToSortingLayers: 00000000f7f1971cf52a9222
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -3443,7 +3451,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 00000000f7f1971c
+  m_ApplyToSortingLayers: 00000000f7f1971cf52a9222
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -3525,7 +3533,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 00000000f7f1971c
+  m_ApplyToSortingLayers: 00000000f7f1971cf52a9222
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -4431,7 +4439,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1947159553}
   - component: {fileID: 1947159554}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4811,7 +4819,7 @@ MonoBehaviour:
   m_Intensity: 0.37
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: f7f1971c00000000
+  m_ApplyToSortingLayers: f7f1971c00000000f52a9222
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
