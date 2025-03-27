@@ -1,40 +1,24 @@
 using UnityEngine;
-using System.Collections;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public float health = 100f;
-    private bool isStunned = false;
-    public float stunDuration = 0.5f;
+    public float health = 50f;
 
-    private CameraShake cameraShake;  // Reference to CameraShake script
+    // Reference to CameraShake (singleton access)
+    private CameraShake cameraShake;
 
-    void Start()
+    private void Start()
     {
-        // Find the CameraShake script on the Main Camera automatically
-        cameraShake = Camera.main.GetComponent<CameraShake>();
-
-        if (cameraShake == null)
-        {
-            Debug.LogError("CameraShake reference is missing on the Main Camera!");
-        }
+        cameraShake = CameraShake.Instance;  // Accessing the CameraShake singleton
     }
 
-    public void TakeDamage(float damageAmount)
+    public void TakeDamage(float amount)
     {
-        health -= damageAmount;
+        health -= amount;
+        Debug.Log($"{gameObject.name} took {amount} damage! Remaining health: {health}");
 
-        // Trigger screen shake when the enemy is hit
-        if (cameraShake != null)
-        {
-            cameraShake.ShakeCamera();  // Shake the camera
-        }
-
-        // Trigger stun effect
-        if (!isStunned)
-        {
-            StartCoroutine(StunCoroutine());
-        }
+        // Trigger camera shake when the enemy takes damage
+        cameraShake.TriggerShake(0.3f, 0.2f);  // Shake with magnitude 0.3 and duration 0.2 seconds
 
         if (health <= 0)
         {
@@ -42,16 +26,9 @@ public class EnemyHealth : MonoBehaviour
         }
     }
 
-    private IEnumerator StunCoroutine()
-    {
-        isStunned = true;
-        // Freeze movement for stun duration (optional: stop animations or modify Rigidbody)
-        yield return new WaitForSeconds(stunDuration);  // Wait for the stun duration
-        isStunned = false;
-    }
-
     private void Die()
     {
-        Destroy(gameObject); // Destroy enemy when health is zero or below
+        Debug.Log($"{gameObject.name} died!");
+        Destroy(gameObject);
     }
 }

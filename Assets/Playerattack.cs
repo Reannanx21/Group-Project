@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
@@ -33,14 +32,25 @@ public class PlayerAttack : MonoBehaviour
         isAttacking = true;
         anim.SetTrigger("Attack");
 
-        yield return new WaitForSeconds(0.5f); // Adjust based on animation length
+        yield return new WaitForSeconds(0.5f); // Adjust based on animation
 
         isAttacking = false;
     }
 
-    public void Attack() // Call this via an Animation Event
+    // This is called via an Animation Event
+    public void Attack()
     {
+        Debug.Log("Attack() function triggered!");
+
+        if (attackPoint == null)
+        {
+            Debug.LogError("AttackPoint is not assigned!");
+            return;
+        }
+
         Collider2D[] enemiesHit = Physics2D.OverlapCircleAll(attackPoint.transform.position, radius, enemies);
+        Debug.Log($"Enemies hit: {enemiesHit.Length}");
+
         foreach (Collider2D enemyCollider in enemiesHit)
         {
             if (enemyCollider != null)
@@ -48,12 +58,33 @@ public class PlayerAttack : MonoBehaviour
                 EnemyHealth enemyHealth = enemyCollider.GetComponent<EnemyHealth>();
                 if (enemyHealth != null)
                 {
-                    // Apply damage to the enemy
-                    enemyHealth.TakeDamage(damage);  // Only pass damage, no knockback
+                    Debug.Log($"Damaging enemy: {enemyCollider.name} for {damage} damage");
+                    enemyHealth.TakeDamage(damage);
+                }
+                else
+                {
+                    Debug.LogWarning($"Enemy {enemyCollider.name} has no EnemyHealth script!");
+                }
 
-                    // Also trigger screen shake (this is called in the EnemyHealth script)
+                // Apply stun directly to the enemy itself
+                EnemyStun enemyStun = enemyCollider.GetComponent<EnemyStun>();
+                if (enemyStun != null)
+                {
+                    Debug.Log($"Stunning enemy {enemyCollider.name}!");
+                    enemyStun.Stun(2f);
                 }
             }
+        }
+
+        // Trigger camera shake
+        if (CameraShake.Instance != null)
+        {
+            Debug.Log("Camera shake triggered!");
+            CameraShake.Instance.TriggerShake(0.3f, 0.2f);
+        }
+        else
+        {
+            Debug.LogError("CameraShake.Instance is NULL!");
         }
     }
 

@@ -1,59 +1,52 @@
 using UnityEngine;
-using Cinemachine;
-using System.Collections;
 
 public class CameraShake : MonoBehaviour
 {
-    public float shakeDuration = 0.5f;
-    public float shakeMagnitude = 0.1f;
-    private Vector3 originalPosition;
-    private CinemachineVirtualCamera virtualCamera;
+    public static CameraShake Instance;  // Singleton for easy access
+    private Vector3 originalPos;
+    private bool isShaking = false;
+    private float shakeMagnitude = 0.5f;
+    private float shakeDuration = 0.5f;
 
-    // Store the original position of the camera's follow target
-    private Transform followTarget;
-
-    private void Start()
+    // Singleton setup
+    private void Awake()
     {
-        // Get the Cinemachine Virtual Camera component
-        virtualCamera = Camera.main.GetComponentInChildren<CinemachineVirtualCamera>();
-
-        if (virtualCamera == null)
+        if (Instance == null)
         {
-            Debug.LogError("CinemachineVirtualCamera is missing from the Main Camera!");
-            return;
+            Instance = this;
         }
-
-        // Get the camera's follow target (should be assigned in the inspector)
-        followTarget = virtualCamera.Follow;
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
-    public void ShakeCamera()
+    // Trigger the shake with desired magnitude and duration
+    public void TriggerShake(float magnitude, float duration)
     {
-        StopAllCoroutines(); // Stop any ongoing shake
-        StartCoroutine(ShakeCoroutine());
+        originalPos = transform.localPosition;  // Store the initial position of the camera
+        shakeMagnitude = magnitude;
+        shakeDuration = duration;
+        isShaking = true;
     }
 
-    private IEnumerator ShakeCoroutine()
+    void Update()
     {
-        float elapsed = 0f;
-
-        // Store the original position of the camera
-        Vector3 originalFollowPosition = followTarget.position;
-
-        while (elapsed < shakeDuration)
+        // If the camera is shaking, apply the shake
+        if (isShaking)
         {
-            // Generate random shake offsets
-            float x = Random.Range(-1f, 1f) * shakeMagnitude;
-            float y = Random.Range(-1f, 1f) * shakeMagnitude;
+            // Apply shake by modifying the camera position randomly around the original position
+            transform.localPosition = originalPos + Random.insideUnitSphere * shakeMagnitude;
 
-            // Apply the shake to the camera's follow target
-            followTarget.position = originalFollowPosition + new Vector3(x, y, 0f);
+            // Reduce the shake duration over time
+            shakeDuration -= Time.deltaTime;
 
-            elapsed += Time.deltaTime;
-            yield return null; // Wait until the next frame
+            // If the shake duration ends, stop the shake and reset the camera position
+            if (shakeDuration <= 0)
+            {
+                isShaking = false;
+                transform.localPosition = originalPos;  // Reset position to the original
+            }
         }
-
-        // Reset the position of the follow target after shake
-        followTarget.position = originalFollowPosition;
     }
 }

@@ -1,26 +1,31 @@
 using UnityEngine;
+using Cinemachine;
 
-public class TestCameraShake : MonoBehaviour
+public class CameraShakeTest : MonoBehaviour
 {
-    private CameraShake cameraShake;
+    private CinemachineImpulseSource impulseSource;
 
     void Start()
     {
-        // Get the CameraShake component from the Main Camera
-        cameraShake = Camera.main.GetComponent<CameraShake>();
+        // Get Cinemachine Impulse Source from Main Camera
+        impulseSource = Camera.main.GetComponent<CinemachineImpulseSource>();
 
-        if (cameraShake == null)
+        if (impulseSource == null)
         {
-            Debug.LogError("CameraShake script not found on the Main Camera!");
+            Debug.LogError("CinemachineImpulseSource is missing on the Main Camera!");
         }
     }
 
     void Update()
     {
+        // Trigger impulse when you press the 'Space' key (for manual testing)
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            // Trigger the camera shake manually when the Space bar is pressed
-            cameraShake.ShakeCamera();
+            if (impulseSource != null)
+            {
+                impulseSource.GenerateImpulse(Vector3.one * 2f); // Generate stronger impulse
+                Debug.Log("Impulse Generated!");
+            }
         }
     }
 }
