@@ -1,5 +1,6 @@
-﻿using System.Collections;
+﻿using Cinemachine;
 using UnityEngine;
+using System.Collections;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -10,12 +11,21 @@ public class PlayerAttack : MonoBehaviour
     public float damage = 10f;
     private bool isAttacking = false;
 
+    public CinemachineImpulseSource impulseSource;  // Reference to Cinemachine Impulse Source
+
+    // Combine the logic from multiple Start() methods into one
     void Start()
     {
-        anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();  // Initialize the animator
         if (anim == null)
         {
             Debug.LogError("Animator is missing on the player!");
+        }
+
+        impulseSource = GetComponent<CinemachineImpulseSource>();  // Get the Impulse Source component
+        if (impulseSource == null)
+        {
+            Debug.LogError("CinemachineImpulseSource is missing!");
         }
     }
 
@@ -32,7 +42,7 @@ public class PlayerAttack : MonoBehaviour
         isAttacking = true;
         anim.SetTrigger("Attack");
 
-        yield return new WaitForSeconds(0.5f); // Adjust based on animation
+        yield return new WaitForSeconds(0.5f);  
 
         isAttacking = false;
     }
@@ -40,7 +50,7 @@ public class PlayerAttack : MonoBehaviour
     // This is called via an Animation Event
     public void Attack()
     {
-        Debug.Log("Attack() function triggered!");
+        Debug.Log("Attack triggered!");
 
         if (attackPoint == null)
         {
@@ -76,15 +86,14 @@ public class PlayerAttack : MonoBehaviour
             }
         }
 
-        // Trigger camera shake
-        if (CameraShake.Instance != null)
+        // Trigger Cinemachine Impulse
+        if (impulseSource != null)
         {
-            Debug.Log("Camera shake triggered!");
-            CameraShake.Instance.TriggerShake(0.3f, 0.2f);
+            impulseSource.GenerateImpulse();  // Trigger the impulse shake
         }
         else
         {
-            Debug.LogError("CameraShake.Instance is NULL!");
+            Debug.LogError("ImpulseSource is not assigned!");
         }
     }
 
