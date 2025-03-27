@@ -788,8 +788,8 @@ MonoBehaviour:
   m_UseNormalMap: 0
   m_ShadowIntensityEnabled: 0
   m_ShadowIntensity: 0.562
-  m_ShadowVolumeIntensityEnabled: 0
-  m_ShadowVolumeIntensity: 0.75
+  m_ShadowVolumeIntensityEnabled: 1
+  m_ShadowVolumeIntensity: 0.726
   m_LocalBounds:
     m_Center: {x: 0.28495026, y: 1.6983995, z: 0}
     m_Extent: {x: 17.20805, y: 19.118801, z: 0}
