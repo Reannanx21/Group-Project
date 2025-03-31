@@ -1,14 +1,11 @@
 using UnityEngine;
+using System.Collections;
 
 public class CameraShake : MonoBehaviour
 {
-    public static CameraShake Instance;  // Singleton for easy access
+    public static CameraShake Instance;
     private Vector3 originalPos;
-    private bool isShaking = false;
-    private float shakeMagnitude = 2f;
-    private float shakeDuration = 0.5f;
 
-    // Singleton setup
     private void Awake()
     {
         if (Instance == null)
@@ -21,30 +18,23 @@ public class CameraShake : MonoBehaviour
         }
     }
 
-
     public void TriggerShake(float magnitude, float duration)
     {
+        Debug.Log($"Shaking camera with magnitude {magnitude} for {duration} seconds.");
         originalPos = transform.localPosition;
-        shakeMagnitude = magnitude;
-        shakeDuration = duration;
-        isShaking = true;
+        StartCoroutine(ShakeRoutine(magnitude, duration));
     }
 
-    void Update()
+    private IEnumerator ShakeRoutine(float magnitude, float duration)
     {
-        if (isShaking)
+        float elapsed = 0f;
+        while (elapsed < duration)
         {
-            transform.localPosition = originalPos + Random.insideUnitSphere * shakeMagnitude;
-
-
-            shakeDuration -= Time.deltaTime;
-
-
-            if (shakeDuration <= 0)
-            {
-                isShaking = false;
-                transform.localPosition = originalPos;
-            }
+            transform.localPosition = originalPos + Random.insideUnitSphere * magnitude;
+            elapsed += Time.deltaTime;
+            yield return null;
         }
+
+        transform.localPosition = originalPos;
     }
 }

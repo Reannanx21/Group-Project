@@ -717,7 +717,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -156.00012, y: -15.000244}
+  m_AnchoredPosition: {x: -156.00012, y: -15.000275}
   m_SizeDelta: {x: -300, y: -30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &87351694
@@ -2466,6 +2466,7 @@ GameObject:
   - component: {fileID: 519420033}
   - component: {fileID: 519420035}
   - component: {fileID: 519420034}
+  - component: {fileID: 519420036}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2585,7 +2586,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -133.10583, y: -3.4000015, z: -10}
+  m_LocalPosition: {x: -133.11517, y: -3.4000015, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2640,12 +2641,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ChannelMask: 1
   m_Gain: 1
-  m_Use2DDistance: 0
+  m_Use2DDistance: 1
   m_UseLocalSpace: 1
   m_ReactionSettings:
-    m_SecondaryNoise: {fileID: 11400000, guid: 20a705aea2d80e0478fb89b6f43d8530, type: 2}
-    m_AmplitudeGain: 2
-    m_FrequencyGain: 3
+    m_SecondaryNoise: {fileID: 0}
+    m_AmplitudeGain: 1
+    m_FrequencyGain: 1
     m_Duration: 1
     m_NoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!114 &519420035
@@ -2687,6 +2688,18 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1959597462}
+--- !u!114 &519420036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26d14219cd89ac84f8efdf9c5fd91e1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &526017897
 GameObject:
   m_ObjectHideFlags: 0
@@ -4694,7 +4707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ff7d6df19d025b4e85a9cd264c877e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  health: 100
   maxHealth: 100
   healthBar: {fileID: 144665768}
   debugDamageAmount: 20
@@ -4716,7 +4729,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   damage: 10
-  impulseSource: {fileID: 992821596}
+  impulseSource: {fileID: 0}
 --- !u!114 &992821596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4739,8 +4752,8 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     m_ImpulseDuration: 0.2
-    m_ImpulseType: 1
-    m_DissipationRate: 0.564
+    m_ImpulseType: 0
+    m_DissipationRate: 0.25
     m_RawSignal: {fileID: 0}
     m_AmplitudeGain: 1
     m_FrequencyGain: 1
@@ -4769,7 +4782,7 @@ MonoBehaviour:
     m_DissipationMode: 2
     m_DissipationDistance: 100
     m_PropagationSpeed: 343
-  m_DefaultVelocity: {x: 2, y: 2, z: 0}
+  m_DefaultVelocity: {x: 0, y: -1, z: 0}
 --- !u!224 &1038479177 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2780683057190199653, guid: da9aced042b112a48886345a52409a29, type: 3}
@@ -5090,7 +5103,7 @@ GameObject:
   - component: {fileID: 1119629088}
   - component: {fileID: 1119629087}
   m_Layer: 0
-  m_Name: e453a41a-3d27-493e-b779-29082cfee05f_1.ce4c9076a1eab95d334edb2fe960ce6a.jpeg
+  m_Name: 779-29082cfee05f_1.ce4c9076a1eab95d334edb2fe960ce6a.jpeg benb2fe960ce6a.jpeg
     ben
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5952,7 +5965,7 @@ Transform:
   m_GameObject: {fileID: 1282505023}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -133.10583, y: -3.4000015, z: -10}
+  m_LocalPosition: {x: -133.11517, y: -3.4000015, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8443,10 +8456,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_NoiseProfile: {fileID: 11400000, guid: 20a705aea2d80e0478fb89b6f43d8530, type: 2}
+  m_NoiseProfile: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
   m_PivotOffset: {x: 1.82, y: 1.37, z: 0}
-  m_AmplitudeGain: 1.84
-  m_FrequencyGain: 4.59
+  m_AmplitudeGain: 5
+  m_FrequencyGain: 5
   mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!114 &1959597464
 MonoBehaviour:
