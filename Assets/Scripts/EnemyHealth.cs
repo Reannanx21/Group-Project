@@ -1,16 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public float health = 100f; // Default enemy health
+    public float health = 50f;
 
-    public void TakeDamage(float damageAmount)
+
+    private CameraShake cameraShake;
+
+    private void Start()
     {
-        Debug.Log($"TakeDamage called on {gameObject.name}"); // Confirm function is called 
-        health -= damageAmount;
-        Debug.Log($"Enemy took {damageAmount} damage, remaining health: {health}");
+        cameraShake = CameraShake.Instance;
+    }
+
+    public void TakeDamage(float amount)
+    {
+        health -= amount;
+        Debug.Log($"{gameObject.name} took {amount} damage! Remaining health: {health}");
+
+
+        cameraShake.TriggerShake(0.3f, 0.2f);
 
         if (health <= 0)
         {
@@ -20,7 +28,7 @@ public class EnemyHealth : MonoBehaviour
 
     private void Die()
     {
-        Debug.Log("Enemy is dead");
+        Debug.Log($"{gameObject.name} died!");
         Destroy(gameObject);
     }
 }
