@@ -5,12 +5,15 @@ public class EnemyStun : MonoBehaviour
 {
     private bool isStunned = false;
     private Rigidbody2D rb;
-
+    private RigidbodyConstraints2D originalConstraints; // Store original constraints
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
+        if (rb != null)
+        {
+            originalConstraints = rb.constraints; // Save the initial constraints
+        }
     }
 
     public void Stun(float duration)
@@ -20,13 +23,11 @@ public class EnemyStun : MonoBehaviour
             Debug.Log($"{gameObject.name} is STUNNED for {duration} seconds!");
             isStunned = true;
 
-            // STOP ALL MOVEMENT IMMEDIATELY
             if (rb != null)
             {
                 rb.velocity = Vector2.zero;
-                rb.isKinematic = true;  // Temporarily disable physics
+                rb.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
             }
-
 
             StartCoroutine(EndStun(duration));
         }
@@ -39,11 +40,9 @@ public class EnemyStun : MonoBehaviour
         Debug.Log($"{gameObject.name} RECOVERED from stun.");
         isStunned = false;
 
-        // Re-enable movement
         if (rb != null)
         {
-            rb.isKinematic = false;
+            rb.constraints = originalConstraints; 
         }
-
     }
 }
