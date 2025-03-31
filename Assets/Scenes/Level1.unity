@@ -2464,8 +2464,8 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
-  - component: {fileID: 519420034}
   - component: {fileID: 519420035}
+  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2585,7 +2585,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -133.10931, y: -3.4000015, z: -10}
+  m_LocalPosition: {x: -133.10583, y: -3.4000015, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2643,7 +2643,7 @@ MonoBehaviour:
   m_Use2DDistance: 0
   m_UseLocalSpace: 1
   m_ReactionSettings:
-    m_SecondaryNoise: {fileID: 0}
+    m_SecondaryNoise: {fileID: 11400000, guid: 20a705aea2d80e0478fb89b6f43d8530, type: 2}
     m_AmplitudeGain: 2
     m_FrequencyGain: 3
     m_Duration: 1
@@ -2666,8 +2666,8 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_LookAt: {fileID: 992821587}
+  m_Follow: {fileID: 992821587}
   m_Lens:
     FieldOfView: 40
     OrthographicSize: 10
@@ -4716,7 +4716,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   damage: 10
-  impulseSource: {fileID: 0}
+  impulseSource: {fileID: 992821596}
 --- !u!114 &992821596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5952,7 +5952,7 @@ Transform:
   m_GameObject: {fileID: 1282505023}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -133.10931, y: -3.4000015, z: -10}
+  m_LocalPosition: {x: -133.10583, y: -3.4000015, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8443,10 +8443,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68bb026fafb42b14791938953eaace77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_NoiseProfile: {fileID: 0}
-  m_PivotOffset: {x: 0, y: 0, z: 0}
-  m_AmplitudeGain: 1
-  m_FrequencyGain: 1
+  m_NoiseProfile: {fileID: 11400000, guid: 20a705aea2d80e0478fb89b6f43d8530, type: 2}
+  m_PivotOffset: {x: 1.82, y: 1.37, z: 0}
+  m_AmplitudeGain: 1.84
+  m_FrequencyGain: 4.59
   mNoiseOffsets: {x: 0, y: 0, z: 0}
 --- !u!114 &1959597464
 MonoBehaviour:

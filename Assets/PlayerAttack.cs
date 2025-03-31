@@ -13,19 +13,22 @@ public class PlayerAttack : MonoBehaviour
 
     public CinemachineImpulseSource impulseSource;  // Reference to Cinemachine Impulse Source
 
-    // Combine the logic from multiple Start() methods into one
     void Start()
     {
-        anim = GetComponent<Animator>();  // Initialize the animator
+        anim = GetComponent<Animator>();
         if (anim == null)
         {
             Debug.LogError("Animator is missing on the player!");
         }
 
-        impulseSource = GetComponent<CinemachineImpulseSource>();  // Get the Impulse Source component
+        impulseSource = GetComponent<CinemachineImpulseSource>();
         if (impulseSource == null)
         {
-            Debug.LogError("CinemachineImpulseSource is missing!");
+            Debug.LogError("CinemachineImpulseSource is missing! Did you assign it in the Inspector?");
+        }
+        else
+        {
+            Debug.Log("CinemachineImpulseSource found.");
         }
     }
 
@@ -33,7 +36,22 @@ public class PlayerAttack : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && !isAttacking)
         {
+            Debug.Log("Attack button pressed!");
             StartCoroutine(AttackRoutine());
+        }
+
+        // Debugging: Manually trigger impulse with 'P'
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            Debug.Log("Manually triggering impulse from Update()!");
+            if (impulseSource != null)
+            {
+                impulseSource.GenerateImpulse(10f);  // Stronger impulse for testing
+            }
+            else
+            {
+                Debug.LogError("Impulse Source is NULL when pressing P!");
+            }
         }
     }
 
@@ -41,16 +59,18 @@ public class PlayerAttack : MonoBehaviour
     {
         isAttacking = true;
         anim.SetTrigger("Attack");
+        Debug.Log("Attack animation triggered.");
 
         yield return new WaitForSeconds(0.5f);
 
         isAttacking = false;
+        Debug.Log("Attack animation completed.");
     }
 
-    // This is called via an Animation Event
+    // Called via Animation Event
     public void Attack()
     {
-        Debug.Log("Attack triggered!");
+        Debug.Log("Attack function triggered!");
 
         if (attackPoint == null)
         {
@@ -76,7 +96,6 @@ public class PlayerAttack : MonoBehaviour
                     Debug.LogWarning($"Enemy {enemyCollider.name} has no EnemyHealth script!");
                 }
 
-                // Apply stun directly to the enemy itself
                 EnemyStun enemyStun = enemyCollider.GetComponent<EnemyStun>();
                 if (enemyStun != null)
                 {
@@ -89,11 +108,12 @@ public class PlayerAttack : MonoBehaviour
         // Trigger Cinemachine Impulse
         if (impulseSource != null)
         {
-            impulseSource.GenerateImpulse();  // Trigger the impulse shake
+            Debug.Log("Triggering camera shake!");
+            impulseSource.GenerateImpulse(10f); // Stronger shake for testing
         }
         else
         {
-            Debug.LogError("ImpulseSource is not assigned!");
+            Debug.LogError("ImpulseSource is NULL! Did you assign it?");
         }
     }
 
