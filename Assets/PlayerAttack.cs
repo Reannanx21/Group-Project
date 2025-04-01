@@ -8,7 +8,7 @@ public class PlayerAttack : MonoBehaviour
     public float radius = 0.5f;
     public LayerMask enemies;
     public float damage = 10f;
-    private bool isAttacking = false;
+    public bool isAttacking = false;
 
     public CinemachineImpulseSource impulseSource;
 

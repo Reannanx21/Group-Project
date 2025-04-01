@@ -717,7 +717,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -156.00012, y: -15.000275}
+  m_AnchoredPosition: {x: -156.00015, y: -15.000275}
   m_SizeDelta: {x: -300, y: -30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &87351694
@@ -2557,11 +2557,11 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.1
-  far clip plane: 5000
-  field of view: 40
+  near clip plane: 0.4
+  far clip plane: 1000
+  field of view: 34
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 32.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2586,7 +2586,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -133.07822, y: -3.4000015, z: -10}
+  m_LocalPosition: {x: -133.10403, y: -3.4000015, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4712,6 +4712,7 @@ MonoBehaviour:
   health: 100
   maxHealth: 100
   healthBar: {fileID: 144665768}
+  isDead: 0
   debugDamageAmount: 20
 --- !u!114 &992821595
 MonoBehaviour:
@@ -4731,6 +4732,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   damage: 10
+  isAttacking: 0
   impulseSource: {fileID: 0}
 --- !u!114 &992821596
 MonoBehaviour:
@@ -4784,7 +4786,7 @@ MonoBehaviour:
     m_DissipationMode: 2
     m_DissipationDistance: 100
     m_PropagationSpeed: 343
-  m_DefaultVelocity: {x: 0, y: -1, z: 0}
+  m_DefaultVelocity: {x: 0.3, y: 0.3, z: 0}
 --- !u!114 &992821597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4797,12 +4799,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab90a0b2c453970458fcdaa463c001cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parryTime: 0.2
-  perfectParryTime: 0.1
-  parryCooldown: 1
-  healAmount: 10
-  parryRadius: 7.44
-  parryIndicator: {fileID: 1649467525}
+  parryWindow: 0.35
+  playerHealth: {fileID: 992821594}
+  playerAttack: {fileID: 992821595}
 --- !u!224 &1038479177 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2780683057190199653, guid: da9aced042b112a48886345a52409a29, type: 3}
@@ -5985,7 +5984,7 @@ Transform:
   m_GameObject: {fileID: 1282505023}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -133.07822, y: -3.4000015, z: -10}
+  m_LocalPosition: {x: -133.10403, y: -3.4000015, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9458,6 +9457,7 @@ MonoBehaviour:
   health: 100
   maxHealth: 100
   healthBar: {fileID: 0}
+  isDead: 0
   debugDamageAmount: 20
 --- !u!4 &2122024713
 Transform:
