@@ -641,7 +641,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 70acdbaafd80fde4fa1e6c3bcac547c7, type: 3}
       propertyPath: m_SortingOrder
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 70acdbaafd80fde4fa1e6c3bcac547c7, type: 3}
       propertyPath: m_LocalScale.x
@@ -7568,6 +7568,14 @@ PrefabInstance:
     - target: {fileID: 6233770136471973098, guid: 6d1a306869f65da4aa160db6f22fd4bb, type: 3}
       propertyPath: m_SortingOrder
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6673576493437632529, guid: 6d1a306869f65da4aa160db6f22fd4bb, type: 3}
+      propertyPath: Priority
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 6673576493437632529, guid: 6d1a306869f65da4aa160db6f22fd4bb, type: 3}
+      propertyPath: m_Volume
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 6970258662256965011, guid: 6d1a306869f65da4aa160db6f22fd4bb, type: 3}
       propertyPath: playerHealth
