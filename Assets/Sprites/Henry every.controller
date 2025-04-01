@@ -263,7 +263,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: AveryParry
-  m_Speed: -1.2
+  m_Speed: -1.4
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -2377396445162268370}
@@ -447,9 +447,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.5588235
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0.007838277
+  m_ExitTime: 0.99813616
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -531,9 +531,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.81060606
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0.004105763
+  m_ExitTime: 0.9908844
   m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
