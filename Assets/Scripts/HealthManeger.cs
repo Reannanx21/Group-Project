@@ -7,7 +7,7 @@ public class PlayerHealth : MonoBehaviour
     public float health = 100f;
     public float maxHealth = 100f;
     public Image healthBar;
-    private bool isDead = false;
+    public bool isDead = false;
     [SerializeField] private float debugDamageAmount = 20.0f;
 
     void Start()
