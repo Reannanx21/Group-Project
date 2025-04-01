@@ -503,7 +503,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 70acdbaafd80fde4fa1e6c3bcac547c7, type: 3}
       propertyPath: m_SortingOrder
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 70acdbaafd80fde4fa1e6c3bcac547c7, type: 3}
       propertyPath: m_LocalScale.x
@@ -4152,7 +4152,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 70acdbaafd80fde4fa1e6c3bcac547c7, type: 3}
       propertyPath: m_SortingOrder
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 70acdbaafd80fde4fa1e6c3bcac547c7, type: 3}
       propertyPath: m_LocalScale.x
@@ -5826,7 +5826,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 70acdbaafd80fde4fa1e6c3bcac547c7, type: 3}
       propertyPath: m_SortingOrder
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 70acdbaafd80fde4fa1e6c3bcac547c7, type: 3}
       propertyPath: m_LocalScale.x
@@ -11908,13 +11908,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.892
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 203
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
