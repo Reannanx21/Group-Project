@@ -951,13 +951,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4938e930ae8894541ae633e23aa683fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicSource: {fileID: 1413590521}
-  SFXSource: {fileID: 1012312852}
-  MainMenu: {fileID: 8300000, guid: 9c2436e902243fc4c96334a9acf881e3, type: 3}
-  Death: {fileID: 0}
-  Walking: {fileID: 0}
-  Canon: {fileID: 8300000, guid: 137b7f6af06414b49a3e68ba54e0c7ac, type: 3}
-  Sword: {fileID: 0}
 --- !u!4 &1048662817
 Transform:
   m_ObjectHideFlags: 0
@@ -1361,8 +1354,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -5442196814484689987, guid: 6c66dbf7281d65c499c216e8f856ab08, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1573,7 +1566,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Back
+  m_Text: 
 --- !u!222 &1363242275
 CanvasRenderer:
   m_ObjectHideFlags: 0
