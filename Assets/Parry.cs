@@ -71,11 +71,5 @@ public class ParrySystem : MonoBehaviour
         parryTimer = 0f;
     }
 
-    private bool canParry
-    {
-        get
-        {
-            return !playerAttack.isAttacking && !playerHealth.isDead;
-        }
-    }
+    private bool canParry => !(playerAttack.isAttacking || playerHealth.isDead);
 }
