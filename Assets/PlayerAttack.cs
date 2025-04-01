@@ -1,6 +1,5 @@
 using Cinemachine;
 using UnityEngine;
-using System.Collections;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -9,92 +8,54 @@ public class PlayerAttack : MonoBehaviour
     public float radius = 0.5f;
     public LayerMask enemies;
     public float damage = 10f;
-    private bool isAttacking = false;
+    public bool isAttacking = false;
 
-    public CinemachineImpulseSource impulseSource;  // Reference to Cinemachine Impulse Source
+    public CinemachineImpulseSource impulseSource;
 
-    // Combine the logic from multiple Start() methods into one
     void Start()
     {
-        anim = GetComponent<Animator>();  // Initialize the animator
-        if (anim == null)
-        {
-            Debug.LogError("Animator is missing on the player!");
-        }
-
-        impulseSource = GetComponent<CinemachineImpulseSource>();  // Get the Impulse Source component
-        if (impulseSource == null)
-        {
-            Debug.LogError("CinemachineImpulseSource is missing!");
-        }
+        anim = GetComponent<Animator>();
+        impulseSource = GetComponent<CinemachineImpulseSource>();
     }
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0) && !isAttacking)
         {
-            StartCoroutine(AttackRoutine());
+            Attack();
         }
     }
 
-    private IEnumerator AttackRoutine()
+    public void Attack()
     {
         isAttacking = true;
         anim.SetTrigger("Attack");
 
-        yield return new WaitForSeconds(0.5f);
-
-        isAttacking = false;
-    }
-
-    // This is called via an Animation Event
-    public void Attack()
-    {
-        Debug.Log("Attack triggered!");
-
-        if (attackPoint == null)
-        {
-            Debug.LogError("AttackPoint is not assigned!");
-            return;
-        }
+        if (attackPoint == null) return;
 
         Collider2D[] enemiesHit = Physics2D.OverlapCircleAll(attackPoint.transform.position, radius, enemies);
-        Debug.Log($"Enemies hit: {enemiesHit.Length}");
 
         foreach (Collider2D enemyCollider in enemiesHit)
         {
-            if (enemyCollider != null)
+            EnemyHealth enemyHealth = enemyCollider.GetComponent<EnemyHealth>();
+            if (enemyHealth != null)
             {
-                EnemyHealth enemyHealth = enemyCollider.GetComponent<EnemyHealth>();
-                if (enemyHealth != null)
-                {
-                    Debug.Log($"Damaging enemy: {enemyCollider.name} for {damage} damage");
-                    enemyHealth.TakeDamage(damage);
-                }
-                else
-                {
-                    Debug.LogWarning($"Enemy {enemyCollider.name} has no EnemyHealth script!");
-                }
+                enemyHealth.TakeDamage(damage);
+            }
 
-                // Apply stun directly to the enemy itself
-                EnemyStun enemyStun = enemyCollider.GetComponent<EnemyStun>();
-                if (enemyStun != null)
-                {
-                    Debug.Log($"Stunning enemy {enemyCollider.name}!");
-                    enemyStun.Stun(2f);
-                }
+            EnemyStun enemyStun = enemyCollider.GetComponent<EnemyStun>();
+            if (enemyStun != null)
+            {
+                enemyStun.Stun(2f);
             }
         }
 
-        // Trigger Cinemachine Impulse
         if (impulseSource != null)
         {
-            impulseSource.GenerateImpulse();  // Trigger the impulse shake
+            impulseSource.GenerateImpulse();
         }
-        else
-        {
-            Debug.LogError("ImpulseSource is not assigned!");
-        }
+
+        isAttacking = false;
     }
 
     private void OnDrawGizmos()

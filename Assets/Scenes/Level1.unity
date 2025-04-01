@@ -3444,7 +3444,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -133.10231, y: -3.4000015, z: -10}
+  m_LocalPosition: {x: -145.8023, y: -3.4000015, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5818,6 +5818,7 @@ GameObject:
   - component: {fileID: 992821593}
   - component: {fileID: 992821594}
   - component: {fileID: 992821595}
+  - component: {fileID: 992821596}
   m_Layer: 0
   m_Name: Henry every
   m_TagString: Player
@@ -5834,7 +5835,7 @@ Transform:
   m_GameObject: {fileID: 992821586}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -156.5, y: -33.9, z: 0}
+  m_LocalPosition: {x: -169.2, y: -33.9, z: 0}
   m_LocalScale: {x: 35, y: 35, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6023,6 +6024,7 @@ MonoBehaviour:
   health: 50
   maxHealth: 100
   healthBar: {fileID: 144665768}
+  isDead: 0
   debugDamageAmount: 20
 --- !u!114 &992821595
 MonoBehaviour:
@@ -6042,7 +6044,23 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   damage: 10
+  isAttacking: 0
   impulseSource: {fileID: 0}
+--- !u!114 &992821596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992821586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4327f270b818694785eccfa29c8fe8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parryWindow: 0.2
+  playerHealth: {fileID: 2122024712}
+  playerAttack: {fileID: 992821595}
 --- !u!224 &1038479177 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2780683057190199653, guid: da9aced042b112a48886345a52409a29, type: 3}
@@ -7598,7 +7616,7 @@ Transform:
   m_GameObject: {fileID: 1282505023}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -133.10231, y: -3.4000015, z: -10}
+  m_LocalPosition: {x: -145.8023, y: -3.4000015, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12735,6 +12753,7 @@ MonoBehaviour:
   health: 100
   maxHealth: 100
   healthBar: {fileID: 0}
+  isDead: 0
   debugDamageAmount: 20
 --- !u!4 &2122024713
 Transform:
