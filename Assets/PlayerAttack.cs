@@ -32,6 +32,8 @@ public class PlayerAttack : MonoBehaviour
 
         anim.SetTrigger("Attack");
 
+        bool enemyHit = false; // Track if an enemy was hit
+
         if (attackPoint != null)
         {
             Collider2D[] enemiesHit = Physics2D.OverlapCircleAll(attackPoint.transform.position, radius, enemies);
@@ -42,17 +44,20 @@ public class PlayerAttack : MonoBehaviour
                 if (enemyHealth != null)
                 {
                     enemyHealth.TakeDamage(damage);
+                    enemyHit = true;
                 }
 
                 EnemyStun enemyStun = enemyCollider.GetComponent<EnemyStun>();
                 if (enemyStun != null)
                 {
                     enemyStun.Stun(2f);
+                    enemyHit = true;
                 }
             }
         }
 
-        if (impulseSource != null)
+        // Shake camera only if an enemy was hit
+        if (enemyHit && impulseSource != null)
         {
             impulseSource.GenerateImpulse();
         }
