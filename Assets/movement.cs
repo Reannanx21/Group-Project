@@ -43,10 +43,9 @@ public class PlayerMovement : MonoBehaviour
 
         isGrounded = IsGrounded();
 
-        // Debugging: Check if grounded
-        Debug.Log("Is Grounded: " + isGrounded);
+        
 
-        // Handle footstep sound
+        
         if (Mathf.Abs(Move) > 0.01f && isGrounded)
         {
             if (!footstepAudio.isPlaying)
