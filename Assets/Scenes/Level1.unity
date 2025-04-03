@@ -2827,7 +2827,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.011, y: 0.417, z: 0}
-  m_LocalScale: {x: 0.13571, y: 0.12225, z: 1}
+  m_LocalScale: {x: 0.2318334, y: 0.21903533, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 992821587}
@@ -5941,13 +5941,13 @@ GameObject:
   - component: {fileID: 992821592}
   - component: {fileID: 992821591}
   - component: {fileID: 992821590}
-  - component: {fileID: 992821589}
   - component: {fileID: 992821588}
   - component: {fileID: 992821593}
   - component: {fileID: 992821594}
   - component: {fileID: 992821595}
   - component: {fileID: 992821596}
   - component: {fileID: 992821597}
+  - component: {fileID: 992821598}
   m_Layer: 0
   m_Name: Henry every
   m_TagString: Player
@@ -5991,18 +5991,6 @@ MonoBehaviour:
     m_Bits: 8
   boxSize: {x: 9.22, y: 2.52}
   castDistance: -4.79
---- !u!114 &992821589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 992821586}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b72921af88e02745a61056abd588c52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &992821590
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -6172,9 +6160,9 @@ MonoBehaviour:
   enemies:
     serializedVersion: 2
     m_Bits: 256
-  damage: 10
+  damage: 20
   isAttacking: 0
-  impulseSource: {fileID: 0}
+  impulseSource: {fileID: 992821598}
 --- !u!114 &992821596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6286,6 +6274,59 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &992821598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992821586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ImpulseDefinition:
+    m_ImpulseChannel: 1
+    m_ImpulseShape: 2
+    m_CustomImpulseShape:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ImpulseDuration: 0.2
+    m_ImpulseType: 0
+    m_DissipationRate: 0.25
+    m_RawSignal: {fileID: 0}
+    m_AmplitudeGain: 1
+    m_FrequencyGain: 1
+    m_RepeatMode: 0
+    m_Randomize: 1
+    m_TimeEnvelope:
+      m_AttackShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_DecayShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_AttackTime: 0
+      m_SustainTime: 0.2
+      m_DecayTime: 0.7
+      m_ScaleWithImpact: 1
+      m_HoldForever: 0
+    m_ImpactRadius: 100
+    m_DirectionMode: 0
+    m_DissipationMode: 2
+    m_DissipationDistance: 100
+    m_PropagationSpeed: 343
+  m_DefaultVelocity: {x: 0, y: -1, z: 0}
 --- !u!1 &1033733856
 GameObject:
   m_ObjectHideFlags: 0
@@ -8262,6 +8303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1752898715}
+  musicSource2: {fileID: 0}
   SFXSource1: {fileID: 1271150847}
   SFXSource2: {fileID: 98080261}
   SFXSource3: {fileID: 1033733857}
@@ -8272,6 +8314,7 @@ MonoBehaviour:
   Cannon: {fileID: 8300000, guid: 9f362eb794979dd4eabb443b8c7cdc98, type: 3}
   Waves: {fileID: 8300000, guid: de1f9c09e6b97ba49a4970fb1c66e329, type: 3}
   Bell: {fileID: 8300000, guid: b34df22314776c745bd26b080ba1fc36, type: 3}
+  Controls: {fileID: 0}
 --- !u!4 &1366215828
 Transform:
   m_ObjectHideFlags: 0
@@ -9441,6 +9484,7 @@ GameObject:
   - component: {fileID: 1575174323}
   - component: {fileID: 1575174322}
   - component: {fileID: 1575174325}
+  - component: {fileID: 1575174326}
   m_Layer: 8
   m_Name: barrelbroken_Frame_0
   m_TagString: Untagged
@@ -9530,8 +9574,8 @@ Transform:
   m_GameObject: {fileID: 1575174320}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -37.2, y: -38.1, z: 0}
-  m_LocalScale: {x: 25, y: 25, z: 1}
+  m_LocalPosition: {x: -37.2, y: -40.71, z: 0}
+  m_LocalScale: {x: 27, y: 27, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -9565,7 +9609,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.000000029802322, y: 0.485}
@@ -9581,6 +9625,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.54, y: 0.61}
   m_EdgeRadius: 0
+--- !u!114 &1575174326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575174320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44cc4519a86c7d54596c6072e4b6f1cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 20
 --- !u!1001 &1580287848
 PrefabInstance:
   m_ObjectHideFlags: 0
