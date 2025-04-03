@@ -9553,7 +9553,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 8
   m_Sprite: {fileID: 7266717146454152237, guid: b37326cb0c54cec4ba8e224aacb0d400, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9574,7 +9574,7 @@ Transform:
   m_GameObject: {fileID: 1575174320}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -37.2, y: -40.71, z: 0}
+  m_LocalPosition: {x: -38.6, y: -38.6, z: 0}
   m_LocalScale: {x: 27, y: 27, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9609,7 +9609,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.000000029802322, y: 0.485}
