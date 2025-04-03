@@ -1,5 +1,5 @@
-using Cinemachine;
 using UnityEngine;
+using Cinemachine;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -26,35 +26,45 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
-    public void Attack()
+    private void Attack()
     {
-        isAttacking = true;
+        isAttacking = true; // Prevent queuing attacks
+
         anim.SetTrigger("Attack");
 
-        if (attackPoint == null) return;
+        bool enemyHit = false; // Track if an enemy was hit
 
-        Collider2D[] enemiesHit = Physics2D.OverlapCircleAll(attackPoint.transform.position, radius, enemies);
-
-        foreach (Collider2D enemyCollider in enemiesHit)
+        if (attackPoint != null)
         {
-            EnemyHealth enemyHealth = enemyCollider.GetComponent<EnemyHealth>();
-            if (enemyHealth != null)
-            {
-                enemyHealth.TakeDamage(damage);
-            }
+            Collider2D[] enemiesHit = Physics2D.OverlapCircleAll(attackPoint.transform.position, radius, enemies);
 
-            EnemyStun enemyStun = enemyCollider.GetComponent<EnemyStun>();
-            if (enemyStun != null)
+            foreach (Collider2D enemyCollider in enemiesHit)
             {
-                enemyStun.Stun(2f);
+                EnemyHealth enemyHealth = enemyCollider.GetComponent<EnemyHealth>();
+                if (enemyHealth != null)
+                {
+                    enemyHealth.TakeDamage(damage);
+                    enemyHit = true;
+                }
+
+                EnemyStun enemyStun = enemyCollider.GetComponent<EnemyStun>();
+                if (enemyStun != null)
+                {
+                    enemyStun.Stun(2f);
+                    enemyHit = true;
+                }
             }
         }
 
-        if (impulseSource != null)
+        // Shake camera only if an enemy was hit
+        if (enemyHit && impulseSource != null)
         {
             impulseSource.GenerateImpulse();
         }
+    }
 
+    public void ResetAttack() // Call this from animation
+    {
         isAttacking = false;
     }
 
