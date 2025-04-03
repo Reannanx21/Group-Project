@@ -1278,6 +1278,10 @@ PrefabInstance:
       value: BG (1)
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 81a0d8190a37bfc4485864265b8530a1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1204687681558701706, guid: 3a84d681ce130f343908afbb619a8ff8, type: 3}
+    - target: {fileID: 3626916397498700004, guid: 81a0d8190a37bfc4485864265b8530a1, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -2405,6 +2409,10 @@ PrefabInstance:
       value: BG (3)
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 81a0d8190a37bfc4485864265b8530a1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1204687681558701706, guid: 3a84d681ce130f343908afbb619a8ff8, type: 3}
+    - target: {fileID: 3626916397498700004, guid: 81a0d8190a37bfc4485864265b8530a1, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -3314,6 +3322,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BG
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 81a0d8190a37bfc4485864265b8530a1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1204687681558701706, guid: 3a84d681ce130f343908afbb619a8ff8, type: 3}
     - target: {fileID: 3626916397498700004, guid: 81a0d8190a37bfc4485864265b8530a1, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -5820,6 +5832,10 @@ PrefabInstance:
       value: BG (2)
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 81a0d8190a37bfc4485864265b8530a1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1204687681558701706, guid: 3a84d681ce130f343908afbb619a8ff8, type: 3}
+    - target: {fileID: 3626916397498700004, guid: 81a0d8190a37bfc4485864265b8530a1, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -5965,6 +5981,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BG (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 81a0d8190a37bfc4485864265b8530a1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1204687681558701706, guid: 3a84d681ce130f343908afbb619a8ff8, type: 3}
     - target: {fileID: 3626916397498700004, guid: 81a0d8190a37bfc4485864265b8530a1, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -6950,6 +6970,10 @@ PrefabInstance:
       value: BG (5)
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 81a0d8190a37bfc4485864265b8530a1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1204687681558701706, guid: 3a84d681ce130f343908afbb619a8ff8, type: 3}
+    - target: {fileID: 3626916397498700004, guid: 81a0d8190a37bfc4485864265b8530a1, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -7631,6 +7655,10 @@ PrefabInstance:
       value: BG (6)
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 81a0d8190a37bfc4485864265b8530a1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1204687681558701706, guid: 3a84d681ce130f343908afbb619a8ff8, type: 3}
+    - target: {fileID: 3626916397498700004, guid: 81a0d8190a37bfc4485864265b8530a1, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -8294,6 +8322,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BG (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 81a0d8190a37bfc4485864265b8530a1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1204687681558701706, guid: 3a84d681ce130f343908afbb619a8ff8, type: 3}
     - target: {fileID: 3626916397498700004, guid: 81a0d8190a37bfc4485864265b8530a1, type: 3}
       propertyPath: m_SortingOrder
       value: 1
