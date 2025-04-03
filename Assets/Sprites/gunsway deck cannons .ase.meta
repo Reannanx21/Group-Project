@@ -1,0 +1,3648 @@
+fileFormatVersion: 2
+guid: a6dfc8aa284f1bb49887f8d1acd0eac3
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: gunsway deck cannons _Frame_0
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 587
+      y: 1200
+      width: 85
+      height: 113
+    spriteID: 435e1b9ddb8450044b84591e02af9f4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 587, y: 1200}
+  - name: gunsway deck cannons _Frame_1
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 587
+      y: 1321
+      width: 85
+      height: 113
+    spriteID: 07448efdb0f374b419fcff715c0414fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 587, y: 1321}
+  - name: gunsway deck cannons _Frame_2
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 587
+      y: 1442
+      width: 85
+      height: 113
+    spriteID: 3f39528bf8f3554428c0779f9891aa05
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 587, y: 1442}
+  - name: gunsway deck cannons _Frame_3
+    originalName: 
+    pivot: {x: 1.752941, y: -2.1654134}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 587
+      y: 1059
+      width: 85
+      height: 133
+    spriteID: 605fc3ce50520ae458e6eb7cf4e00f17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 587, y: 1059}
+  - name: gunsway deck cannons _Frame_4
+    originalName: 
+    pivot: {x: 1.752941, y: -1.9861113}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 587
+      y: 907
+      width: 85
+      height: 144
+    spriteID: ddae7070c2aad074f83c65bd85161c90
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 587, y: 907}
+  - name: gunsway deck cannons _Frame_5
+    originalName: 
+    pivot: {x: 1.752941, y: -1.9391892}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 587
+      y: 751
+      width: 85
+      height: 148
+    spriteID: 8f2f87f96b1579240b5f3660c93b19ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 587, y: 751}
+  - name: gunsway deck cannons _Frame_6
+    originalName: 
+    pivot: {x: 1.5, y: -1.79375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 744
+      y: 1021
+      width: 102
+      height: 160
+    spriteID: fc894fa1f703376488d1b65f110f3d66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 744, y: 1021}
+  - name: gunsway deck cannons _Frame_7
+    originalName: 
+    pivot: {x: 1.2330828, y: -1.5537635}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 587
+      y: 194
+      width: 133
+      height: 186
+    spriteID: 04a2c5a41b86dc5488440201aa7f0c71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 587, y: 194}
+  - name: gunsway deck cannons _Frame_8
+    originalName: 
+    pivot: {x: 1.1888112, y: -1.459596}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 1803
+      width: 143
+      height: 198
+    spriteID: 3075e50fe01c58540945e75bc8684f45
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 1803}
+  - name: gunsway deck cannons _Frame_9
+    originalName: 
+    pivot: {x: 1.1419355, y: -1.4820514}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 359
+      width: 155
+      height: 195
+    spriteID: 2789757751b6f0243a601e56873a7533
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 359}
+  - name: gunsway deck cannons _Frame_10
+    originalName: 
+    pivot: {x: 1.0958084, y: -1.4236454}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 826
+      width: 167
+      height: 203
+    spriteID: 58352edd4496bda4f8ecb4411111a5c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 826}
+  - name: gunsway deck cannons _Frame_11
+    originalName: 
+    pivot: {x: 1.1024096, y: -1.437811}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1236
+      width: 166
+      height: 201
+    spriteID: a78c3f49b4a1c3a419de84d658c493d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1236}
+  - name: gunsway deck cannons _Frame_12
+    originalName: 
+    pivot: {x: 1.0595238, y: -1.5210526}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1852
+      width: 168
+      height: 190
+    spriteID: 7b1ccc0b020bc224baf32747f0a32e6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1852}
+  - name: gunsway deck cannons _Frame_13
+    originalName: 
+    pivot: {x: 1.1352941, y: -1.4974095}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1651
+      width: 170
+      height: 193
+    spriteID: b2a5770d70dfb6e4c81d9ece65a35be8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1651}
+  - name: gunsway deck cannons _Frame_14
+    originalName: 
+    pivot: {x: 1.172043, y: -1.445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 210
+      width: 186
+      height: 200
+    spriteID: fbc1512ee7590574ba01f401cbf73fa6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 210}
+  - name: gunsway deck cannons _Frame_15
+    originalName: 
+    pivot: {x: 1.2738096, y: -1.459596}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1445
+      width: 168
+      height: 198
+    spriteID: 72c6797df30332e41a5cf30d136b2ad8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1445}
+  - name: gunsway deck cannons _Frame_16
+    originalName: 
+    pivot: {x: 1.2275132, y: -1.459596}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 189
+      height: 198
+    spriteID: 065cb7b48c05385419d4a7b68b8c6cf6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: gunsway deck cannons _Frame_17
+    originalName: 
+    pivot: {x: 1.2727273, y: -1.4896908}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 624
+      width: 176
+      height: 194
+    spriteID: b26b898fbbba7744586de2adef234694
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 624}
+  - name: gunsway deck cannons _Frame_18
+    originalName: 
+    pivot: {x: 1.3678162, y: -1.459596}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 418
+      width: 174
+      height: 198
+    spriteID: 0bffaca7df8c35749aee7c8a229c3443
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 418}
+  - name: gunsway deck cannons _Frame_19
+    originalName: 
+    pivot: {x: 1.3636363, y: -1.513089}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1037
+      width: 176
+      height: 191
+    spriteID: 5ff278c590eedc04899ca3f698b4460b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1037}
+  - name: gunsway deck cannons _Frame_20
+    originalName: 
+    pivot: {x: 1.3902439, y: -1.6235956}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 925
+      width: 164
+      height: 178
+    spriteID: 48e39007132bd1c4abf4b43cc6af95fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 925}
+  - name: gunsway deck cannons _Frame_21
+    originalName: 
+    pivot: {x: 1.4129032, y: -1.5879121}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 500
+      width: 155
+      height: 182
+    spriteID: f8bcf0ab63c490f438c6e0e1bfc58968
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 500}
+  - name: gunsway deck cannons _Frame_22
+    originalName: 
+    pivot: {x: 1.4295303, y: -1.5879121}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 587
+      y: 4
+      width: 149
+      height: 182
+    spriteID: 094118f7851e31d4388b635fb9be439e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 587, y: 4}
+  - name: gunsway deck cannons _Frame_23
+    originalName: 
+    pivot: {x: 1.4025158, y: -1.6900586}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 1829
+      width: 159
+      height: 171
+    spriteID: f2cef27004d02ce4480ab8e047b7b757
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 1829}
+  - name: gunsway deck cannons _Frame_24
+    originalName: 
+    pivot: {x: 1.374269, y: -1.6420454}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 562
+      width: 171
+      height: 176
+    spriteID: ad102dfad31a3414f9262a658685fe6f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 562}
+  - name: gunsway deck cannons _Frame_25
+    originalName: 
+    pivot: {x: 1.3809524, y: -1.7100592}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 1626
+      width: 168
+      height: 169
+    spriteID: 804351b48dc82c44586db186dd215a21
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 1626}
+  - name: gunsway deck cannons _Frame_26
+    originalName: 
+    pivot: {x: 1.3678162, y: -1.6609197}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 177
+      width: 174
+      height: 174
+    spriteID: 5f012108a9199fa48a3a0a7db5307082
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 177}
+  - name: gunsway deck cannons _Frame_27
+    originalName: 
+    pivot: {x: 1.3764706, y: -1.7621951}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 690
+      width: 170
+      height: 164
+    spriteID: 5472b08c3aae58047b2a6d7e14980fb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 690}
+  - name: gunsway deck cannons _Frame_28
+    originalName: 
+    pivot: {x: 1.374269, y: -1.7202382}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 1450
+      width: 171
+      height: 168
+    spriteID: b487a705914ad1647ae9903daa425594
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 1450}
+  - name: gunsway deck cannons _Frame_29
+    originalName: 
+    pivot: {x: 1.3786981, y: -1.7730061}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 1336
+      width: 169
+      height: 163
+    spriteID: b86a8b4b6fb28604796f884e6a338df3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 1336}
+  - name: gunsway deck cannons _Frame_30
+    originalName: 
+    pivot: {x: 1.3832335, y: -1.7839507}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 744
+      y: 4
+      width: 167
+      height: 162
+    spriteID: 1125477f63a9fe34e8416f168440fdbb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 744, y: 4}
+  - name: gunsway deck cannons _Frame_31
+    originalName: 
+    pivot: {x: 1.3595506, y: -1.7730061}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 1279
+      width: 178
+      height: 163
+    spriteID: dcc8233414c76494c960cc3c4b6b636f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 1279}
+  - name: gunsway deck cannons _Frame_32
+    originalName: 
+    pivot: {x: 1.3636363, y: -1.6900586}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 746
+      width: 176
+      height: 171
+    spriteID: 54f83a38602ef994281fbbbce798fe2c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 746}
+  - name: gunsway deck cannons _Frame_33
+    originalName: 
+    pivot: {x: 1.3516483, y: -1.80625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 1111
+      width: 182
+      height: 160
+    spriteID: 056588b4ce7d1aa4ea1b72fba29d6b8d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 1111}
+  - name: gunsway deck cannons _Frame_34
+    originalName: 
+    pivot: {x: 1.347826, y: -1.7515152}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 201
+      y: 4
+      width: 184
+      height: 165
+    spriteID: 70bf1b228c1d0764a8bd69692f1b5228
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 201, y: 4}
+  - name: gunsway deck cannons _Frame_35
+    originalName: 
+    pivot: {x: 1.3497268, y: -1.9139073}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 1019
+      width: 183
+      height: 151
+    spriteID: 372af1df8bbf6c240a87009969cd891a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 1019}
+  - name: gunsway deck cannons _Frame_36
+    originalName: 
+    pivot: {x: 1.345946, y: -1.8645161}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 174
+      width: 185
+      height: 155
+    spriteID: 1f4a726e3e3540846943475fd56f70da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 174}
+  - name: gunsway deck cannons _Frame_37
+    originalName: 
+    pivot: {x: 1.344086, y: -1.7839507}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 4
+      width: 186
+      height: 162
+    spriteID: 915583fff69d8ff41a01ea8115e52e29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 4}
+  - name: gunsway deck cannons _Frame_38
+    originalName: 
+    pivot: {x: 1.345946, y: -1.8645161}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 337
+      width: 185
+      height: 155
+    spriteID: 43b2e5023fffeca4b9d1653c78722270
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 337}
+  - name: gunsway deck cannons _Frame_39
+    originalName: 
+    pivot: {x: 1.344086, y: -1.9395974}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 862
+      width: 186
+      height: 149
+    spriteID: d47dce60394b4de498f6cdf90bb52129
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 862}
+  - name: gunsway deck cannons _Frame_40
+    originalName: 
+    pivot: {x: 1.3555555, y: -1.9527028}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 919
+      y: 4
+      width: 180
+      height: 148
+    spriteID: 9f53664c0b385b64f8166ee7698e57d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 919, y: 4}
+  - name: gunsway deck cannons _Frame_41
+    originalName: 
+    pivot: {x: 1.3555555, y: -1.888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 1507
+      width: 180
+      height: 153
+    spriteID: 8bafe1edc43991b4595e5e171c97de3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 1507}
+  - name: gunsway deck cannons _Frame_42
+    originalName: 
+    pivot: {x: 1.3555555, y: -1.888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 1668
+      width: 180
+      height: 153
+    spriteID: cfc80a11b61c23d4aa9ab6bd01e50302
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 1668}
+  - name: gunsway deck cannons _Frame_43
+    originalName: 
+    pivot: {x: 1.347826, y: -1.9266666}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 1178
+      width: 184
+      height: 150
+    spriteID: 3ad5d8563d20dc94092bd428dc67876f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 1178}
+  - name: gunsway deck cannons _Frame_44
+    originalName: 
+    pivot: {x: 1.3657143, y: -2.1094892}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 919
+      y: 302
+      width: 175
+      height: 137
+    spriteID: 39524b92f0250074e98c712a1147608e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 919, y: 302}
+  - name: gunsway deck cannons _Frame_45
+    originalName: 
+    pivot: {x: 1.3575419, y: -2.1567163}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 919
+      y: 160
+      width: 179
+      height: 134
+    spriteID: 51134b0bf7130144c9bf87eca2d6897b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 919, y: 160}
+  - name: gunsway deck cannons _Frame_46
+    originalName: 
+    pivot: {x: 1.3678162, y: -2.2936509}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 919
+      y: 873
+      width: 174
+      height: 126
+    spriteID: 44f9e423678172a46b2611b841c2762d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 919, y: 873}
+  - name: gunsway deck cannons _Frame_47
+    originalName: 
+    pivot: {x: 1.3615818, y: -2.1407406}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 919
+      y: 447
+      width: 177
+      height: 135
+    spriteID: 2c1b37e051075b24e9500d23763ca61c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 919, y: 447}
+  - name: gunsway deck cannons _Frame_48
+    originalName: 
+    pivot: {x: 1.3636363, y: -2.206107}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 919
+      y: 734
+      width: 176
+      height: 131
+    spriteID: 0b41dc99cb4a87e46aad2c1d1531b44b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 919, y: 734}
+  - name: gunsway deck cannons _Frame_49
+    originalName: 
+    pivot: {x: 1.3678162, y: -2.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 919
+      y: 590
+      width: 174
+      height: 136
+    spriteID: c6214597c96cec043bd10a5161ee083c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 919, y: 590}
+  - name: gunsway deck cannons _Frame_50
+    originalName: 
+    pivot: {x: 1.3832335, y: -2.3688524}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 919
+      y: 1139
+      width: 167
+      height: 122
+    spriteID: 29545fb930f3d2847a4665632c90e170
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 919, y: 1139}
+  - name: gunsway deck cannons _Frame_51
+    originalName: 
+    pivot: {x: 1.374269, y: -2.330645}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 919
+      y: 1007
+      width: 171
+      height: 124
+    spriteID: da2798bdf8ebcd743bac4307b6b604d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 919, y: 1007}
+  - name: gunsway deck cannons _Frame_52
+    originalName: 
+    pivot: {x: 1.3902439, y: -2.330645}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 919
+      y: 1269
+      width: 164
+      height: 124
+    spriteID: 829db10e4f72b4947bd2cc6cf76348be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 919, y: 1269}
+  - name: gunsway deck cannons _Frame_53
+    originalName: 
+    pivot: {x: 1.392638, y: -2.4285715}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 919
+      y: 1401
+      width: 163
+      height: 119
+    spriteID: ce12b07826580bd44bdc6f438311f448
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 919, y: 1401}
+  - name: gunsway deck cannons _Frame_54
+    originalName: 
+    pivot: {x: 1.3950617, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 919
+      y: 1528
+      width: 162
+      height: 113
+    spriteID: 8c5c19b7e3ce53241b4793245743fdfb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 919, y: 1528}
+  - name: gunsway deck cannons _Frame_55
+    originalName: 
+    pivot: {x: 1.4155843, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 919
+      y: 1770
+      width: 154
+      height: 113
+    spriteID: d55ca7fec13eb6f4bad532e422b8b871
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 919, y: 1770}
+  - name: gunsway deck cannons _Frame_56
+    originalName: 
+    pivot: {x: 1.4102564, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 919
+      y: 1649
+      width: 156
+      height: 113
+    spriteID: ba5ded907b8bda04e92bd40c83840a03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 919, y: 1649}
+  - name: gunsway deck cannons _Frame_57
+    originalName: 
+    pivot: {x: 1.4183007, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 919
+      y: 1891
+      width: 153
+      height: 113
+    spriteID: 183e590018f7cb14e8d79dcdefdde474
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 919, y: 1891}
+  - name: gunsway deck cannons _Frame_58
+    originalName: 
+    pivot: {x: 1.4210526, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 744
+      y: 295
+      width: 152
+      height: 113
+    spriteID: 4b9a56a524aba174da8aa9f3de71a1d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 744, y: 295}
+  - name: gunsway deck cannons _Frame_59
+    originalName: 
+    pivot: {x: 1.4238411, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 744
+      y: 416
+      width: 151
+      height: 113
+    spriteID: f671448345311b847accc43712ecf4cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 744, y: 416}
+  - name: gunsway deck cannons _Frame_60
+    originalName: 
+    pivot: {x: 1.4266666, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 744
+      y: 537
+      width: 150
+      height: 113
+    spriteID: 831e8cd2f509b9b42b3abb4d54e00c93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 744, y: 537}
+  - name: gunsway deck cannons _Frame_61
+    originalName: 
+    pivot: {x: 1.4266666, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 744
+      y: 658
+      width: 150
+      height: 113
+    spriteID: ab97f3b577c791045a8bdf14b881a60b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 744, y: 658}
+  - name: gunsway deck cannons _Frame_62
+    originalName: 
+    pivot: {x: 1.4413792, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 744
+      y: 779
+      width: 145
+      height: 113
+    spriteID: dd8fc47bc60953a459e09de70ee59857
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 744, y: 779}
+  - name: gunsway deck cannons _Frame_63
+    originalName: 
+    pivot: {x: 1.4183007, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 744
+      y: 174
+      width: 153
+      height: 113
+    spriteID: c1cc8ad9d584e5a4e83308e567bf5c9f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 744, y: 174}
+  - name: gunsway deck cannons _Frame_64
+    originalName: 
+    pivot: {x: 1.4413792, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 744
+      y: 900
+      width: 145
+      height: 113
+    spriteID: 0f6cc889c51153844a56e0ff0aff8ecc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 744, y: 900}
+  - name: gunsway deck cannons _Frame_65
+    originalName: 
+    pivot: {x: 1.4539007, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 744
+      y: 1189
+      width: 141
+      height: 113
+    spriteID: 2c9ea37cd4b2bac4289f2e122fbb0e27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 744, y: 1189}
+  - name: gunsway deck cannons _Frame_66
+    originalName: 
+    pivot: {x: 1.4604317, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 744
+      y: 1310
+      width: 139
+      height: 113
+    spriteID: 66a122723f38a1e44989aae7b98fabad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 744, y: 1310}
+  - name: gunsway deck cannons _Frame_67
+    originalName: 
+    pivot: {x: 1.481203, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 744
+      y: 1431
+      width: 133
+      height: 113
+    spriteID: ef4f04ba6d851a446b8dc4c323318d35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 744, y: 1431}
+  - name: gunsway deck cannons _Frame_68
+    originalName: 
+    pivot: {x: 1.4923077, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 744
+      y: 1673
+      width: 130
+      height: 113
+    spriteID: 10b63c9183589f4409567da72656084d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 744, y: 1673}
+  - name: gunsway deck cannons _Frame_69
+    originalName: 
+    pivot: {x: 1.4885496, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 744
+      y: 1552
+      width: 131
+      height: 113
+    spriteID: dfd2950ce30b9814f965c3a37427d88c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 744, y: 1552}
+  - name: gunsway deck cannons _Frame_70
+    originalName: 
+    pivot: {x: 1.496124, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 744
+      y: 1915
+      width: 129
+      height: 113
+    spriteID: 1fcfde32d2abf864c9eefe6a6703859d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 744, y: 1915}
+  - name: gunsway deck cannons _Frame_71
+    originalName: 
+    pivot: {x: 1.4923077, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 744
+      y: 1794
+      width: 130
+      height: 113
+    spriteID: 52133543a77d5e4429d8a827dd7bc02e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 744, y: 1794}
+  - name: gunsway deck cannons _Frame_72
+    originalName: 
+    pivot: {x: 1.5, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 587
+      y: 388
+      width: 128
+      height: 113
+    spriteID: e104e3ba79fddbf40ad8b65b61431375
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 587, y: 388}
+  - name: gunsway deck cannons _Frame_73
+    originalName: 
+    pivot: {x: 1.5079365, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 587
+      y: 509
+      width: 126
+      height: 113
+    spriteID: a7adfd18a84b0d246848afdc69a088d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 587, y: 509}
+  - name: gunsway deck cannons _Frame_74
+    originalName: 
+    pivot: {x: 1.512, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 587
+      y: 630
+      width: 125
+      height: 113
+    spriteID: 9c96c3452f32ac94689be71dcafec540
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 587, y: 630}
+  - name: gunsway deck cannons _Frame_75
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 587
+      y: 1563
+      width: 85
+      height: 113
+    spriteID: 94346fa4cb0a2704e92b3f6d62031a36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 587, y: 1563}
+  - name: gunsway deck cannons _Frame_76
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 587
+      y: 1684
+      width: 85
+      height: 113
+    spriteID: 72f25d4519903924c93cfe3d7a6df42a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 587, y: 1684}
+  - name: gunsway deck cannons _Frame_77
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 587
+      y: 1805
+      width: 85
+      height: 113
+    spriteID: 8b20f56d02aeeb94aa1b374c23cdafce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 587, y: 1805}
+  - name: gunsway deck cannons _Frame_78
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 587
+      y: 1926
+      width: 85
+      height: 113
+    spriteID: ea0dcbefe3e89c34e83f4736022a8208
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 587, y: 1926}
+  - name: gunsway deck cannons _Frame_79
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1107
+      y: 4
+      width: 85
+      height: 113
+    spriteID: 84a00580a89d52f45887f7d7bb2b21c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1107, y: 4}
+  - name: gunsway deck cannons _Frame_80
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1107
+      y: 125
+      width: 85
+      height: 113
+    spriteID: 733148969645430438827b30dc4ab637
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1107, y: 125}
+  - name: gunsway deck cannons _Frame_81
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1107
+      y: 246
+      width: 85
+      height: 113
+    spriteID: 24a0cbc3d3ef661488049ddfa5e22db4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1107, y: 246}
+  - name: gunsway deck cannons _Frame_82
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1107
+      y: 367
+      width: 85
+      height: 113
+    spriteID: 6463549a05fed9f4fbac5dedcf2d707b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1107, y: 367}
+  - name: gunsway deck cannons _Frame_83
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1107
+      y: 488
+      width: 85
+      height: 113
+    spriteID: 5e8c6d2a51209ba4ea6095ea5ab5b8bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1107, y: 488}
+  - name: gunsway deck cannons _Frame_84
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1107
+      y: 609
+      width: 85
+      height: 113
+    spriteID: 2190207e47ba36045b7421c0e0a54f6d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1107, y: 609}
+  - name: gunsway deck cannons _Frame_85
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1107
+      y: 730
+      width: 85
+      height: 113
+    spriteID: 157f2174fa2a03b48b05c90b5fc9cde3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1107, y: 730}
+  - name: gunsway deck cannons _Frame_86
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1107
+      y: 851
+      width: 85
+      height: 113
+    spriteID: 474067f712a871c4892629dbf9f17154
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1107, y: 851}
+  - name: gunsway deck cannons _Frame_87
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1107
+      y: 972
+      width: 85
+      height: 113
+    spriteID: 663e801c2ee98fb43a4e48f907314cec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1107, y: 972}
+  - name: gunsway deck cannons _Frame_88
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1107
+      y: 1093
+      width: 85
+      height: 113
+    spriteID: 53636797586a86a4a8faba16d37f61ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1107, y: 1093}
+  - name: gunsway deck cannons _Frame_89
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1107
+      y: 1214
+      width: 85
+      height: 113
+    spriteID: d127e9ef99aba7c4c8eb2e174d4baff0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1107, y: 1214}
+  - name: gunsway deck cannons _Frame_90
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1107
+      y: 1335
+      width: 85
+      height: 113
+    spriteID: 124bb6c2909cd774ebb98c64390cfde5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1107, y: 1335}
+  - name: gunsway deck cannons _Frame_91
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1107
+      y: 1456
+      width: 85
+      height: 113
+    spriteID: f0845ad31617cba48b2938f46ee80556
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1107, y: 1456}
+  - name: gunsway deck cannons _Frame_92
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1107
+      y: 1577
+      width: 85
+      height: 113
+    spriteID: 66cd2cb08c8a56848bc83e16304498b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1107, y: 1577}
+  - name: gunsway deck cannons _Frame_93
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1107
+      y: 1698
+      width: 85
+      height: 113
+    spriteID: d31ab43ec37571143acbb2f0edcb40e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1107, y: 1698}
+  - name: gunsway deck cannons _Frame_94
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1107
+      y: 1819
+      width: 85
+      height: 113
+    spriteID: 91f0a91f765064a4188384d713a39be3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1107, y: 1819}
+  - name: gunsway deck cannons _Frame_95
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1200
+      y: 4
+      width: 85
+      height: 113
+    spriteID: d7570b758b6dd8a47bb7413bb7c9602a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1200, y: 4}
+  - name: gunsway deck cannons _Frame_96
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1200
+      y: 125
+      width: 85
+      height: 113
+    spriteID: 436fa6a7f620b0b40a645d412c5bf161
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1200, y: 125}
+  - name: gunsway deck cannons _Frame_97
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1200
+      y: 246
+      width: 85
+      height: 113
+    spriteID: a1d859af570c26e4abfbdba5bf86cdb2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1200, y: 246}
+  - name: gunsway deck cannons _Frame_98
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1200
+      y: 367
+      width: 85
+      height: 113
+    spriteID: 515bc9833aa65244b9703440ca996eb9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1200, y: 367}
+  - name: gunsway deck cannons _Frame_99
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1200
+      y: 488
+      width: 85
+      height: 113
+    spriteID: bfc1731cd82be9942b54d7aa583b0d4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1200, y: 488}
+  - name: gunsway deck cannons _Frame_100
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1200
+      y: 609
+      width: 85
+      height: 113
+    spriteID: e941fa10f72e83d4883df69ae37d6d30
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1200, y: 609}
+  - name: gunsway deck cannons _Frame_101
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1200
+      y: 730
+      width: 85
+      height: 113
+    spriteID: 18c28d5bf28b36c4ca4558c3f5d83d80
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1200, y: 730}
+  - name: gunsway deck cannons _Frame_102
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1200
+      y: 851
+      width: 85
+      height: 113
+    spriteID: 1576383689cbe58419affa1cb9245bf8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1200, y: 851}
+  - name: gunsway deck cannons _Frame_103
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1200
+      y: 972
+      width: 85
+      height: 113
+    spriteID: d9e0b9675731a1e438cfa0f572fa218d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1200, y: 972}
+  - name: gunsway deck cannons _Frame_104
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1200
+      y: 1093
+      width: 85
+      height: 113
+    spriteID: a336f2dcc9f8f8b4896be01b9ec2be67
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1200, y: 1093}
+  - name: gunsway deck cannons _Frame_105
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1200
+      y: 1214
+      width: 85
+      height: 113
+    spriteID: 6df06e97e7db9e148b5862f5e39e5f1f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1200, y: 1214}
+  - name: gunsway deck cannons _Frame_106
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1200
+      y: 1335
+      width: 85
+      height: 113
+    spriteID: 861b39a3728843545b763fd0654d0f13
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1200, y: 1335}
+  - name: gunsway deck cannons _Frame_107
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1200
+      y: 1456
+      width: 85
+      height: 113
+    spriteID: 574af0334c60b0f418b07762ccdead39
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1200, y: 1456}
+  - name: gunsway deck cannons _Frame_108
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1200
+      y: 1577
+      width: 85
+      height: 113
+    spriteID: 3f1fc3c0e54b3364a906427c6c1d53d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1200, y: 1577}
+  - name: gunsway deck cannons _Frame_109
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1200
+      y: 1698
+      width: 85
+      height: 113
+    spriteID: 8732f448c4ef0c14db76fb8aaa25896f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1200, y: 1698}
+  - name: gunsway deck cannons _Frame_110
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1200
+      y: 1819
+      width: 85
+      height: 113
+    spriteID: f71f4938c53c9a6469105bc278fe4420
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1200, y: 1819}
+  - name: gunsway deck cannons _Frame_111
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1293
+      y: 4
+      width: 85
+      height: 113
+    spriteID: 8f3cd1b5031ff4b4ea824237302a237d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1293, y: 4}
+  - name: gunsway deck cannons _Frame_112
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1293
+      y: 125
+      width: 85
+      height: 113
+    spriteID: 880c3b7af5edbb7488190ab0027e93b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1293, y: 125}
+  - name: gunsway deck cannons _Frame_113
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1293
+      y: 246
+      width: 85
+      height: 113
+    spriteID: 07e71f364b1b9cf4da7f60a72f344254
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1293, y: 246}
+  - name: gunsway deck cannons _Frame_114
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1293
+      y: 367
+      width: 85
+      height: 113
+    spriteID: b00072e95d001114e8c57fe2401e354f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1293, y: 367}
+  - name: gunsway deck cannons _Frame_115
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1293
+      y: 488
+      width: 85
+      height: 113
+    spriteID: 58d3f28f348f79448bdccaca0f157df4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1293, y: 488}
+  - name: gunsway deck cannons _Frame_116
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1293
+      y: 609
+      width: 85
+      height: 113
+    spriteID: b5f08f9aa678a29489fa5d0a3c60d529
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1293, y: 609}
+  - name: gunsway deck cannons _Frame_117
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1293
+      y: 730
+      width: 85
+      height: 113
+    spriteID: f89204645823aeb4f96a847aaee28048
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1293, y: 730}
+  - name: gunsway deck cannons _Frame_118
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1293
+      y: 851
+      width: 85
+      height: 113
+    spriteID: 8a3045d9d3ff0574c9c4ba0ce4fb43a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1293, y: 851}
+  - name: gunsway deck cannons _Frame_119
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1293
+      y: 972
+      width: 85
+      height: 113
+    spriteID: 1b6bc5d15e2cb274699e1abd48b1df91
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1293, y: 972}
+  - name: gunsway deck cannons _Frame_120
+    originalName: 
+    pivot: {x: 1.752941, y: -2.5575223}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1293
+      y: 1093
+      width: 85
+      height: 113
+    spriteID: dd9bcae51bb773f4086175580ca08f88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1293, y: 1093}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -899006991
+    name: 'gunsway deck cannons '
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: gunsway deck cannons _Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 435e1b9ddb8450044b84591e02af9f4c
+    - name: gunsway deck cannons _Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 07448efdb0f374b419fcff715c0414fb
+    - name: gunsway deck cannons _Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 3f39528bf8f3554428c0779f9891aa05
+    - name: gunsway deck cannons _Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 288
+        width: 85
+        height: 133
+      spriteId: 605fc3ce50520ae458e6eb7cf4e00f17
+    - name: gunsway deck cannons _Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 286
+        width: 85
+        height: 144
+      spriteId: ddae7070c2aad074f83c65bd85161c90
+    - name: gunsway deck cannons _Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 287
+        width: 85
+        height: 148
+      spriteId: 8f2f87f96b1579240b5f3660c93b19ba
+    - name: gunsway deck cannons _Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 97
+        y: 287
+        width: 102
+        height: 160
+      spriteId: fc894fa1f703376488d1b65f110f3d66
+    - name: gunsway deck cannons _Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 86
+        y: 289
+        width: 133
+        height: 186
+      spriteId: 04a2c5a41b86dc5488440201aa7f0c71
+    - name: gunsway deck cannons _Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 80
+        y: 289
+        width: 143
+        height: 198
+      spriteId: 3075e50fe01c58540945e75bc8684f45
+    - name: gunsway deck cannons _Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 73
+        y: 289
+        width: 155
+        height: 195
+      spriteId: 2789757751b6f0243a601e56873a7533
+    - name: gunsway deck cannons _Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 67
+        y: 289
+        width: 167
+        height: 203
+      spriteId: 58352edd4496bda4f8ecb4411111a5c5
+    - name: gunsway deck cannons _Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 67
+        y: 289
+        width: 166
+        height: 201
+      spriteId: a78c3f49b4a1c3a419de84d658c493d2
+    - name: gunsway deck cannons _Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 72
+        y: 289
+        width: 168
+        height: 190
+      spriteId: 7b1ccc0b020bc224baf32747f0a32e6e
+    - name: gunsway deck cannons _Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 57
+        y: 289
+        width: 170
+        height: 193
+      spriteId: b2a5770d70dfb6e4c81d9ece65a35be8
+    - name: gunsway deck cannons _Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 32
+        y: 289
+        width: 186
+        height: 200
+      spriteId: fbc1512ee7590574ba01f401cbf73fa6
+    - name: gunsway deck cannons _Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 36
+        y: 289
+        width: 168
+        height: 198
+      spriteId: 72c6797df30332e41a5cf30d136b2ad8
+    - name: gunsway deck cannons _Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 289
+        width: 189
+        height: 198
+      spriteId: 065cb7b48c05385419d4a7b68b8c6cf6
+    - name: gunsway deck cannons _Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 289
+        width: 176
+        height: 194
+      spriteId: b26b898fbbba7744586de2adef234694
+    - name: gunsway deck cannons _Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 12
+        y: 289
+        width: 174
+        height: 198
+      spriteId: 0bffaca7df8c35749aee7c8a229c3443
+    - name: gunsway deck cannons _Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 289
+        width: 176
+        height: 191
+      spriteId: 5ff278c590eedc04899ca3f698b4460b
+    - name: gunsway deck cannons _Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 289
+        width: 164
+        height: 178
+      spriteId: 48e39007132bd1c4abf4b43cc6af95fc
+    - name: gunsway deck cannons _Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 31
+        y: 289
+        width: 155
+        height: 182
+      spriteId: f8bcf0ab63c490f438c6e0e1bfc58968
+    - name: gunsway deck cannons _Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 37
+        y: 289
+        width: 149
+        height: 182
+      spriteId: 094118f7851e31d4388b635fb9be439e
+    - name: gunsway deck cannons _Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 27
+        y: 289
+        width: 159
+        height: 171
+      spriteId: f2cef27004d02ce4480ab8e047b7b757
+    - name: gunsway deck cannons _Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 289
+        width: 171
+        height: 176
+      spriteId: ad102dfad31a3414f9262a658685fe6f
+    - name: gunsway deck cannons _Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 18
+        y: 289
+        width: 168
+        height: 169
+      spriteId: 804351b48dc82c44586db186dd215a21
+    - name: gunsway deck cannons _Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 12
+        y: 289
+        width: 174
+        height: 174
+      spriteId: 5f012108a9199fa48a3a0a7db5307082
+    - name: gunsway deck cannons _Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 16
+        y: 289
+        width: 170
+        height: 164
+      spriteId: 5472b08c3aae58047b2a6d7e14980fb3
+    - name: gunsway deck cannons _Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 289
+        width: 171
+        height: 168
+      spriteId: b487a705914ad1647ae9903daa425594
+    - name: gunsway deck cannons _Frame_29
+      frameIndex: 29
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 289
+        width: 169
+        height: 163
+      spriteId: b86a8b4b6fb28604796f884e6a338df3
+    - name: gunsway deck cannons _Frame_30
+      frameIndex: 30
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 289
+        width: 167
+        height: 162
+      spriteId: 1125477f63a9fe34e8416f168440fdbb
+    - name: gunsway deck cannons _Frame_31
+      frameIndex: 31
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 289
+        width: 178
+        height: 163
+      spriteId: dcc8233414c76494c960cc3c4b6b636f
+    - name: gunsway deck cannons _Frame_32
+      frameIndex: 32
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 289
+        width: 176
+        height: 171
+      spriteId: 54f83a38602ef994281fbbbce798fe2c
+    - name: gunsway deck cannons _Frame_33
+      frameIndex: 33
+      additiveSortOrder: 0
+      cellRect:
+        x: 4
+        y: 289
+        width: 182
+        height: 160
+      spriteId: 056588b4ce7d1aa4ea1b72fba29d6b8d
+    - name: gunsway deck cannons _Frame_34
+      frameIndex: 34
+      additiveSortOrder: 0
+      cellRect:
+        x: 2
+        y: 289
+        width: 184
+        height: 165
+      spriteId: 70bf1b228c1d0764a8bd69692f1b5228
+    - name: gunsway deck cannons _Frame_35
+      frameIndex: 35
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 289
+        width: 183
+        height: 151
+      spriteId: 372af1df8bbf6c240a87009969cd891a
+    - name: gunsway deck cannons _Frame_36
+      frameIndex: 36
+      additiveSortOrder: 0
+      cellRect:
+        x: 1
+        y: 289
+        width: 185
+        height: 155
+      spriteId: 1f4a726e3e3540846943475fd56f70da
+    - name: gunsway deck cannons _Frame_37
+      frameIndex: 37
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 289
+        width: 186
+        height: 162
+      spriteId: 915583fff69d8ff41a01ea8115e52e29
+    - name: gunsway deck cannons _Frame_38
+      frameIndex: 38
+      additiveSortOrder: 0
+      cellRect:
+        x: 1
+        y: 289
+        width: 185
+        height: 155
+      spriteId: 43b2e5023fffeca4b9d1653c78722270
+    - name: gunsway deck cannons _Frame_39
+      frameIndex: 39
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 289
+        width: 186
+        height: 149
+      spriteId: d47dce60394b4de498f6cdf90bb52129
+    - name: gunsway deck cannons _Frame_40
+      frameIndex: 40
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 289
+        width: 180
+        height: 148
+      spriteId: 9f53664c0b385b64f8166ee7698e57d2
+    - name: gunsway deck cannons _Frame_41
+      frameIndex: 41
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 289
+        width: 180
+        height: 153
+      spriteId: 8bafe1edc43991b4595e5e171c97de3d
+    - name: gunsway deck cannons _Frame_42
+      frameIndex: 42
+      additiveSortOrder: 0
+      cellRect:
+        x: 6
+        y: 289
+        width: 180
+        height: 153
+      spriteId: cfc80a11b61c23d4aa9ab6bd01e50302
+    - name: gunsway deck cannons _Frame_43
+      frameIndex: 43
+      additiveSortOrder: 0
+      cellRect:
+        x: 2
+        y: 289
+        width: 184
+        height: 150
+      spriteId: 3ad5d8563d20dc94092bd428dc67876f
+    - name: gunsway deck cannons _Frame_44
+      frameIndex: 44
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 289
+        width: 175
+        height: 137
+      spriteId: 39524b92f0250074e98c712a1147608e
+    - name: gunsway deck cannons _Frame_45
+      frameIndex: 45
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 289
+        width: 179
+        height: 134
+      spriteId: 51134b0bf7130144c9bf87eca2d6897b
+    - name: gunsway deck cannons _Frame_46
+      frameIndex: 46
+      additiveSortOrder: 0
+      cellRect:
+        x: 12
+        y: 289
+        width: 174
+        height: 126
+      spriteId: 44f9e423678172a46b2611b841c2762d
+    - name: gunsway deck cannons _Frame_47
+      frameIndex: 47
+      additiveSortOrder: 0
+      cellRect:
+        x: 9
+        y: 289
+        width: 177
+        height: 135
+      spriteId: 2c1b37e051075b24e9500d23763ca61c
+    - name: gunsway deck cannons _Frame_48
+      frameIndex: 48
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 289
+        width: 176
+        height: 131
+      spriteId: 0b41dc99cb4a87e46aad2c1d1531b44b
+    - name: gunsway deck cannons _Frame_49
+      frameIndex: 49
+      additiveSortOrder: 0
+      cellRect:
+        x: 12
+        y: 289
+        width: 174
+        height: 136
+      spriteId: c6214597c96cec043bd10a5161ee083c
+    - name: gunsway deck cannons _Frame_50
+      frameIndex: 50
+      additiveSortOrder: 0
+      cellRect:
+        x: 19
+        y: 289
+        width: 167
+        height: 122
+      spriteId: 29545fb930f3d2847a4665632c90e170
+    - name: gunsway deck cannons _Frame_51
+      frameIndex: 51
+      additiveSortOrder: 0
+      cellRect:
+        x: 15
+        y: 289
+        width: 171
+        height: 124
+      spriteId: da2798bdf8ebcd743bac4307b6b604d0
+    - name: gunsway deck cannons _Frame_52
+      frameIndex: 52
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 289
+        width: 164
+        height: 124
+      spriteId: 829db10e4f72b4947bd2cc6cf76348be
+    - name: gunsway deck cannons _Frame_53
+      frameIndex: 53
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 289
+        width: 163
+        height: 119
+      spriteId: ce12b07826580bd44bdc6f438311f448
+    - name: gunsway deck cannons _Frame_54
+      frameIndex: 54
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 289
+        width: 162
+        height: 113
+      spriteId: 8c5c19b7e3ce53241b4793245743fdfb
+    - name: gunsway deck cannons _Frame_55
+      frameIndex: 55
+      additiveSortOrder: 0
+      cellRect:
+        x: 32
+        y: 289
+        width: 154
+        height: 113
+      spriteId: d55ca7fec13eb6f4bad532e422b8b871
+    - name: gunsway deck cannons _Frame_56
+      frameIndex: 56
+      additiveSortOrder: 0
+      cellRect:
+        x: 30
+        y: 289
+        width: 156
+        height: 113
+      spriteId: ba5ded907b8bda04e92bd40c83840a03
+    - name: gunsway deck cannons _Frame_57
+      frameIndex: 57
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 289
+        width: 153
+        height: 113
+      spriteId: 183e590018f7cb14e8d79dcdefdde474
+    - name: gunsway deck cannons _Frame_58
+      frameIndex: 58
+      additiveSortOrder: 0
+      cellRect:
+        x: 34
+        y: 289
+        width: 152
+        height: 113
+      spriteId: 4b9a56a524aba174da8aa9f3de71a1d5
+    - name: gunsway deck cannons _Frame_59
+      frameIndex: 59
+      additiveSortOrder: 0
+      cellRect:
+        x: 35
+        y: 289
+        width: 151
+        height: 113
+      spriteId: f671448345311b847accc43712ecf4cb
+    - name: gunsway deck cannons _Frame_60
+      frameIndex: 60
+      additiveSortOrder: 0
+      cellRect:
+        x: 36
+        y: 289
+        width: 150
+        height: 113
+      spriteId: 831e8cd2f509b9b42b3abb4d54e00c93
+    - name: gunsway deck cannons _Frame_61
+      frameIndex: 61
+      additiveSortOrder: 0
+      cellRect:
+        x: 36
+        y: 289
+        width: 150
+        height: 113
+      spriteId: ab97f3b577c791045a8bdf14b881a60b
+    - name: gunsway deck cannons _Frame_62
+      frameIndex: 62
+      additiveSortOrder: 0
+      cellRect:
+        x: 41
+        y: 289
+        width: 145
+        height: 113
+      spriteId: dd8fc47bc60953a459e09de70ee59857
+    - name: gunsway deck cannons _Frame_63
+      frameIndex: 63
+      additiveSortOrder: 0
+      cellRect:
+        x: 33
+        y: 289
+        width: 153
+        height: 113
+      spriteId: c1cc8ad9d584e5a4e83308e567bf5c9f
+    - name: gunsway deck cannons _Frame_64
+      frameIndex: 64
+      additiveSortOrder: 0
+      cellRect:
+        x: 41
+        y: 289
+        width: 145
+        height: 113
+      spriteId: 0f6cc889c51153844a56e0ff0aff8ecc
+    - name: gunsway deck cannons _Frame_65
+      frameIndex: 65
+      additiveSortOrder: 0
+      cellRect:
+        x: 45
+        y: 289
+        width: 141
+        height: 113
+      spriteId: 2c9ea37cd4b2bac4289f2e122fbb0e27
+    - name: gunsway deck cannons _Frame_66
+      frameIndex: 66
+      additiveSortOrder: 0
+      cellRect:
+        x: 47
+        y: 289
+        width: 139
+        height: 113
+      spriteId: 66a122723f38a1e44989aae7b98fabad
+    - name: gunsway deck cannons _Frame_67
+      frameIndex: 67
+      additiveSortOrder: 0
+      cellRect:
+        x: 53
+        y: 289
+        width: 133
+        height: 113
+      spriteId: ef4f04ba6d851a446b8dc4c323318d35
+    - name: gunsway deck cannons _Frame_68
+      frameIndex: 68
+      additiveSortOrder: 0
+      cellRect:
+        x: 56
+        y: 289
+        width: 130
+        height: 113
+      spriteId: 10b63c9183589f4409567da72656084d
+    - name: gunsway deck cannons _Frame_69
+      frameIndex: 69
+      additiveSortOrder: 0
+      cellRect:
+        x: 55
+        y: 289
+        width: 131
+        height: 113
+      spriteId: dfd2950ce30b9814f965c3a37427d88c
+    - name: gunsway deck cannons _Frame_70
+      frameIndex: 70
+      additiveSortOrder: 0
+      cellRect:
+        x: 57
+        y: 289
+        width: 129
+        height: 113
+      spriteId: 1fcfde32d2abf864c9eefe6a6703859d
+    - name: gunsway deck cannons _Frame_71
+      frameIndex: 71
+      additiveSortOrder: 0
+      cellRect:
+        x: 56
+        y: 289
+        width: 130
+        height: 113
+      spriteId: 52133543a77d5e4429d8a827dd7bc02e
+    - name: gunsway deck cannons _Frame_72
+      frameIndex: 72
+      additiveSortOrder: 0
+      cellRect:
+        x: 58
+        y: 289
+        width: 128
+        height: 113
+      spriteId: e104e3ba79fddbf40ad8b65b61431375
+    - name: gunsway deck cannons _Frame_73
+      frameIndex: 73
+      additiveSortOrder: 0
+      cellRect:
+        x: 60
+        y: 289
+        width: 126
+        height: 113
+      spriteId: a7adfd18a84b0d246848afdc69a088d8
+    - name: gunsway deck cannons _Frame_74
+      frameIndex: 74
+      additiveSortOrder: 0
+      cellRect:
+        x: 61
+        y: 289
+        width: 125
+        height: 113
+      spriteId: 9c96c3452f32ac94689be71dcafec540
+    - name: gunsway deck cannons _Frame_75
+      frameIndex: 75
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 94346fa4cb0a2704e92b3f6d62031a36
+    - name: gunsway deck cannons _Frame_76
+      frameIndex: 76
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 72f25d4519903924c93cfe3d7a6df42a
+    - name: gunsway deck cannons _Frame_77
+      frameIndex: 77
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 8b20f56d02aeeb94aa1b374c23cdafce
+    - name: gunsway deck cannons _Frame_78
+      frameIndex: 78
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: ea0dcbefe3e89c34e83f4736022a8208
+    - name: gunsway deck cannons _Frame_79
+      frameIndex: 79
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 84a00580a89d52f45887f7d7bb2b21c0
+    - name: gunsway deck cannons _Frame_80
+      frameIndex: 80
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 733148969645430438827b30dc4ab637
+    - name: gunsway deck cannons _Frame_81
+      frameIndex: 81
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 24a0cbc3d3ef661488049ddfa5e22db4
+    - name: gunsway deck cannons _Frame_82
+      frameIndex: 82
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 6463549a05fed9f4fbac5dedcf2d707b
+    - name: gunsway deck cannons _Frame_83
+      frameIndex: 83
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 5e8c6d2a51209ba4ea6095ea5ab5b8bb
+    - name: gunsway deck cannons _Frame_84
+      frameIndex: 84
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 2190207e47ba36045b7421c0e0a54f6d
+    - name: gunsway deck cannons _Frame_85
+      frameIndex: 85
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 157f2174fa2a03b48b05c90b5fc9cde3
+    - name: gunsway deck cannons _Frame_86
+      frameIndex: 86
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 474067f712a871c4892629dbf9f17154
+    - name: gunsway deck cannons _Frame_87
+      frameIndex: 87
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 663e801c2ee98fb43a4e48f907314cec
+    - name: gunsway deck cannons _Frame_88
+      frameIndex: 88
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 53636797586a86a4a8faba16d37f61ba
+    - name: gunsway deck cannons _Frame_89
+      frameIndex: 89
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: d127e9ef99aba7c4c8eb2e174d4baff0
+    - name: gunsway deck cannons _Frame_90
+      frameIndex: 90
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 124bb6c2909cd774ebb98c64390cfde5
+    - name: gunsway deck cannons _Frame_91
+      frameIndex: 91
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: f0845ad31617cba48b2938f46ee80556
+    - name: gunsway deck cannons _Frame_92
+      frameIndex: 92
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 66cd2cb08c8a56848bc83e16304498b0
+    - name: gunsway deck cannons _Frame_93
+      frameIndex: 93
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: d31ab43ec37571143acbb2f0edcb40e8
+    - name: gunsway deck cannons _Frame_94
+      frameIndex: 94
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 91f0a91f765064a4188384d713a39be3
+    - name: gunsway deck cannons _Frame_95
+      frameIndex: 95
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: d7570b758b6dd8a47bb7413bb7c9602a
+    - name: gunsway deck cannons _Frame_96
+      frameIndex: 96
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 436fa6a7f620b0b40a645d412c5bf161
+    - name: gunsway deck cannons _Frame_97
+      frameIndex: 97
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: a1d859af570c26e4abfbdba5bf86cdb2
+    - name: gunsway deck cannons _Frame_98
+      frameIndex: 98
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 515bc9833aa65244b9703440ca996eb9
+    - name: gunsway deck cannons _Frame_99
+      frameIndex: 99
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: bfc1731cd82be9942b54d7aa583b0d4c
+    - name: gunsway deck cannons _Frame_100
+      frameIndex: 100
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: e941fa10f72e83d4883df69ae37d6d30
+    - name: gunsway deck cannons _Frame_101
+      frameIndex: 101
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 18c28d5bf28b36c4ca4558c3f5d83d80
+    - name: gunsway deck cannons _Frame_102
+      frameIndex: 102
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 1576383689cbe58419affa1cb9245bf8
+    - name: gunsway deck cannons _Frame_103
+      frameIndex: 103
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: d9e0b9675731a1e438cfa0f572fa218d
+    - name: gunsway deck cannons _Frame_104
+      frameIndex: 104
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: a336f2dcc9f8f8b4896be01b9ec2be67
+    - name: gunsway deck cannons _Frame_105
+      frameIndex: 105
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 6df06e97e7db9e148b5862f5e39e5f1f
+    - name: gunsway deck cannons _Frame_106
+      frameIndex: 106
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 861b39a3728843545b763fd0654d0f13
+    - name: gunsway deck cannons _Frame_107
+      frameIndex: 107
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 574af0334c60b0f418b07762ccdead39
+    - name: gunsway deck cannons _Frame_108
+      frameIndex: 108
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 3f1fc3c0e54b3364a906427c6c1d53d7
+    - name: gunsway deck cannons _Frame_109
+      frameIndex: 109
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 8732f448c4ef0c14db76fb8aaa25896f
+    - name: gunsway deck cannons _Frame_110
+      frameIndex: 110
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: f71f4938c53c9a6469105bc278fe4420
+    - name: gunsway deck cannons _Frame_111
+      frameIndex: 111
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 8f3cd1b5031ff4b4ea824237302a237d
+    - name: gunsway deck cannons _Frame_112
+      frameIndex: 112
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 880c3b7af5edbb7488190ab0027e93b2
+    - name: gunsway deck cannons _Frame_113
+      frameIndex: 113
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 07e71f364b1b9cf4da7f60a72f344254
+    - name: gunsway deck cannons _Frame_114
+      frameIndex: 114
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: b00072e95d001114e8c57fe2401e354f
+    - name: gunsway deck cannons _Frame_115
+      frameIndex: 115
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 58d3f28f348f79448bdccaca0f157df4
+    - name: gunsway deck cannons _Frame_116
+      frameIndex: 116
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: b5f08f9aa678a29489fa5d0a3c60d529
+    - name: gunsway deck cannons _Frame_117
+      frameIndex: 117
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: f89204645823aeb4f96a847aaee28048
+    - name: gunsway deck cannons _Frame_118
+      frameIndex: 118
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 8a3045d9d3ff0574c9c4ba0ce4fb43a5
+    - name: gunsway deck cannons _Frame_119
+      frameIndex: 119
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: 1b6bc5d15e2cb274699e1abd48b1df91
+    - name: gunsway deck cannons _Frame_120
+      frameIndex: 120
+      additiveSortOrder: 0
+      cellRect:
+        x: 101
+        y: 289
+        width: 85
+        height: 113
+      spriteId: dd9bcae51bb773f4086175580ca08f88
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 500, y: 500}
