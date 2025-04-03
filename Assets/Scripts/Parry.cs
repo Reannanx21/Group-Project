@@ -34,10 +34,10 @@ public class ParrySystem : MonoBehaviour
             return;
         }
 
-        if (playerAttack.isAttacking || !canParry)
-        {
-            return;
-        }
+       // if (playerAttack.isAttacking || !canParry)
+        //{
+        //    return;
+        //}
 
         if (Input.GetMouseButtonDown(1))
         {

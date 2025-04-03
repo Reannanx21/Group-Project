@@ -20,7 +20,7 @@ public class PlayerAttack : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && !isAttacking)
+        if (Input.GetMouseButtonDown(0)) 
         {
             Attack();
         }
@@ -64,8 +64,8 @@ public class PlayerAttack : MonoBehaviour
     }
 
     public void ResetAttack() // Call this from animation
-    {
-        isAttacking = false;
+   {
+       isAttacking = true;
     }
 
     private void OnDrawGizmos()
