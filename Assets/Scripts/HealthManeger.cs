@@ -21,7 +21,7 @@ public class PlayerHealth : MonoBehaviour
         InitializeHealthBar();
     }
 
-     void Update()
+    void Update()
     {
         if (Input.GetButtonDown("DebugTakeDamage"))
         {
@@ -72,7 +72,6 @@ public class PlayerHealth : MonoBehaviour
         Debug.Log("Healed current health" + health);
         UpdateHealthBar();
     }
-
 
 
     void Die()
