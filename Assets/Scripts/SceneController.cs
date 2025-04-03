@@ -1,12 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections; // Add this
-using System.Collections.Generic; // Not needed for IEnumerator, but useful for Lists
+using System.Collections;
 
 public class SceneController : MonoBehaviour
 {
     public static SceneController instance;
     [SerializeField] Animator transitionAnim;
+    public bool goToNextLevel = true;
 
     private void Awake()
     {
@@ -21,12 +21,12 @@ public class SceneController : MonoBehaviour
         }
     }
 
-    public void NextLevel()
+    public void LoadLevel()
     {
-        StartCoroutine(LoadLevel());
+        StartCoroutine(LoadLevelCoroutine());
     }
 
-    IEnumerator LoadLevel()
+    IEnumerator LoadLevelCoroutine()
     {
         if (transitionAnim == null)
         {
@@ -35,14 +35,34 @@ public class SceneController : MonoBehaviour
         }
 
         transitionAnim.SetTrigger("End");
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(1); 
 
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+        int targetSceneIndex;
+
+        if (goToNextLevel)
+        {
+            targetSceneIndex = SceneManager.GetActiveScene().buildIndex + 1; 
+        }
+        else
+        {
+            targetSceneIndex = SceneManager.GetActiveScene().buildIndex - 1; 
+        }
+
+        
+        if (targetSceneIndex < 0 || targetSceneIndex >= SceneManager.sceneCountInBuildSettings)
+        {
+            Debug.LogWarning("No scene available in this direction.");
+            yield break;
+        }
+
+        
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(targetSceneIndex);
+
         while (!asyncLoad.isDone)
         {
             yield return null;
         }
 
-        transitionAnim.SetTrigger("start");
+        transitionAnim.SetTrigger("start"); 
     }
 }
