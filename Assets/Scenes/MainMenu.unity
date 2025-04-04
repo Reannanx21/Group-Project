@@ -1469,11 +1469,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9c2436e902243fc4c96334a9acf881e3, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.662
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1737,6 +1737,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1195789544}
+  musicSource2: {fileID: 0}
   SFXSource1: {fileID: 794737685}
   SFXSource2: {fileID: 154087729}
   SFXSource3: {fileID: 2097266131}
@@ -1747,6 +1748,7 @@ MonoBehaviour:
   Cannon: {fileID: 0}
   Waves: {fileID: 0}
   Bell: {fileID: 0}
+  Controls: {fileID: 0}
 --- !u!4 &1250790236
 Transform:
   m_ObjectHideFlags: 0
