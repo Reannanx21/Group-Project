@@ -7,7 +7,7 @@ public class StartMenuController : MonoBehaviour
 {
     public void OnStartClick()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Level 1 The Joys of Piracy");
 
     }
 
