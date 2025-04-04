@@ -9275,6 +9275,22 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: d8ab1ee0de63e184a92fd879644b411c, type: 3}
+    - target: {fileID: 2699327053731405247, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: m_Pitch
+      value: 1.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699327053731405247, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: Priority
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699327053731405247, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: m_Volume
+      value: 0.164
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699327053731405247, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b34df22314776c745bd26b080ba1fc36, type: 3}
     - target: {fileID: 2849683517818745303, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
       propertyPath: m_LocalPosition.x
       value: -116.87342
@@ -13104,7 +13120,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 70acdbaafd80fde4fa1e6c3bcac547c7, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 70acdbaafd80fde4fa1e6c3bcac547c7, type: 3}
       propertyPath: m_LocalScale.x

@@ -1471,7 +1471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 70acdbaafd80fde4fa1e6c3bcac547c7, type: 3}
       propertyPath: m_SortingOrder
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 70acdbaafd80fde4fa1e6c3bcac547c7, type: 3}
       propertyPath: m_LocalScale.x
@@ -1960,7 +1960,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5235738639978894087, guid: f9f600c2a5ea4b04a88964f358698659, type: 3}
       propertyPath: m_SortingOrder
-      value: 7
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7023623843571699822, guid: f9f600c2a5ea4b04a88964f358698659, type: 3}
       propertyPath: value
@@ -3109,6 +3109,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 293185154658083491, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: m_Pitch
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 293185154658083491, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
       propertyPath: Priority
       value: 95
       objectReference: {fileID: 0}
@@ -3120,6 +3124,26 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: b34df22314776c745bd26b080ba1fc36, type: 3}
+    - target: {fileID: 2699327053731405247, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699327053731405247, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: m_Pitch
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699327053731405247, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: Priority
+      value: 159
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699327053731405247, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: m_Volume
+      value: 0.708
+      objectReference: {fileID: 0}
+    - target: {fileID: 2699327053731405247, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d8ab1ee0de63e184a92fd879644b411c, type: 3}
     - target: {fileID: 2849683517818745303, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
       propertyPath: m_LocalPosition.x
       value: -116.87342
@@ -3349,11 +3373,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6329207085307850315, guid: 8b14d04875caeee4b9bf20ad9165c585, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -61.7
+      value: -62.25
       objectReference: {fileID: 0}
     - target: {fileID: 6329207085307850315, guid: 8b14d04875caeee4b9bf20ad9165c585, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -33.1
+      value: -32.79
       objectReference: {fileID: 0}
     - target: {fileID: 6329207085307850315, guid: 8b14d04875caeee4b9bf20ad9165c585, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7441,7 +7465,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 79d7bc85304a0e2458fda9d9707ffe76, type: 3}
       propertyPath: m_SortingOrder
-      value: 7
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 79d7bc85304a0e2458fda9d9707ffe76, type: 3}
       propertyPath: m_LocalScale.x
@@ -7750,7 +7774,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: d2a94496eac6ae34ca8996dd04eebacf, type: 3}
       propertyPath: m_SortingOrder
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: d2a94496eac6ae34ca8996dd04eebacf, type: 3}
       propertyPath: m_LocalScale.x
@@ -10849,7 +10873,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 79d7bc85304a0e2458fda9d9707ffe76, type: 3}
       propertyPath: m_SortingOrder
-      value: 7
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 79d7bc85304a0e2458fda9d9707ffe76, type: 3}
       propertyPath: m_LocalScale.x
@@ -10995,7 +11019,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: 79d7bc85304a0e2458fda9d9707ffe76, type: 3}
       propertyPath: m_SortingOrder
-      value: 7
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 79d7bc85304a0e2458fda9d9707ffe76, type: 3}
       propertyPath: m_LocalScale.x

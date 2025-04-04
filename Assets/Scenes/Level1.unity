@@ -12736,6 +12736,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 293185154658083491, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 293185154658083491, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: m_Pitch
+      value: 0.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 293185154658083491, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: Priority
+      value: 106
+      objectReference: {fileID: 0}
+    - target: {fileID: 293185154658083491, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: m_Volume
+      value: 0.317
+      objectReference: {fileID: 0}
+    - target: {fileID: 293185154658083491, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b34df22314776c745bd26b080ba1fc36, type: 3}
+    - target: {fileID: 293185154658083491, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
+      value: 1.1
+      objectReference: {fileID: 0}
     - target: {fileID: 2849683517818745303, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
       propertyPath: m_LocalPosition.x
       value: -116.87342
@@ -12779,6 +12803,30 @@ PrefabInstance:
     - target: {fileID: 3697902404920488781, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
       propertyPath: m_Name
       value: 'AudioManager '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773117232312337783, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: m_Pitch
+      value: 1.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773117232312337783, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: Priority
+      value: 146
+      objectReference: {fileID: 0}
+    - target: {fileID: 3773117232312337783, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: m_Volume
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5897975167169678604, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: m_Pitch
+      value: 1.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 5897975167169678604, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: Priority
+      value: 203
+      objectReference: {fileID: 0}
+    - target: {fileID: 5897975167169678604, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+      propertyPath: m_Volume
+      value: 0.759
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13115,6 +13163,7 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 493607339}
+  - {fileID: 3261210230087683149}
   - {fileID: 992821587}
   - {fileID: 703895286}
   - {fileID: 1282505025}
@@ -13164,4 +13213,3 @@ SceneRoots:
   - {fileID: 1673631432}
   - {fileID: 938103773}
   - {fileID: 597956437}
-  - {fileID: 3261210230087683149}
