@@ -9705,11 +9705,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5897975167169678604, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
       propertyPath: Priority
-      value: 244
+      value: 256
       objectReference: {fileID: 0}
     - target: {fileID: 5897975167169678604, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
       propertyPath: m_Volume
-      value: 0.895
+      value: 0.963
       objectReference: {fileID: 0}
     - target: {fileID: 5897975167169678604, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
       propertyPath: reverbZoneMixCustomCurve.m_Curve.Array.data[0].value
