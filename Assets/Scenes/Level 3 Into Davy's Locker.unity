@@ -1736,7 +1736,7 @@ MonoBehaviour:
   m_Color: {r: 0.79622644, g: 0.29330635, b: 0, a: 1}
   m_Intensity: 8.51
   m_LightVolumeIntensity: 0.05
-  m_LightVolumeIntensityEnabled: 1
+  m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000f7f1971cf52a9222
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
