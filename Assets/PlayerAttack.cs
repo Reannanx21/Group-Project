@@ -7,6 +7,7 @@ public class PlayerAttack : MonoBehaviour
     public GameObject attackPoint;
     public float radius = 0.5f;
     public LayerMask enemies;
+    public LayerMask destructibles; 
     public float damage = 10f;
     public bool isAttacking = false;
 
@@ -20,7 +21,7 @@ public class PlayerAttack : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) 
+        if (Input.GetMouseButtonDown(0) && !isAttacking)
         {
             Attack();
         }
@@ -28,44 +29,64 @@ public class PlayerAttack : MonoBehaviour
 
     private void Attack()
     {
-        isAttacking = true; // Prevent queuing attacks
+        isAttacking = true;
 
         anim.SetTrigger("Attack");
 
-        bool enemyHit = false; // Track if an enemy was hit
+        bool anythingHit = false;
 
         if (attackPoint != null)
         {
+            // Hit enemies
             Collider2D[] enemiesHit = Physics2D.OverlapCircleAll(attackPoint.transform.position, radius, enemies);
-
             foreach (Collider2D enemyCollider in enemiesHit)
             {
                 EnemyHealth enemyHealth = enemyCollider.GetComponent<EnemyHealth>();
                 if (enemyHealth != null)
                 {
                     enemyHealth.TakeDamage(damage);
-                    enemyHit = true;
+                    anythingHit = true;
                 }
 
                 EnemyStun enemyStun = enemyCollider.GetComponent<EnemyStun>();
                 if (enemyStun != null)
                 {
                     enemyStun.Stun(2f);
-                    enemyHit = true;
+                    anythingHit = true;
+                }
+            }
+
+            // Hit destructibles
+            Collider2D[] destructibleHits = Physics2D.OverlapCircleAll(attackPoint.transform.position, radius, destructibles);
+            foreach (Collider2D obj in destructibleHits)
+            {
+                // If tagged "Destructible", destroy it
+                if (obj.CompareTag("Destructible"))
+                {
+                    Destroy(obj.gameObject);
+                    Debug.Log($"Destroyed object: {obj.name}");
+                    anythingHit = true;
+                }
+
+                // If it has ObjectHealth, damage it
+                ObjectHealth health = obj.GetComponent<ObjectHealth>();
+                if (health != null)
+                {
+                    health.TakeDamage(damage);
+                    anythingHit = true;
                 }
             }
         }
 
-        // Shake camera only if an enemy was hit
-        if (enemyHit && impulseSource != null)
+        if (anythingHit && impulseSource != null)
         {
             impulseSource.GenerateImpulse();
         }
     }
 
-    public void ResetAttack() // Call this from animation
-   {
-       isAttacking = true;
+    public void ResetAttack()
+    {
+        isAttacking = false;
     }
 
     private void OnDrawGizmos()

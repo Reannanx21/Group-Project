@@ -17,33 +17,28 @@ public class ParrySystem : MonoBehaviour
         anim = GetComponent<Animator>();
 
         if (playerAttack == null)
-        {
             Debug.LogError("PlayerAttack reference not assigned in ParrySystem!");
-        }
 
         if (anim == null)
-        {
             Debug.LogError("Animator component not assigned in ParrySystem!");
-        }
     }
 
     void Update()
     {
-        if (playerAttack == null)
-        {
+        if (playerAttack == null || playerHealth == null)
             return;
-        }
 
+        // If attacking or dead, no parry allowed
         if (playerAttack.isAttacking || !canParry)
-        {
             return;
-        }
 
+        // Right mouse click = attempt parry
         if (Input.GetMouseButtonDown(1))
         {
             StartParry();
         }
 
+        // Count down parry timer
         if (isParrying)
         {
             parryTimer -= Time.deltaTime;
@@ -56,19 +51,33 @@ public class ParrySystem : MonoBehaviour
 
     private void StartParry()
     {
+        if (isParrying) return; // prevents retriggering if already active
+
         isParrying = true;
         parryTimer = parryWindow;
 
         if (anim != null)
         {
+            anim.ResetTrigger("Parry"); // cleanup just in case
             anim.SetTrigger("Parry");
+            anim.SetBool("IsParrying", true); // optional Animator bool
         }
+
+        // Optionally enable collider here if you're using it for hit detection
+         parryCollider.enabled = true;
     }
 
     private void EndParry()
     {
         isParrying = false;
         parryTimer = 0f;
+
+        if (anim != null)
+        {
+            anim.SetBool("IsParrying", false); // reset Animator bool
+        }
+
+        // parryCollider.enabled = false;
     }
 
     private bool canParry
