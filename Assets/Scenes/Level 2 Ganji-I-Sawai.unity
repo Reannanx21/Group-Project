@@ -2852,7 +2852,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 733718155}
-  - component: {fileID: 733718154}
   - component: {fileID: 733718153}
   m_Layer: 0
   m_Name: GameManager
@@ -2874,19 +2873,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transitionAnim: {fileID: 2027157537}
---- !u!114 &733718154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 733718152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dde58b393d4ddb54bb9fc5d3ce92c32f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coinsDisplay: {fileID: 1347984894}
 --- !u!4 &733718155
 Transform:
   m_ObjectHideFlags: 0
@@ -6699,7 +6685,7 @@ GameObject:
   - component: {fileID: 1347984894}
   m_Layer: 5
   m_Name: Coins Display
-  m_TagString: Untagged
+  m_TagString: CoinsDisplay
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

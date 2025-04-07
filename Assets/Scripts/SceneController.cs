@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections; // Add this
-using System.Collections.Generic; // Not needed for IEnumerator, but useful for Lists
+using System.Collections;
 
 public class SceneController : MonoBehaviour
 {
@@ -41,6 +40,12 @@ public class SceneController : MonoBehaviour
         while (!asyncLoad.isDone)
         {
             yield return null;
+        }
+
+        // Refresh coin UI after new scene loads
+        if (CoinManager.instance != null)
+        {
+            CoinManager.instance.RefreshUIReference();
         }
 
         transitionAnim.SetTrigger("start");
