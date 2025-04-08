@@ -6,24 +6,42 @@ public class EnemyController : MonoBehaviour
     private Rigidbody2D rb;
     private bool isCollidingWithPlayer = false;
 
+    private Animator anim; // Reference to Animator
+    public Transform player; // Reference to the player’s Transform
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>(); // Get the Animator component
     }
 
     void Update()
     {
+        // Ensure there's a player reference
+        if (player == null) return;
+
         // Normal movement logic, if no collision with player
         if (!isCollidingWithPlayer)
         {
-            // Example: Move towards a target or in a direction
-            Vector2 direction = new Vector2(1f, 0f); // Example direction
+            // Move towards the player’s position
+            Vector2 direction = (player.position - transform.position).normalized; // Direction towards the player
             rb.velocity = direction * moveSpeed;
+
+            // Trigger walking animation if the enemy is moving
+            if (rb.velocity.magnitude > 0)
+            {
+                anim.SetBool("IsWalking", true); // Set walking animation
+            }
+            else
+            {
+                anim.SetBool("IsWalking", false); // Stop walking animation
+            }
         }
         else
         {
             // If colliding with the player, stop or reduce movement
             rb.velocity = Vector2.zero; // This stops the movement
+            anim.SetBool("IsWalking", false); // Stop walking animation when colliding with player
         }
     }
 
