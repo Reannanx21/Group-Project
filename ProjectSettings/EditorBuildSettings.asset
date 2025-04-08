@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 4 Nothing Fancy.unity
     guid: 712a796c28dfcd048a3dea2a27d2b0c7
+  - enabled: 1
+    path: Assets/Scenes/Endscreen.unity
+    guid: 25d2d22dc727ce74fa7ffcbea6deb2bf
   m_configObjects: {}
