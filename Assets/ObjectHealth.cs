@@ -7,12 +7,15 @@ public class ObjectHealth : MonoBehaviour
     private BoxCollider2D boxCollider;
     private bool IsBroken = false;
     private CameraShake cameraShake;
+    public GameObject BarrelLight;
 
     private void Start()
     {
         cameraShake = CameraShake.Instance;
         animator = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+        
+        
     }
 
 
@@ -27,8 +30,9 @@ public class ObjectHealth : MonoBehaviour
         boxCollider.enabled = false;
 
 
-        animator.SetBool("isBroken", true);
+        animator.SetBool("IsBroken", true);
 
+        Destroy(BarrelLight.gameObject);
 
 
         Debug.Log($"{gameObject.name} has died!");
