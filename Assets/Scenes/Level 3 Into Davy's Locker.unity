@@ -5397,6 +5397,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Henry every 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7206667801376824978, guid: 57ab693944b7367488a90daf3f238974, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1440278953}
     - target: {fileID: 7657288597498312779, guid: 57ab693944b7367488a90daf3f238974, type: 3}
       propertyPath: m_LocalPosition.x
       value: -168.29935
@@ -5437,6 +5441,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8615099168874874543, guid: 57ab693944b7367488a90daf3f238974, type: 3}
+      propertyPath: impulseSource
+      value: 
+      objectReference: {fileID: 1738363493}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11075,6 +11083,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 70acdbaafd80fde4fa1e6c3bcac547c7, type: 3}
   m_PrefabInstance: {fileID: 1435797930}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1440278953 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3416548545840240155, guid: 30883d42738c1d64888a994bd59e6191, type: 3}
+  m_PrefabInstance: {fileID: 2540383382616592614}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1440979860 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: d47abd869e2499d429895275241fb586, type: 3}
