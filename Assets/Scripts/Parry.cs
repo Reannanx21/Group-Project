@@ -5,6 +5,9 @@ public class ParrySystem : MonoBehaviour
     public float parryWindow = 0.2f;
     private float parryTimer = 0f;
     private bool isParrying = false;
+    private float parryCooldown = 0.7f; // cooldown between parries
+    private float nextParryTime = 0f;
+
     private Collider2D parryCollider;
     public PlayerHealth playerHealth;
     public PlayerAttack playerAttack;
@@ -32,8 +35,8 @@ public class ParrySystem : MonoBehaviour
         if (playerAttack.isAttacking || !canParry)
             return;
 
-        // Right mouse click = attempt parry
-        if (Input.GetMouseButtonDown(1))
+        // Right mouse click = attempt parry, only if cooldown passed
+        if (Input.GetMouseButtonDown(1) && Time.time >= nextParryTime)
         {
             StartParry();
         }
@@ -51,20 +54,20 @@ public class ParrySystem : MonoBehaviour
 
     private void StartParry()
     {
-        if (isParrying) return; // prevents retriggering if already active
+        if (isParrying) return;
 
         isParrying = true;
         parryTimer = parryWindow;
+        nextParryTime = Time.time + parryCooldown;
 
         if (anim != null)
         {
-            anim.ResetTrigger("Parry"); // cleanup just in case
+            anim.ResetTrigger("Parry"); // just to be safe
             anim.SetTrigger("Parry");
-            anim.SetBool("IsParrying", true); // optional Animator bool
+            anim.SetBool("IsParrying", true); // optional, use in Animator if needed
         }
 
-        // Optionally enable collider here if you're using it for hit detection
-         parryCollider.enabled = true;
+        // parryCollider.enabled = true; // optional
     }
 
     private void EndParry()
@@ -74,7 +77,7 @@ public class ParrySystem : MonoBehaviour
 
         if (anim != null)
         {
-            anim.SetBool("IsParrying", false); // reset Animator bool
+            anim.SetBool("IsParrying", false);
         }
 
         // parryCollider.enabled = false;
@@ -86,5 +89,17 @@ public class ParrySystem : MonoBehaviour
         {
             return !playerAttack.isAttacking && !playerHealth.isDead;
         }
+    }
+
+    // Called from Animation Event
+    public void OnParryStart()
+    {
+        isParrying = true;
+    }
+
+    // Called from Animation Event
+    public void OnParryEnd()
+    {
+        EndParry();
     }
 }
