@@ -3587,7 +3587,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -140.87613, y: -5.1100006, z: -10}
+  m_LocalPosition: {x: -132.5023, y: -5.1100006, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6329,12 +6329,12 @@ MonoBehaviour:
   radius: 7.54
   enemies:
     serializedVersion: 2
-    m_Bits: 2048
+    m_Bits: 256
   destructibles:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 0
   damage: 10
-  isAttacking: 1
+  isAttacking: 0
   impulseSource: {fileID: 0}
 --- !u!114 &992821596
 MonoBehaviour:
@@ -7754,8 +7754,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2474e3979f7eff4da7db38e5643d28c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 519420028}
-  parallaxEffect: 0.5
+  cam: {fileID: 1282505023}
+  parallaxEffect: 0
 --- !u!1001 &1253266147
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8170,7 +8170,7 @@ Transform:
   m_GameObject: {fileID: 1282505023}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -140.87613, y: -5.1100006, z: -10}
+  m_LocalPosition: {x: -132.5023, y: -5.1100006, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9641,10 +9641,9 @@ GameObject:
   - component: {fileID: 1575174323}
   - component: {fileID: 1575174322}
   - component: {fileID: 1575174325}
-  - component: {fileID: 1575174326}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: barrelbroken_Frame_0
-  m_TagString: Destructible
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9766,7 +9765,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.000000029802322, y: 0.485}
@@ -9782,19 +9781,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.54, y: 0.61}
   m_EdgeRadius: 0
---- !u!114 &1575174326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1575174320}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2daba73b24c8d5e458413bea46e3495a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 10
 --- !u!1001 &1580287848
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11627,23 +11613,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: a558cc799dcc690428c47c36c4ac91a9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: a558cc799dcc690428c47c36c4ac91a9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: a558cc799dcc690428c47c36c4ac91a9, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: a558cc799dcc690428c47c36c4ac91a9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.3
+      value: -40.2
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: a558cc799dcc690428c47c36c4ac91a9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -32.1
+      value: -28.4
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: a558cc799dcc690428c47c36c4ac91a9, type: 3}
       propertyPath: m_LocalPosition.z

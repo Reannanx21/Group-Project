@@ -7,7 +7,7 @@ public class PlayerAttack : MonoBehaviour
     public GameObject attackPoint;
     public float radius = 0.5f;
     public LayerMask enemies;
-    public LayerMask destructibles;
+    public LayerMask destructibles; 
     public float damage = 10f;
     public bool isAttacking = false;
 
@@ -31,7 +31,7 @@ public class PlayerAttack : MonoBehaviour
     {
         isAttacking = true;
 
-        anim.SetBool("IsAttacking", true);
+        anim.SetTrigger("Attack");
 
         bool anythingHit = false;
 
@@ -60,6 +60,7 @@ public class PlayerAttack : MonoBehaviour
             Collider2D[] destructibleHits = Physics2D.OverlapCircleAll(attackPoint.transform.position, radius, destructibles);
             foreach (Collider2D obj in destructibleHits)
             {
+                // If tagged "Destructible", destroy it
                 if (obj.CompareTag("Destructible"))
                 {
                     Destroy(obj.gameObject);
@@ -67,6 +68,7 @@ public class PlayerAttack : MonoBehaviour
                     anythingHit = true;
                 }
 
+                // If it has ObjectHealth, damage it
                 ObjectHealth health = obj.GetComponent<ObjectHealth>();
                 if (health != null)
                 {
@@ -82,11 +84,9 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
-    // Called from Animation Event at end of attack animation
     public void ResetAttack()
     {
         isAttacking = false;
-        anim.SetBool("IsAttacking", false);
     }
 
     private void OnDrawGizmos()
