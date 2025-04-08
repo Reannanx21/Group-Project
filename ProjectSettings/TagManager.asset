@@ -8,6 +8,7 @@ TagManager:
   - Coin
   - CoinDisplay
   - CoinsDisplay
+  - Destructible
   layers:
   - Default
   - TransparentFX
@@ -19,8 +20,8 @@ TagManager:
   - Foreground Deck
   - Breakable
   - Player
-  - 
-  - 
+  - Destructible
+  - Enemy
   - 
   - 
   - 

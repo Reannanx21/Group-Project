@@ -3468,6 +3468,7 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3628,6 +3629,18 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26d14219cd89ac84f8efdf9c5fd91e1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &526017897
 GameObject:
   m_ObjectHideFlags: 0
@@ -6329,7 +6342,10 @@ MonoBehaviour:
   radius: 7.54
   enemies:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 2304
+  destructibles:
+    serializedVersion: 2
+    m_Bits: 1024
   damage: 10
   isAttacking: 0
   impulseSource: {fileID: 0}
@@ -9619,7 +9635,8 @@ GameObject:
   - component: {fileID: 1575174323}
   - component: {fileID: 1575174322}
   - component: {fileID: 1575174325}
-  m_Layer: 8
+  - component: {fileID: 1575174326}
+  m_Layer: 10
   m_Name: barrelbroken_Frame_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9743,7 +9760,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.000000029802322, y: 0.485}
@@ -9759,6 +9776,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.54, y: 0.61}
   m_EdgeRadius: 0
+--- !u!114 &1575174326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575174320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2daba73b24c8d5e458413bea46e3495a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 20
 --- !u!1001 &1580287848
 PrefabInstance:
   m_ObjectHideFlags: 0
