@@ -910,6 +910,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6051212061193763870, guid: 30883d42738c1d64888a994bd59e6191, type: 3}
+      propertyPath: m_TagString
+      value: CoinsDisplay
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
