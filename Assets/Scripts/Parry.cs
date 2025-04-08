@@ -5,7 +5,7 @@ public class ParrySystem : MonoBehaviour
     public float parryWindow = 0.2f;
     private float parryTimer = 0f;
     private bool isParrying = false;
-    private float parryCooldown = 0.7f; // cooldown between parries
+    private float parryCooldown = 0.5f; // cooldown between parries
     private float nextParryTime = 0f;
 
     private Collider2D parryCollider;
@@ -13,6 +13,8 @@ public class ParrySystem : MonoBehaviour
     public PlayerAttack playerAttack;
 
     private Animator anim;
+
+    public bool IsParrying { get { return isParrying; } }  // Public property to access isParrying
 
     void Start()
     {
@@ -31,7 +33,7 @@ public class ParrySystem : MonoBehaviour
         if (playerAttack == null || playerHealth == null)
             return;
 
-        // If attacking or dead, no parry allowed
+        // Prevent parry during attack
         if (playerAttack.isAttacking || !canParry)
             return;
 
