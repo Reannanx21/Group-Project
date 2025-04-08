@@ -60,13 +60,7 @@ public class PlayerAttack : MonoBehaviour
             Collider2D[] destructibleHits = Physics2D.OverlapCircleAll(attackPoint.transform.position, radius, destructibles);
             foreach (Collider2D obj in destructibleHits)
             {
-                // If tagged "Destructible", destroy it
-                if (obj.CompareTag("Destructible"))
-                {
-                    Destroy(obj.gameObject);
-                    Debug.Log($"Destroyed object: {obj.name}");
-                    anythingHit = true;
-                }
+                
 
                 // If it has ObjectHealth, damage it
                 ObjectHealth health = obj.GetComponent<ObjectHealth>();

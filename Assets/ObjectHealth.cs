@@ -5,7 +5,7 @@ public class ObjectHealth : MonoBehaviour
     public float health = 50f;
     private Animator animator;
     private BoxCollider2D boxCollider;
-    private bool IsBroken = false; // Prevents multiple death triggers
+    private bool IsBroken = false;
     private CameraShake cameraShake;
 
     private void Start()
@@ -13,6 +13,25 @@ public class ObjectHealth : MonoBehaviour
         cameraShake = CameraShake.Instance;
         animator = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+    }
+
+
+    private void Break()
+    {
+        if (IsBroken) return;
+        IsBroken = true;
+
+        Debug.Log($"{gameObject.name} is breaking!");
+
+
+        boxCollider.enabled = false;
+
+
+        animator.SetBool("isBroken", true);
+
+
+
+        Debug.Log($"{gameObject.name} has died!");
     }
 
     public void TakeDamage(float amount)
@@ -30,16 +49,4 @@ public class ObjectHealth : MonoBehaviour
         }
     }
 
-    private void Break()
-    {
-        if (IsBroken) return;
-        IsBroken = true;
-
-        animator.SetBool("isBroken", true);
-        boxCollider.enabled = false;
-        Debug.Log($"{gameObject.name} has died!");
-
-
-        float deathAnimLength = animator.GetCurrentAnimatorStateInfo(0).length;
-    }
 }
