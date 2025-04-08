@@ -12807,6 +12807,14 @@ PrefabInstance:
       value: Main Camera (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5408965800400831951, guid: 1095867c5d02942469522570cc858119, type: 3}
+      propertyPath: m_Follow
+      value: 
+      objectReference: {fileID: 7657288596921055124}
+    - target: {fileID: 5408965800400831951, guid: 1095867c5d02942469522570cc858119, type: 3}
+      propertyPath: m_LookAt
+      value: 
+      objectReference: {fileID: 7657288596921055124}
+    - target: {fileID: 5408965800400831951, guid: 1095867c5d02942469522570cc858119, type: 3}
       propertyPath: m_Lens.OrthographicSize
       value: 31.67
       objectReference: {fileID: 0}
