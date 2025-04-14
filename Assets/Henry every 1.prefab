@@ -242,10 +242,7 @@ MonoBehaviour:
   radius: 7.54
   enemies:
     serializedVersion: 2
-    m_Bits: 2304
-  destructibles:
-    serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 3072
   damage: 20
   isAttacking: 0
   impulseSource: {fileID: 0}

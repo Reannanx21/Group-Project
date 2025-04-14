@@ -58,7 +58,7 @@ AnimationClip:
       value: {fileID: 6735382949438816739, guid: 79a4d4da068cea542bea940e72a49811, type: 3}
     - time: 0.41666666
       value: {fileID: 7243000696008658396, guid: 79a4d4da068cea542bea940e72a49811, type: 3}
-    - time: 0.46666667
+    - time: 0.48333332
       value: {fileID: -5028839272766704475, guid: 79a4d4da068cea542bea940e72a49811, type: 3}
     attribute: m_Sprite
     path: 
@@ -107,7 +107,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.48333335
+    m_StopTime: 0.5
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -127,8 +127,8 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0
-    functionName: StartParry
+  - time: 0.48333332
+    functionName: EndParry
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

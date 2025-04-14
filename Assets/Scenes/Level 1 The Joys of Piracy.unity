@@ -3504,7 +3504,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -133.70651, y: -5.1100006, z: -10}
+  m_LocalPosition: {x: -133.3269, y: -5.1100006, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7704,7 +7704,7 @@ Transform:
   m_GameObject: {fileID: 1282505023}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -133.70651, y: -5.1100006, z: -10}
+  m_LocalPosition: {x: -133.3269, y: -5.1100006, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13070,6 +13070,10 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 7.88
       objectReference: {fileID: 0}
+    - target: {fileID: 9138272974566547812, guid: 540972ab053cbc84aa7c44c04eef5a83, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13138,6 +13142,10 @@ PrefabInstance:
     - target: {fileID: 8615099168874874543, guid: 57ab693944b7367488a90daf3f238974, type: 3}
       propertyPath: damage
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8615099168874874543, guid: 57ab693944b7367488a90daf3f238974, type: 3}
+      propertyPath: enemies.m_Bits
+      value: 3072
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

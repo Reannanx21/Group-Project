@@ -7,7 +7,6 @@ public class PlayerAttack : MonoBehaviour
     public GameObject attackPoint;
     public float radius = 0.5f;
     public LayerMask enemies;
-    public LayerMask destructibles; 
     public float damage = 10f;
     public bool isAttacking = false;
 
@@ -30,55 +29,52 @@ public class PlayerAttack : MonoBehaviour
     private void Attack()
     {
         isAttacking = true;
-
         anim.SetTrigger("Attack");
 
-        bool anythingHit = false;
+        bool enemyHit = false;
 
         if (attackPoint != null)
         {
-            // Hit enemies
             Collider2D[] enemiesHit = Physics2D.OverlapCircleAll(attackPoint.transform.position, radius, enemies);
-            foreach (Collider2D enemyCollider in enemiesHit)
+
+            foreach (Collider2D hit in enemiesHit)
             {
-                EnemyHealth enemyHealth = enemyCollider.GetComponent<EnemyHealth>();
+                // Enemy damage
+                EnemyHealth enemyHealth = hit.GetComponent<EnemyHealth>();
                 if (enemyHealth != null)
                 {
                     enemyHealth.TakeDamage(damage);
-                    anythingHit = true;
+                    enemyHit = true;
                 }
 
-                EnemyStun enemyStun = enemyCollider.GetComponent<EnemyStun>();
+                // Enemy stun
+                EnemyStun enemyStun = hit.GetComponent<EnemyStun>();
                 if (enemyStun != null)
                 {
                     enemyStun.Stun(2f);
-                    anythingHit = true;
+                    enemyHit = true;
                 }
-            }
 
-            // Hit destructibles
-            Collider2D[] destructibleHits = Physics2D.OverlapCircleAll(attackPoint.transform.position, radius, destructibles);
-            foreach (Collider2D obj in destructibleHits)
-            {
-                
-
-                // If it has ObjectHealth, damage it
-                ObjectHealth health = obj.GetComponent<ObjectHealth>();
-                if (health != null)
+                // Destructible object damage
+                if (hit.CompareTag("Destructible"))
                 {
-                    health.TakeDamage(damage);
-                    anythingHit = true;
+                    ObjectHealth objectHealth = hit.GetComponent<ObjectHealth>();
+                    if (objectHealth != null)
+                    {
+                        objectHealth.TakeDamage(damage);
+                        enemyHit = true;
+                    }
                 }
             }
         }
 
-        if (anythingHit && impulseSource != null)
+        if (enemyHit && impulseSource != null)
         {
             impulseSource.GenerateImpulse();
         }
     }
 
-    public void ResetAttack()
+    public void ResetAttack() // Call this from animation event
     {
         isAttacking = false;
     }
