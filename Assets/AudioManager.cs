@@ -10,14 +10,17 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioSource SFXSource3;
     [SerializeField] AudioSource SFXSource4;
    
+
     [Header("---------- Audio Clip ----------")]
     public AudioClip MainMenu;
     public AudioClip RowBoat;
     public AudioClip Walking;
     public AudioClip Cannon;
     public AudioClip Waves;
+
     public AudioClip Bell;
     public AudioClip Controls;
+   
 
 
     private void Start()
@@ -51,5 +54,7 @@ public class AudioManager : MonoBehaviour
         SFXSource4.clip = Bell;
 
         SFXSource4.Play();
+       
+        
     }
 }

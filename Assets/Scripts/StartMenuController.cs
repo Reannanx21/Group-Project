@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
+
 public class StartMenuController : MonoBehaviour
 {
+   
     public void OnStartClick()
     {
         SceneManager.LoadScene("Level 1 The Joys of Piracy");
@@ -29,5 +32,7 @@ public class StartMenuController : MonoBehaviour
     public void OnRestartClick()
     {
         SceneManager.LoadScene("MainMenu");
+        
+
     }
 }
