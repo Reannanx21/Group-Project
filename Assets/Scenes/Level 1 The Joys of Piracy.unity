@@ -3479,7 +3479,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 32.8
+  orthographic size: 31.1
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3504,7 +3504,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -133.70651, y: -5.1100006, z: -10}
+  m_LocalPosition: {x: -134.92749, y: -5.1100006, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7678,7 +7678,7 @@ MonoBehaviour:
   m_Follow: {fileID: 992821587}
   m_Lens:
     FieldOfView: 34
-    OrthographicSize: 32.8
+    OrthographicSize: 31.1
     NearClipPlane: 0.4
     FarClipPlane: 1000
     Dutch: 0
@@ -7704,7 +7704,7 @@ Transform:
   m_GameObject: {fileID: 1282505023}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -133.70651, y: -5.1100006, z: -10}
+  m_LocalPosition: {x: -134.92749, y: -5.1100006, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13070,6 +13070,10 @@ PrefabInstance:
       propertyPath: m_Intensity
       value: 7.88
       objectReference: {fileID: 0}
+    - target: {fileID: 9138272974566547812, guid: 540972ab053cbc84aa7c44c04eef5a83, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13227,11 +13231,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6329207085307850315, guid: 8b14d04875caeee4b9bf20ad9165c585, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -107.8
+      value: -33.88
       objectReference: {fileID: 0}
     - target: {fileID: 6329207085307850315, guid: 8b14d04875caeee4b9bf20ad9165c585, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -31.69
+      value: -32.2
       objectReference: {fileID: 0}
     - target: {fileID: 6329207085307850315, guid: 8b14d04875caeee4b9bf20ad9165c585, type: 3}
       propertyPath: m_LocalPosition.z
