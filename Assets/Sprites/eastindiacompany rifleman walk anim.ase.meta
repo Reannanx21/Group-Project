@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6120e7875ec674d4dafaa7bc8d694d23
+guid: e6867bbc6479cd642a0c2b1104b76b57
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: eastindiacompany rifleman walk anim (1)_Frame_0
+  - name: eastindiacompany rifleman walk anim_Frame_0
     originalName: 
     pivot: {x: 0.7972973, y: -0.039473683}
     alignment: 9
@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 74
       height: 76
-    spriteID: adf5a159131e55d458b93cca59867cf5
+    spriteID: 8f0416cdbe67aee4ea44b716229fe29f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,7 +141,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: eastindiacompany rifleman walk anim (1)_Frame_1
+  - name: eastindiacompany rifleman walk anim_Frame_1
     originalName: 
     pivot: {x: 0.80821913, y: -0.039473683}
     alignment: 9
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 88
       width: 73
       height: 76
-    spriteID: 77bb73250a41add4eb664debaa010ea9
+    spriteID: c2515534c64c86345a80df6845f399d6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -161,7 +161,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 88}
-  - name: eastindiacompany rifleman walk anim (1)_Frame_2
+  - name: eastindiacompany rifleman walk anim_Frame_2
     originalName: 
     pivot: {x: 0.80821913, y: -0.039473683}
     alignment: 9
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 172
       width: 73
       height: 76
-    spriteID: 76caf87e5cbe51a47b482dea99613fd7
+    spriteID: 50916197e28e5914a91bfa9cf2436af0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -181,7 +181,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 172}
-  - name: eastindiacompany rifleman walk anim (1)_Frame_3
+  - name: eastindiacompany rifleman walk anim_Frame_3
     originalName: 
     pivot: {x: 0.80821913, y: -0.039473683}
     alignment: 9
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 256
       width: 73
       height: 76
-    spriteID: c6d949a4b94cc764999474da243fb847
+    spriteID: b99902337725fff40a28fbd840b1ab87
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -201,7 +201,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 256}
-  - name: eastindiacompany rifleman walk anim (1)_Frame_4
+  - name: eastindiacompany rifleman walk anim_Frame_4
     originalName: 
     pivot: {x: 0.80821913, y: -0.039473683}
     alignment: 9
@@ -212,7 +212,7 @@ ScriptedImporter:
       y: 340
       width: 73
       height: 76
-    spriteID: 7ebdc5cb6d8ad264fb04235214509b5a
+    spriteID: 43ad1536164a0024f989480c25190288
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -221,7 +221,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 340}
-  - name: eastindiacompany rifleman walk anim (1)_Frame_5
+  - name: eastindiacompany rifleman walk anim_Frame_5
     originalName: 
     pivot: {x: 0.80821913, y: -0.039473683}
     alignment: 9
@@ -232,7 +232,7 @@ ScriptedImporter:
       y: 424
       width: 73
       height: 76
-    spriteID: 8d2106d2cb3c77d4fbe6f307f2c71165
+    spriteID: d0f9a17492750f240a3681456808be1d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -241,7 +241,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 424}
-  - name: eastindiacompany rifleman walk anim (1)_Frame_6
+  - name: eastindiacompany rifleman walk anim_Frame_6
     originalName: 
     pivot: {x: 0.80821913, y: -0.039473683}
     alignment: 9
@@ -252,7 +252,7 @@ ScriptedImporter:
       y: 4
       width: 73
       height: 76
-    spriteID: f39ec2608bb50c4428ef3528eeb813f1
+    spriteID: 2ef7dcb048c16d0499a86e415874a15b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -261,7 +261,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 86, y: 4}
-  - name: eastindiacompany rifleman walk anim (1)_Frame_7
+  - name: eastindiacompany rifleman walk anim_Frame_7
     originalName: 
     pivot: {x: 0.80821913, y: -0.053333335}
     alignment: 9
@@ -272,7 +272,7 @@ ScriptedImporter:
       y: 424
       width: 73
       height: 75
-    spriteID: 13871fa67c61a3e4c80061b926b27973
+    spriteID: 4a021afdb4ce1f94cafd9c380faff2ee
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -281,7 +281,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 86, y: 424}
-  - name: eastindiacompany rifleman walk anim (1)_Frame_8
+  - name: eastindiacompany rifleman walk anim_Frame_8
     originalName: 
     pivot: {x: 0.80821913, y: -0.06756757}
     alignment: 9
@@ -292,7 +292,7 @@ ScriptedImporter:
       y: 253
       width: 73
       height: 74
-    spriteID: 95312dc71ab829f4d9da5e2f51c699dc
+    spriteID: c18615b01de8b77489adba7c02779d29
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -301,7 +301,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 167, y: 253}
-  - name: eastindiacompany rifleman walk anim (1)_Frame_9
+  - name: eastindiacompany rifleman walk anim_Frame_9
     originalName: 
     pivot: {x: 0.80821913, y: -0.053333335}
     alignment: 9
@@ -312,7 +312,7 @@ ScriptedImporter:
       y: 4
       width: 73
       height: 75
-    spriteID: 8074f1a75a713e94a91a3aec4e8744f8
+    spriteID: c1d0a22b7ac7bd94ca5424a6e76e7b27
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -321,7 +321,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 167, y: 4}
-  - name: eastindiacompany rifleman walk anim (1)_Frame_10
+  - name: eastindiacompany rifleman walk anim_Frame_10
     originalName: 
     pivot: {x: 0.80821913, y: -0.053333335}
     alignment: 9
@@ -332,7 +332,7 @@ ScriptedImporter:
       y: 87
       width: 73
       height: 75
-    spriteID: 03e1fd823a67c4247b1cd16b70acb502
+    spriteID: 7b45af482e7239647bbf0ac108371cf2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -341,7 +341,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 167, y: 87}
-  - name: eastindiacompany rifleman walk anim (1)_Frame_11
+  - name: eastindiacompany rifleman walk anim_Frame_11
     originalName: 
     pivot: {x: 0.80821913, y: -0.053333335}
     alignment: 9
@@ -352,7 +352,7 @@ ScriptedImporter:
       y: 170
       width: 73
       height: 75
-    spriteID: c4eb12e705c7e7e45b3838635b061d8e
+    spriteID: 9794dc180e1d9d54aaf0cf787c86cb46
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -361,7 +361,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 167, y: 170}
-  - name: eastindiacompany rifleman walk anim (1)_Frame_12
+  - name: eastindiacompany rifleman walk anim_Frame_12
     originalName: 
     pivot: {x: 0.80821913, y: -0.039473683}
     alignment: 9
@@ -372,7 +372,7 @@ ScriptedImporter:
       y: 88
       width: 73
       height: 76
-    spriteID: 32ec6aad65eadc643bd319b35cb0652c
+    spriteID: 3814332cef915a940a055f2014569d0f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -381,7 +381,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 86, y: 88}
-  - name: eastindiacompany rifleman walk anim (1)_Frame_13
+  - name: eastindiacompany rifleman walk anim_Frame_13
     originalName: 
     pivot: {x: 0.80821913, y: -0.039473683}
     alignment: 9
@@ -392,7 +392,7 @@ ScriptedImporter:
       y: 172
       width: 73
       height: 76
-    spriteID: 9dea96942589b6f4384c425199b5db96
+    spriteID: b5d519c2779108d43815d2de0dda0efe
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -401,7 +401,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 86, y: 172}
-  - name: eastindiacompany rifleman walk anim (1)_Frame_14
+  - name: eastindiacompany rifleman walk anim_Frame_14
     originalName: 
     pivot: {x: 0.80821913, y: -0.039473683}
     alignment: 9
@@ -412,7 +412,7 @@ ScriptedImporter:
       y: 256
       width: 73
       height: 76
-    spriteID: b56298beede5d6b4ea0011d261ca4610
+    spriteID: f04d473cdde8e894d8a04ebbf47350b9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -421,7 +421,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 86, y: 256}
-  - name: eastindiacompany rifleman walk anim (1)_Frame_15
+  - name: eastindiacompany rifleman walk anim_Frame_15
     originalName: 
     pivot: {x: 0.80821913, y: -0.039473683}
     alignment: 9
@@ -432,7 +432,7 @@ ScriptedImporter:
       y: 340
       width: 73
       height: 76
-    spriteID: 10c622d712aca7d47889a13a0ce4e6ac
+    spriteID: 347ba7dc88d2abb448c6bbc40d6382e8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -444,13 +444,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -495860161
-    name: eastindiacompany rifleman walk anim (1)
+    guid: -2107574045
+    name: eastindiacompany rifleman walk anim
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: eastindiacompany rifleman walk anim (1)_Frame_0
+    - name: eastindiacompany rifleman walk anim_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -458,8 +458,8 @@ ScriptedImporter:
         y: 3
         width: 74
         height: 76
-      spriteId: adf5a159131e55d458b93cca59867cf5
-    - name: eastindiacompany rifleman walk anim (1)_Frame_1
+      spriteId: 8f0416cdbe67aee4ea44b716229fe29f
+    - name: eastindiacompany rifleman walk anim_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -467,8 +467,8 @@ ScriptedImporter:
         y: 3
         width: 73
         height: 76
-      spriteId: 77bb73250a41add4eb664debaa010ea9
-    - name: eastindiacompany rifleman walk anim (1)_Frame_2
+      spriteId: c2515534c64c86345a80df6845f399d6
+    - name: eastindiacompany rifleman walk anim_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -476,8 +476,8 @@ ScriptedImporter:
         y: 3
         width: 73
         height: 76
-      spriteId: 76caf87e5cbe51a47b482dea99613fd7
-    - name: eastindiacompany rifleman walk anim (1)_Frame_3
+      spriteId: 50916197e28e5914a91bfa9cf2436af0
+    - name: eastindiacompany rifleman walk anim_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -485,8 +485,8 @@ ScriptedImporter:
         y: 3
         width: 73
         height: 76
-      spriteId: c6d949a4b94cc764999474da243fb847
-    - name: eastindiacompany rifleman walk anim (1)_Frame_4
+      spriteId: b99902337725fff40a28fbd840b1ab87
+    - name: eastindiacompany rifleman walk anim_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -494,8 +494,8 @@ ScriptedImporter:
         y: 3
         width: 73
         height: 76
-      spriteId: 7ebdc5cb6d8ad264fb04235214509b5a
-    - name: eastindiacompany rifleman walk anim (1)_Frame_5
+      spriteId: 43ad1536164a0024f989480c25190288
+    - name: eastindiacompany rifleman walk anim_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -503,8 +503,8 @@ ScriptedImporter:
         y: 3
         width: 73
         height: 76
-      spriteId: 8d2106d2cb3c77d4fbe6f307f2c71165
-    - name: eastindiacompany rifleman walk anim (1)_Frame_6
+      spriteId: d0f9a17492750f240a3681456808be1d
+    - name: eastindiacompany rifleman walk anim_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -512,8 +512,8 @@ ScriptedImporter:
         y: 3
         width: 73
         height: 76
-      spriteId: f39ec2608bb50c4428ef3528eeb813f1
-    - name: eastindiacompany rifleman walk anim (1)_Frame_7
+      spriteId: 2ef7dcb048c16d0499a86e415874a15b
+    - name: eastindiacompany rifleman walk anim_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -521,8 +521,8 @@ ScriptedImporter:
         y: 4
         width: 73
         height: 75
-      spriteId: 13871fa67c61a3e4c80061b926b27973
-    - name: eastindiacompany rifleman walk anim (1)_Frame_8
+      spriteId: 4a021afdb4ce1f94cafd9c380faff2ee
+    - name: eastindiacompany rifleman walk anim_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -530,8 +530,8 @@ ScriptedImporter:
         y: 5
         width: 73
         height: 74
-      spriteId: 95312dc71ab829f4d9da5e2f51c699dc
-    - name: eastindiacompany rifleman walk anim (1)_Frame_9
+      spriteId: c18615b01de8b77489adba7c02779d29
+    - name: eastindiacompany rifleman walk anim_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -539,8 +539,8 @@ ScriptedImporter:
         y: 4
         width: 73
         height: 75
-      spriteId: 8074f1a75a713e94a91a3aec4e8744f8
-    - name: eastindiacompany rifleman walk anim (1)_Frame_10
+      spriteId: c1d0a22b7ac7bd94ca5424a6e76e7b27
+    - name: eastindiacompany rifleman walk anim_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -548,8 +548,8 @@ ScriptedImporter:
         y: 4
         width: 73
         height: 75
-      spriteId: 03e1fd823a67c4247b1cd16b70acb502
-    - name: eastindiacompany rifleman walk anim (1)_Frame_11
+      spriteId: 7b45af482e7239647bbf0ac108371cf2
+    - name: eastindiacompany rifleman walk anim_Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -557,8 +557,8 @@ ScriptedImporter:
         y: 4
         width: 73
         height: 75
-      spriteId: c4eb12e705c7e7e45b3838635b061d8e
-    - name: eastindiacompany rifleman walk anim (1)_Frame_12
+      spriteId: 9794dc180e1d9d54aaf0cf787c86cb46
+    - name: eastindiacompany rifleman walk anim_Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -566,8 +566,8 @@ ScriptedImporter:
         y: 3
         width: 73
         height: 76
-      spriteId: 32ec6aad65eadc643bd319b35cb0652c
-    - name: eastindiacompany rifleman walk anim (1)_Frame_13
+      spriteId: 3814332cef915a940a055f2014569d0f
+    - name: eastindiacompany rifleman walk anim_Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -575,8 +575,8 @@ ScriptedImporter:
         y: 3
         width: 73
         height: 76
-      spriteId: 9dea96942589b6f4384c425199b5db96
-    - name: eastindiacompany rifleman walk anim (1)_Frame_14
+      spriteId: b5d519c2779108d43815d2de0dda0efe
+    - name: eastindiacompany rifleman walk anim_Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -584,8 +584,8 @@ ScriptedImporter:
         y: 3
         width: 73
         height: 76
-      spriteId: b56298beede5d6b4ea0011d261ca4610
-    - name: eastindiacompany rifleman walk anim (1)_Frame_15
+      spriteId: f04d473cdde8e894d8a04ebbf47350b9
+    - name: eastindiacompany rifleman walk anim_Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -593,7 +593,7 @@ ScriptedImporter:
         y: 3
         width: 73
         height: 76
-      spriteId: 10c622d712aca7d47889a13a0ce4e6ac
+      spriteId: 347ba7dc88d2abb448c6bbc40d6382e8
     linkedCells: []
     parentIndex: -1
   platformSettings: []
