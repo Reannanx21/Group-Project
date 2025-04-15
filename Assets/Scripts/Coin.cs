@@ -38,7 +38,7 @@ public class Coin : MonoBehaviour
                 Debug.LogWarning("CoinManager not found! Make sure it exists and is initialized.");
             }
 
-            // Hide visuals and disable collision
+            
             if (spriteRenderer != null)
                 spriteRenderer.enabled = false;
 
