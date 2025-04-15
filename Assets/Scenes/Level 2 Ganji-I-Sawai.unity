@@ -13641,6 +13641,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8452563663328836197, guid: ac2087401084cc4479c026ad9dc4b5ea, type: 3}
+      propertyPath: health
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8452563663328836197, guid: ac2087401084cc4479c026ad9dc4b5ea, type: 3}
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 841864553}
@@ -13736,6 +13740,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 8994818182478574821, guid: ab63bc10d8d0cc845a970d91ab401510, type: 3}
   shootPoint: {fileID: 516741698}
   damage: 25
+  shootSound: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

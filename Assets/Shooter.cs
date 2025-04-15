@@ -6,11 +6,12 @@ public class CharacterShooter : MonoBehaviour
     public Transform shootPoint;
     public float damage = 10f;
 
-    public AudioClip shootSound; // Assign this in the inspector
+    public AudioClip shootSound;  // Assign this in the inspector
     private AudioSource audioSource;
 
     private Animator animator;
-    private bool isActionLocked = false;
+    private float shootCooldown = 0.5f;  // Time in seconds between shots
+    private float timeSinceLastShot = 0f;
 
     void Start()
     {
@@ -29,36 +30,41 @@ public class CharacterShooter : MonoBehaviour
 
     void Update()
     {
-        if (isActionLocked) return; // Block input during other animations
+        // Update the time since last shot
+        timeSinceLastShot += Time.deltaTime;
 
-        if (Input.GetKeyDown(KeyCode.E))
+        // If the player presses E and enough time has passed, shoot
+        if (Input.GetKeyDown(KeyCode.E) && timeSinceLastShot >= shootCooldown)
         {
             if (animator != null)
             {
                 animator.SetTrigger("Shoot");
                 Debug.Log("Shoot animation triggered!");
-                LockAction();
+                FireProjectile();
+                timeSinceLastShot = 0f; // Reset the cooldown timer
             }
             else
             {
-                Shoot(); // fallback
+                Shoot();  // Fallback if there's no animator
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Mouse0)) // Left click for attack?
+        // If the player clicks left mouse button, perform an attack (similar to shooting)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && timeSinceLastShot >= shootCooldown)
         {
             if (animator != null)
             {
                 animator.SetTrigger("Attack");
                 Debug.Log("Attack animation triggered!");
-                LockAction();
+                timeSinceLastShot = 0f;  // Reset the cooldown timer
             }
         }
     }
 
-    public void FireProjectileFromAnimation()
+    // Fire the projectile and play sound
+    void FireProjectile()
     {
-        Debug.Log("Animation Event Triggered - Firing Projectile");
+        Debug.Log("Firing projectile");
 
         if (projectilePrefab == null || shootPoint == null)
         {
@@ -72,7 +78,7 @@ public class CharacterShooter : MonoBehaviour
         }
 
         GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, shootPoint.rotation);
-        Debug.Log("Projectile spawned from animation!");
+        Debug.Log("Projectile spawned!");
 
         Projectile projScript = projectile.GetComponent<Projectile>();
         if (projScript != null)
@@ -81,6 +87,7 @@ public class CharacterShooter : MonoBehaviour
         }
     }
 
+    // Fallback Shoot if no animator or animation events are set
     void Shoot()
     {
         Debug.Log("Fallback Shoot() called!");
@@ -96,18 +103,5 @@ public class CharacterShooter : MonoBehaviour
         {
             projScript.SetDamage(damage);
         }
-    }
-
-    // Call this at the start of any action
-    void LockAction()
-    {
-        isActionLocked = true;
-    }
-
-    // Call this from an animation event at the END of shoot/attack
-    public void UnlockAction()
-    {
-        Debug.Log("Action unlocked");
-        isActionLocked = false;
     }
 }
