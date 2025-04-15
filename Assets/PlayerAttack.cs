@@ -12,10 +12,15 @@ public class PlayerAttack : MonoBehaviour
 
     public CinemachineImpulseSource impulseSource;
 
+    public AudioSource audioSource;
+    public AudioClip attackSound;
+
     void Start()
     {
         anim = GetComponent<Animator>();
         impulseSource = GetComponent<CinemachineImpulseSource>();
+        if (audioSource == null)
+            audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -30,6 +35,12 @@ public class PlayerAttack : MonoBehaviour
     {
         isAttacking = true;
         anim.SetTrigger("Attack");
+
+        // Play attack sound
+        if (audioSource != null && attackSound != null)
+        {
+            audioSource.PlayOneShot(attackSound);
+        }
 
         bool enemyHit = false;
 
