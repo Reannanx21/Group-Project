@@ -9679,6 +9679,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4328633108454594212, guid: 2d0021bdd2fbf3647ae572a07e5692e1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328633108454594212, guid: 2d0021bdd2fbf3647ae572a07e5692e1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328633108454594212, guid: 2d0021bdd2fbf3647ae572a07e5692e1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5358031125096644565, guid: 2d0021bdd2fbf3647ae572a07e5692e1, type: 3}
       propertyPath: m_Name
       value: Restart screen 1
@@ -9686,6 +9698,22 @@ PrefabInstance:
     - target: {fileID: 5358031125096644565, guid: 2d0021bdd2fbf3647ae572a07e5692e1, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7182852033847195115, guid: 2d0021bdd2fbf3647ae572a07e5692e1, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7182852033847195115, guid: 2d0021bdd2fbf3647ae572a07e5692e1, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7182852033847195115, guid: 2d0021bdd2fbf3647ae572a07e5692e1, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9180793864471814672, guid: 2d0021bdd2fbf3647ae572a07e5692e1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
