@@ -8,6 +8,7 @@ public class ObjectHealth : MonoBehaviour
 
     private Animator animator;
     private BoxCollider2D boxCollider;
+    private AudioSource audioSource;
     private bool isBroken = false;
     private CameraShake cameraShake;
 
@@ -16,6 +17,7 @@ public class ObjectHealth : MonoBehaviour
         cameraShake = CameraShake.Instance;
         animator = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+        audioSource = GetComponent<AudioSource>(); 
     }
 
     public void TakeDamage(float amount)
@@ -43,14 +45,16 @@ public class ObjectHealth : MonoBehaviour
         animator.SetTrigger("isBroken");
         boxCollider.enabled = false;
 
+        if (audioSource != null)
+        {
+            audioSource.Play(); // Play sound 
+        }
+
         if (BarrelLight != null)
         {
             Destroy(BarrelLight);
         }
-
-
     }
-
 
     private float GetAnimationLength()
     {

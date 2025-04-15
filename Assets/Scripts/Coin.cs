@@ -6,11 +6,12 @@ public class Coin : MonoBehaviour
     private bool hasTriggered;
 
     private CoinManager coinManager;
+    private AudioSource audioSource;
 
     private void Start()
     {
-        // Safer reference in case CoinManager isn't ready at Start
         coinManager = CoinManager.instance;
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -19,7 +20,6 @@ public class Coin : MonoBehaviour
         {
             hasTriggered = true;
 
-            // Safety check in case the manager hasn't been found
             if (coinManager == null)
             {
                 coinManager = CoinManager.instance;
@@ -34,7 +34,12 @@ public class Coin : MonoBehaviour
                 Debug.LogWarning("CoinManager not found! Make sure it exists and is initialized.");
             }
 
-            Destroy(gameObject);
+            if (audioSource != null)
+            {
+                audioSource.Play();
+            }
+
+            Destroy(gameObject, audioSource != null ? audioSource.clip.length : 0f);
         }
     }
 }
