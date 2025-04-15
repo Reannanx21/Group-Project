@@ -5,17 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class GameExit : MonoBehaviour
 {
-    public void OnStartClick()
-    {
-        SceneManager.LoadScene("Level 1 The Joys of Piracy");
 
+    private void Start()
+    {
+        
     }
 
-    public void OnExitClick()
+  public void Quit()
     {
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#endif 
         Application.Quit();
+        Debug.Log("Quit");
     }
 }
+
+   

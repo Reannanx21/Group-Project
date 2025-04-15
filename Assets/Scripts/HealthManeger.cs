@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
@@ -8,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
     public float maxHealth = 100f;
     public Image healthBar;
     public bool isDead = false;
+    public GameObject restartScreen; // Assign in Inspector
     [SerializeField] private float debugDamageAmount = 20.0f;
 
     void Start()
@@ -19,13 +20,23 @@ public class PlayerHealth : MonoBehaviour
 
         health = maxHealth;
         InitializeHealthBar();
+
+        if (restartScreen != null)
+        {
+            restartScreen.SetActive(false); // Hide restart screen initially
+        }
     }
 
-     void Update()
+    void Update()
     {
         if (Input.GetButtonDown("DebugTakeDamage"))
         {
             TakeDamage(debugDamageAmount);
+        }
+
+        if (isDead && Input.GetKeyDown(KeyCode.R))
+        {
+            RestartScene();
         }
     }
 
@@ -41,7 +52,7 @@ public class PlayerHealth : MonoBehaviour
 
     void UpdateHealthBar()
     {
-        if (healthBar != null && maxHealth > 0) // Prevent division by zero
+        if (healthBar != null && maxHealth > 0)
         {
             healthBar.fillAmount = Mathf.Clamp(health / maxHealth, 0f, 1f);
         }
@@ -73,18 +84,21 @@ public class PlayerHealth : MonoBehaviour
         UpdateHealthBar();
     }
 
-
-
     void Die()
     {
         if (isDead) return;
 
         isDead = true;
-        Invoke("ReloadScene", 1f);
+        Time.timeScale = 0f; // Pause game
+        if (restartScreen != null)
+        {
+            restartScreen.SetActive(true);
+        }
     }
 
-    void ReloadScene()
+    void RestartScene()
     {
+        Time.timeScale = 1f; // Resume time
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

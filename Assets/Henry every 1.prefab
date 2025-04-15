@@ -225,6 +225,7 @@ MonoBehaviour:
   maxHealth: 100
   healthBar: {fileID: 0}
   isDead: 0
+  restartScreen: {fileID: 959747879717214363, guid: 7cb205b7588caa1489d254d7777ed727, type: 3}
   debugDamageAmount: 20
 --- !u!114 &8615099168874874543
 MonoBehaviour:
