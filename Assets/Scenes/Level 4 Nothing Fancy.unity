@@ -494,6 +494,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 777099621728093025, guid: 57ab693944b7367488a90daf3f238974, type: 3}
+      propertyPath: damage
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 777099621728093025, guid: 57ab693944b7367488a90daf3f238974, type: 3}
+      propertyPath: shootPoint
+      value: 
+      objectReference: {fileID: 6434248081560461445, guid: b5e05ccfdde80d04a89dd4fca99862a0, type: 3}
+    - target: {fileID: 777099621728093025, guid: 57ab693944b7367488a90daf3f238974, type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: dccbbd794441b384e871d8f8788b860f, type: 3}
+    - target: {fileID: 777099621728093025, guid: 57ab693944b7367488a90daf3f238974, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 880109912}
+    - target: {fileID: 777099621728093025, guid: 57ab693944b7367488a90daf3f238974, type: 3}
+      propertyPath: projectilePrefab
+      value: 
+      objectReference: {fileID: 8994818182478574821, guid: ab63bc10d8d0cc845a970d91ab401510, type: 3}
     - target: {fileID: 2646883139325277299, guid: 57ab693944b7367488a90daf3f238974, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
@@ -645,6 +665,72 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 893d6227a4aa9f642a91bb15229afc4c, type: 3}
+--- !u!82 &880109912 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2699327053731405247, guid: f6fbf023c35d9254a8c0744e9f213293, type: 3}
+  m_PrefabInstance: {fileID: 553825579}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1192323327
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2118785345588951400, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_SortingOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -45.91274
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -9.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731510457549536996, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_Name
+      value: mughal soldier idle (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ab95180bb38629f4791015a88e199c76, type: 3}
 --- !u!1001 &1237258590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1004,6 +1090,128 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42d1e4db855d4b542b2e82becd051577, type: 3}
+--- !u!1001 &1591441101
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1703382538237708618, guid: 1c7804bae5948a84c88104d2b3955a5c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.997753
+      objectReference: {fileID: 0}
+    - target: {fileID: 1703382538237708618, guid: 1c7804bae5948a84c88104d2b3955a5c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -12.038583
+      objectReference: {fileID: 0}
+    - target: {fileID: 1703382538237708618, guid: 1c7804bae5948a84c88104d2b3955a5c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1703382538237708618, guid: 1c7804bae5948a84c88104d2b3955a5c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1703382538237708618, guid: 1c7804bae5948a84c88104d2b3955a5c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1703382538237708618, guid: 1c7804bae5948a84c88104d2b3955a5c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1703382538237708618, guid: 1c7804bae5948a84c88104d2b3955a5c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1703382538237708618, guid: 1c7804bae5948a84c88104d2b3955a5c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1703382538237708618, guid: 1c7804bae5948a84c88104d2b3955a5c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1703382538237708618, guid: 1c7804bae5948a84c88104d2b3955a5c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1895553559421034799, guid: 1c7804bae5948a84c88104d2b3955a5c, type: 3}
+      propertyPath: m_Name
+      value: eastindiacompany rifleman idle anim
+      objectReference: {fileID: 0}
+    - target: {fileID: 7116424196112010719, guid: 1c7804bae5948a84c88104d2b3955a5c, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 629282813}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c7804bae5948a84c88104d2b3955a5c, type: 3}
+--- !u!1001 &1601428706
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2118785345588951400, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_SortingOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -85.27589
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -11.678985
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731510457549536996, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_Name
+      value: mughal soldier idle
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ab95180bb38629f4791015a88e199c76, type: 3}
 --- !u!1001 &1630728076
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1170,6 +1378,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30883d42738c1d64888a994bd59e6191, type: 3}
+--- !u!1001 &1926930363
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2118785345588951400, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 34.250786
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -16.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784952469822805633, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731510457549536996, guid: ab95180bb38629f4791015a88e199c76, type: 3}
+      propertyPath: m_Name
+      value: mughal soldier idle (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ab95180bb38629f4791015a88e199c76, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1186,3 +1455,7 @@ SceneRoots:
   - {fileID: 437608722}
   - {fileID: 1531777299}
   - {fileID: 194242922}
+  - {fileID: 1601428706}
+  - {fileID: 1192323327}
+  - {fileID: 1926930363}
+  - {fileID: 1591441101}

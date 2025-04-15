@@ -37,10 +37,9 @@ public class PlayerAttack : MonoBehaviour
         anim.SetTrigger("Attack");
 
         // Play attack sound
-        if (audioSource != null && attackSound != null)
-        {
+       
             audioSource.PlayOneShot(attackSound);
-        }
+        
 
         bool enemyHit = false;
 

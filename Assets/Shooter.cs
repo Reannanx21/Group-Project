@@ -9,6 +9,9 @@ public class CharacterShooter : MonoBehaviour
     private Animator animator;
     private bool isActionLocked = false;
 
+    public AudioSource audioSource;
+    public AudioClip shootSound;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -16,6 +19,7 @@ public class CharacterShooter : MonoBehaviour
         {
             Debug.LogWarning("No Animator found on this GameObject.");
         }
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -29,6 +33,9 @@ public class CharacterShooter : MonoBehaviour
                 animator.SetTrigger("Shoot");
                 Debug.Log("Shoot animation triggered!");
                 LockAction();
+                
+                    audioSource.PlayOneShot(shootSound);
+                
             }
             else
             {
@@ -36,15 +43,15 @@ public class CharacterShooter : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Mouse0)) // Left click for attack?
-        {
-            if (animator != null)
-            {
-                animator.SetTrigger("Attack");
-                Debug.Log("Attack animation triggered!");
-                LockAction();
-            }
-        }
+        //if (Input.GetKeyDown(KeyCode.Mouse0)) // Left click for attack?
+       // {
+          //  if (animator != null)
+           // {
+             //   animator.SetTrigger("Attack");
+             //   Debug.Log("Attack animation triggered!");
+              //  LockAction();
+            //}
+       // }
     }
 
     public void FireProjectileFromAnimation()
