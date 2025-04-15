@@ -12,7 +12,7 @@ public class EnemyFollow : MonoBehaviour
 
     private Camera mainCam;
     private Rigidbody2D rb;
-    // private Animator animator; 
+    private Animator animator; 
 
     public float groundDistance = 0.5f;
     public float gravityScale = 3f;
@@ -22,7 +22,7 @@ public class EnemyFollow : MonoBehaviour
         currentHealth = maxHealth;
         mainCam = Camera.main;
         rb = GetComponent<Rigidbody2D>();
-        // animator = GetComponent<Animator>(); 
+        animator = GetComponent<Animator>(); 
         rb.gravityScale = gravityScale;
     }
 
@@ -48,7 +48,7 @@ public class EnemyFollow : MonoBehaviour
         }
 
         
-        // animator.SetBool("isWalking", Mathf.Abs(rb.velocity.x) > 0.1f);
+        animator.SetBool("isWalking", Mathf.Abs(rb.velocity.x) > 0.1f);
 
         KeepOnGround();
     }

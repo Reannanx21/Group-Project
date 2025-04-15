@@ -6,6 +6,9 @@ public class CharacterShooter : MonoBehaviour
     public Transform shootPoint;
     public float damage = 10f;
 
+    public AudioClip shootSound; // Assign this in the inspector
+    private AudioSource audioSource;
+
     private Animator animator;
     private bool isActionLocked = false;
 
@@ -15,6 +18,12 @@ public class CharacterShooter : MonoBehaviour
         if (animator == null)
         {
             Debug.LogWarning("No Animator found on this GameObject.");
+        }
+
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            Debug.LogWarning("No AudioSource found on this GameObject.");
         }
     }
 
@@ -57,6 +66,11 @@ public class CharacterShooter : MonoBehaviour
             return;
         }
 
+        if (shootSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(shootSound);
+        }
+
         GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, shootPoint.rotation);
         Debug.Log("Projectile spawned from animation!");
 
@@ -71,6 +85,11 @@ public class CharacterShooter : MonoBehaviour
     {
         Debug.Log("Fallback Shoot() called!");
 
+        if (shootSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(shootSound);
+        }
+
         GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, shootPoint.rotation);
         Projectile projScript = projectile.GetComponent<Projectile>();
         if (projScript != null)
@@ -79,13 +98,13 @@ public class CharacterShooter : MonoBehaviour
         }
     }
 
-    //  Call this at the start of any action
+    // Call this at the start of any action
     void LockAction()
     {
         isActionLocked = true;
     }
 
-    //  Call this from an animation event at the END of shoot/attack
+    // Call this from an animation event at the END of shoot/attack
     public void UnlockAction()
     {
         Debug.Log("Action unlocked");
