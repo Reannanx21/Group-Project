@@ -13387,6 +13387,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 762175600354360227, guid: ac2087401084cc4479c026ad9dc4b5ea, type: 3}
+      propertyPath: attackSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 2a068d7025e6f664c9f92e7896b5ca5c, type: 3}
+    - target: {fileID: 762175600354360227, guid: ac2087401084cc4479c026ad9dc4b5ea, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 3021728422498305773}
+    - target: {fileID: 762175600354360227, guid: ac2087401084cc4479c026ad9dc4b5ea, type: 3}
       propertyPath: enemies.m_Bits
       value: 3072
       objectReference: {fileID: 0}
@@ -13453,6 +13461,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 7657288596921055137}
   m_SourcePrefab: {fileID: 100100000, guid: ac2087401084cc4479c026ad9dc4b5ea, type: 3}
+--- !u!82 &3021728422498305773 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7165032798439697139, guid: ac2087401084cc4479c026ad9dc4b5ea, type: 3}
+  m_PrefabInstance: {fileID: 3021728422498305772}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5196189612067661556
 PrefabInstance:
   m_ObjectHideFlags: 0
