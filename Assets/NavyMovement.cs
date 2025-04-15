@@ -12,7 +12,7 @@ public class EnemyFollow : MonoBehaviour
 
     private Camera mainCam;
     private Rigidbody2D rb;
-    private Animator animator;
+    // private Animator animator; 
 
     public float groundDistance = 0.5f;
     public float gravityScale = 3f;
@@ -22,7 +22,7 @@ public class EnemyFollow : MonoBehaviour
         currentHealth = maxHealth;
         mainCam = Camera.main;
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        // animator = GetComponent<Animator>(); 
         rb.gravityScale = gravityScale;
     }
 
@@ -47,7 +47,9 @@ public class EnemyFollow : MonoBehaviour
             rb.velocity = new Vector2(0, rb.velocity.y);
         }
 
-        animator.SetBool("isWalking", Mathf.Abs(rb.velocity.x) > 0.1f);
+        
+        // animator.SetBool("isWalking", Mathf.Abs(rb.velocity.x) > 0.1f);
+
         KeepOnGround();
     }
 
@@ -80,7 +82,7 @@ public class EnemyFollow : MonoBehaviour
 
     void Die()
     {
-        animator.SetTrigger("isDead");
+        // animator.SetTrigger("isDead"); 
         Destroy(gameObject, 2f);
     }
 
@@ -106,7 +108,5 @@ public class EnemyFollow : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawRay(transform.position, Vector2.down * groundDistance);
-
-        
     }
 }
