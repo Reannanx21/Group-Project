@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d33b9f00a53d09d439e0cbe4c5d4c5e7
+guid: b1b9b89c2cb4a8648a1a21012c4878f8
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: henry avery character model (1) (1)_Frame_0
+  - name: henry avery character model (1) (1) (1)_Frame_0
     originalName: 
     pivot: {x: 1, y: -0.04109589}
     alignment: 9
@@ -132,7 +132,7 @@ ScriptedImporter:
       y: 895
       width: 64
       height: 73
-    spriteID: 61ebe3e83bebb4d43b58047132af97ee
+    spriteID: 7d08e2a848e23e144940a9ea39c7cc76
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,7 +141,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 272, y: 895}
-  - name: henry avery character model (1) (1)_Frame_1
+  - name: henry avery character model (1) (1) (1)_Frame_1
     originalName: 
     pivot: {x: 1, y: -0.04109589}
     alignment: 9
@@ -152,7 +152,7 @@ ScriptedImporter:
       y: 4
       width: 64
       height: 73
-    spriteID: 95631bcf38f780548ac859903c6a1770
+    spriteID: e08b1f996cc045848a3168f355adb8dd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -161,7 +161,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 365, y: 4}
-  - name: henry avery character model (1) (1)_Frame_2
+  - name: henry avery character model (1) (1) (1)_Frame_2
     originalName: 
     pivot: {x: 1, y: -0.04109589}
     alignment: 9
@@ -172,7 +172,7 @@ ScriptedImporter:
       y: 85
       width: 64
       height: 73
-    spriteID: 4fd6f39d0922c914db538820c29e7b43
+    spriteID: b05694a66b3860a4d833d673fbbfedbe
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -181,7 +181,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 365, y: 85}
-  - name: henry avery character model (1) (1)_Frame_3
+  - name: henry avery character model (1) (1) (1)_Frame_3
     originalName: 
     pivot: {x: 1, y: -0.04109589}
     alignment: 9
@@ -192,7 +192,7 @@ ScriptedImporter:
       y: 166
       width: 64
       height: 73
-    spriteID: 148ab539edaa20b4ba8ebff4998905b9
+    spriteID: 7d8d8fccafc8be049a896720c1942d63
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -201,7 +201,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 365, y: 166}
-  - name: henry avery character model (1) (1)_Frame_4
+  - name: henry avery character model (1) (1) (1)_Frame_4
     originalName: 
     pivot: {x: 1, y: -0.04109589}
     alignment: 9
@@ -212,7 +212,7 @@ ScriptedImporter:
       y: 247
       width: 64
       height: 73
-    spriteID: 931caea88601dde47a7cc47afcd7c58e
+    spriteID: e96384d67d379cd4ea74b755861043b1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -221,7 +221,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 365, y: 247}
-  - name: henry avery character model (1) (1)_Frame_5
+  - name: henry avery character model (1) (1) (1)_Frame_5
     originalName: 
     pivot: {x: 1, y: -0.04109589}
     alignment: 9
@@ -232,7 +232,7 @@ ScriptedImporter:
       y: 328
       width: 64
       height: 73
-    spriteID: 4ac9bf0b54ef55848ba4593f89f59019
+    spriteID: f38a7b59ead95b54a94369c4b28f1fb5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -241,7 +241,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 365, y: 328}
-  - name: henry avery character model (1) (1)_Frame_6
+  - name: henry avery character model (1) (1) (1)_Frame_6
     originalName: 
     pivot: {x: 1, y: -0.04109589}
     alignment: 9
@@ -252,7 +252,7 @@ ScriptedImporter:
       y: 409
       width: 64
       height: 73
-    spriteID: efc4781f78405514982b2d764881b661
+    spriteID: 992ca8bea8e69c64b9d1bb55072c1788
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -261,7 +261,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 365, y: 409}
-  - name: henry avery character model (1) (1)_Frame_7
+  - name: henry avery character model (1) (1) (1)_Frame_7
     originalName: 
     pivot: {x: 1, y: -0.04109589}
     alignment: 9
@@ -272,7 +272,7 @@ ScriptedImporter:
       y: 490
       width: 64
       height: 73
-    spriteID: 59dd1e58b058c694cb80093b5f8161f2
+    spriteID: 838dee6eb5cc8524b90be00b4a402167
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -281,7 +281,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 365, y: 490}
-  - name: henry avery character model (1) (1)_Frame_8
+  - name: henry avery character model (1) (1) (1)_Frame_8
     originalName: 
     pivot: {x: 1, y: -0.04109589}
     alignment: 9
@@ -292,7 +292,7 @@ ScriptedImporter:
       y: 571
       width: 64
       height: 73
-    spriteID: 491d8eca7b8f9ee4d86dec05bb852300
+    spriteID: e9e4044137973664bbff5e0c8526ca43
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -301,7 +301,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 365, y: 571}
-  - name: henry avery character model (1) (1)_Frame_9
+  - name: henry avery character model (1) (1) (1)_Frame_9
     originalName: 
     pivot: {x: 1, y: -0.04109589}
     alignment: 9
@@ -312,7 +312,7 @@ ScriptedImporter:
       y: 652
       width: 64
       height: 73
-    spriteID: bd0f5a234088a5b48a2c3cfacb5b0375
+    spriteID: b65bab16b817a6d4882d76d3bb2b33f9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -321,7 +321,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 365, y: 652}
-  - name: henry avery character model (1) (1)_Frame_10
+  - name: henry avery character model (1) (1) (1)_Frame_10
     originalName: 
     pivot: {x: 1, y: -0.04109589}
     alignment: 9
@@ -332,7 +332,7 @@ ScriptedImporter:
       y: 733
       width: 64
       height: 73
-    spriteID: df6663ba956cebf4198320cfd755647d
+    spriteID: 96595a3bc73fc8143bf3772fc6139ab5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -341,7 +341,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 365, y: 733}
-  - name: henry avery character model (1) (1)_Frame_11
+  - name: henry avery character model (1) (1) (1)_Frame_11
     originalName: 
     pivot: {x: 1, y: -0.04109589}
     alignment: 9
@@ -352,7 +352,7 @@ ScriptedImporter:
       y: 814
       width: 64
       height: 73
-    spriteID: 1bb8ec5920830ce41b9809c978efa058
+    spriteID: d28d1f6f7f479b44c9064550ee99d950
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -361,7 +361,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 365, y: 814}
-  - name: henry avery character model (1) (1)_Frame_12
+  - name: henry avery character model (1) (1) (1)_Frame_12
     originalName: 
     pivot: {x: 1, y: -0.04109589}
     alignment: 9
@@ -372,7 +372,7 @@ ScriptedImporter:
       y: 895
       width: 64
       height: 73
-    spriteID: 8aec3c581adfb4143abe083c7db64e5a
+    spriteID: 5ad0b5b49e271cd46b254ecc1034f7e0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -381,7 +381,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 365, y: 895}
-  - name: henry avery character model (1) (1)_Frame_13
+  - name: henry avery character model (1) (1) (1)_Frame_13
     originalName: 
     pivot: {x: 1, y: -0.04109589}
     alignment: 9
@@ -392,7 +392,7 @@ ScriptedImporter:
       y: 4
       width: 64
       height: 73
-    spriteID: ee348085006359f4f906ea3c06851d8c
+    spriteID: 82292ab02b521be4f8448e8221718353
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -401,7 +401,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 437, y: 4}
-  - name: henry avery character model (1) (1)_Frame_14
+  - name: henry avery character model (1) (1) (1)_Frame_14
     originalName: 
     pivot: {x: 1, y: -0.04109589}
     alignment: 9
@@ -412,7 +412,7 @@ ScriptedImporter:
       y: 85
       width: 64
       height: 73
-    spriteID: 2827e05c1c16b764486f4d7a10ab9fee
+    spriteID: bb1f4f88339c74d4f80189064459e29c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -421,7 +421,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 437, y: 85}
-  - name: henry avery character model (1) (1)_Frame_15
+  - name: henry avery character model (1) (1) (1)_Frame_15
     originalName: 
     pivot: {x: 1, y: -0.04109589}
     alignment: 9
@@ -432,7 +432,7 @@ ScriptedImporter:
       y: 166
       width: 64
       height: 73
-    spriteID: e358f4134a212d14c984c18b6f67c80e
+    spriteID: 11924a20f32bbdb498c72dde298f67b9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -441,7 +441,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 437, y: 166}
-  - name: henry avery character model (1) (1)_Frame_16
+  - name: henry avery character model (1) (1) (1)_Frame_16
     originalName: 
     pivot: {x: 0.969697, y: -0.04109589}
     alignment: 9
@@ -452,7 +452,7 @@ ScriptedImporter:
       y: 733
       width: 66
       height: 73
-    spriteID: 1bce1f1408173c3498b14198f85e5632
+    spriteID: 38c319966dbbd1944b942303e08274ba
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -461,7 +461,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 272, y: 733}
-  - name: henry avery character model (1) (1)_Frame_17
+  - name: henry avery character model (1) (1) (1)_Frame_17
     originalName: 
     pivot: {x: 0.9142857, y: -0.04109589}
     alignment: 9
@@ -472,7 +472,7 @@ ScriptedImporter:
       y: 652
       width: 70
       height: 73
-    spriteID: f6923b8adf0359d4180103681abe68f8
+    spriteID: dc1fd3c044b95d8428eb067cd2331c2f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -481,7 +481,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 272, y: 652}
-  - name: henry avery character model (1) (1)_Frame_18
+  - name: henry avery character model (1) (1) (1)_Frame_18
     originalName: 
     pivot: {x: 0.82051283, y: -0.04109589}
     alignment: 9
@@ -492,7 +492,7 @@ ScriptedImporter:
       y: 490
       width: 78
       height: 73
-    spriteID: 83f78e61038221c409b741282879df77
+    spriteID: ff7900da6e726814d9e238aa31b6a49b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -501,7 +501,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 272, y: 490}
-  - name: henry avery character model (1) (1)_Frame_19
+  - name: henry avery character model (1) (1) (1)_Frame_19
     originalName: 
     pivot: {x: 0.74418604, y: -0.04109589}
     alignment: 9
@@ -512,7 +512,7 @@ ScriptedImporter:
       y: 744
       width: 86
       height: 73
-    spriteID: 59fcd816fb2c59e4a8d7e84704c1c532
+    spriteID: cab18e18135b73e40869d0893fb5ca2e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -521,7 +521,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 146, y: 744}
-  - name: henry avery character model (1) (1)_Frame_20
+  - name: henry avery character model (1) (1) (1)_Frame_20
     originalName: 
     pivot: {x: 0.74418604, y: -0.04109589}
     alignment: 9
@@ -532,7 +532,7 @@ ScriptedImporter:
       y: 825
       width: 86
       height: 73
-    spriteID: 6a8ab87c62d370948a301307c424f112
+    spriteID: 8ddd711e451b7f0458aac1f16a12823f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -541,7 +541,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 146, y: 825}
-  - name: henry avery character model (1) (1)_Frame_21
+  - name: henry avery character model (1) (1) (1)_Frame_21
     originalName: 
     pivot: {x: 0.7529412, y: -0.04109589}
     alignment: 9
@@ -552,7 +552,7 @@ ScriptedImporter:
       y: 4
       width: 85
       height: 73
-    spriteID: 452036516641c014383f0783f83b401b
+    spriteID: ca618e0ff9b08ae42988d0dc96abfb84
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -561,27 +561,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 272, y: 4}
-  - name: henry avery character model (1) (1)_Frame_22
-    originalName: 
-    pivot: {x: 0.7619048, y: -0.04109589}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 272
-      y: 409
-      width: 84
-      height: 73
-    spriteID: ac7913188c3e7384ab58693d22685f6b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 272, y: 409}
-  - name: henry avery character model (1) (1)_Frame_23
+  - name: henry avery character model (1) (1) (1)_Frame_22
     originalName: 
     pivot: {x: 0.7529412, y: -0.04109589}
     alignment: 9
@@ -592,7 +572,7 @@ ScriptedImporter:
       y: 85
       width: 85
       height: 73
-    spriteID: c8bb1831276394b47afb9be044389bf5
+    spriteID: 21b2b24c9be5b4648b5207aecdc40c41
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -601,7 +581,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 272, y: 85}
-  - name: henry avery character model (1) (1)_Frame_24
+  - name: henry avery character model (1) (1) (1)_Frame_23
     originalName: 
     pivot: {x: 0.7529412, y: -0.04109589}
     alignment: 9
@@ -612,7 +592,7 @@ ScriptedImporter:
       y: 166
       width: 85
       height: 73
-    spriteID: 7e16fd0e3b32e874e9d73abb0a6c3dd0
+    spriteID: 5090c2e7b5b975e43ba73a9885c8c6e9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -621,7 +601,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 272, y: 166}
-  - name: henry avery character model (1) (1)_Frame_25
+  - name: henry avery character model (1) (1) (1)_Frame_24
     originalName: 
     pivot: {x: 0.7529412, y: -0.04109589}
     alignment: 9
@@ -632,7 +612,7 @@ ScriptedImporter:
       y: 247
       width: 85
       height: 73
-    spriteID: b79a24b4d9dac9f4cbb0f9742e096a20
+    spriteID: f005571e477f9f54caecf361a4445ee6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -641,7 +621,27 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 272, y: 247}
-  - name: henry avery character model (1) (1)_Frame_26
+  - name: henry avery character model (1) (1) (1)_Frame_25
+    originalName: 
+    pivot: {x: 0.7529412, y: -0.04109589}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 328
+      width: 85
+      height: 73
+    spriteID: 8718b2669c34c504db160a3b73c11788
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 272, y: 328}
+  - name: henry avery character model (1) (1) (1)_Frame_26
     originalName: 
     pivot: {x: 0.5614035, y: -0.04109589}
     alignment: 9
@@ -652,7 +652,7 @@ ScriptedImporter:
       y: 257
       width: 114
       height: 73
-    spriteID: ddde20d195d06cf40813e68b9c32d0fc
+    spriteID: 6813b7b2ee7bc7f46bb030a298b09e95
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -661,7 +661,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 146, y: 257}
-  - name: henry avery character model (1) (1)_Frame_27
+  - name: henry avery character model (1) (1) (1)_Frame_27
     originalName: 
     pivot: {x: 0.5565218, y: -0.04}
     alignment: 9
@@ -672,7 +672,7 @@ ScriptedImporter:
       y: 174
       width: 115
       height: 75
-    spriteID: 624498697faead3428dba2202bf1453e
+    spriteID: 065b4c2f89ef55b42adaa3aede0340d5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -681,7 +681,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 146, y: 174}
-  - name: henry avery character model (1) (1)_Frame_28
+  - name: henry avery character model (1) (1) (1)_Frame_28
     originalName: 
     pivot: {x: 0.52032524, y: -0.03614458}
     alignment: 9
@@ -692,7 +692,7 @@ ScriptedImporter:
       y: 782
       width: 123
       height: 83
-    spriteID: c9bbe1ae73684584aba85b5edb12e5d2
+    spriteID: 676b505fd24ff974d8701f6466c555a9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -701,7 +701,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 782}
-  - name: henry avery character model (1) (1)_Frame_29
+  - name: henry avery character model (1) (1) (1)_Frame_29
     originalName: 
     pivot: {x: 0.49612403, y: -0.03448276}
     alignment: 9
@@ -712,7 +712,7 @@ ScriptedImporter:
       y: 497
       width: 129
       height: 87
-    spriteID: e847e003df6158b4487757b205877864
+    spriteID: fb5bba9201c256645bc11bb540015ef8
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -721,7 +721,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 497}
-  - name: henry avery character model (1) (1)_Frame_30
+  - name: henry avery character model (1) (1) (1)_Frame_30
     originalName: 
     pivot: {x: 0.47761196, y: -0.032608695}
     alignment: 9
@@ -732,7 +732,7 @@ ScriptedImporter:
       y: 4
       width: 134
       height: 92
-    spriteID: fdbaf0c5c8b1f3343879979a2b1f51fb
+    spriteID: 79bb7c718cc343941a4d95d4c6ffce19
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -741,7 +741,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: henry avery character model (1) (1)_Frame_31
+  - name: henry avery character model (1) (1) (1)_Frame_31
     originalName: 
     pivot: {x: 0.48120302, y: -0.032608695}
     alignment: 9
@@ -752,7 +752,7 @@ ScriptedImporter:
       y: 104
       width: 133
       height: 92
-    spriteID: 7af804a78e6d46d4982bea097b9fdbf1
+    spriteID: 76c1c96def070de49abe3432744fbb18
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -761,7 +761,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 104}
-  - name: henry avery character model (1) (1)_Frame_32
+  - name: henry avery character model (1) (1) (1)_Frame_32
     originalName: 
     pivot: {x: 0.4848485, y: -0.032608695}
     alignment: 9
@@ -772,7 +772,7 @@ ScriptedImporter:
       y: 204
       width: 132
       height: 92
-    spriteID: 6e455be3df407b546a644dd0d1f633f3
+    spriteID: 8727743fb3450704a97de65a7f0929a7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -781,7 +781,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 204}
-  - name: henry avery character model (1) (1)_Frame_33
+  - name: henry avery character model (1) (1) (1)_Frame_33
     originalName: 
     pivot: {x: 0.4848485, y: -0.033707865}
     alignment: 9
@@ -792,7 +792,7 @@ ScriptedImporter:
       y: 304
       width: 132
       height: 89
-    spriteID: 418de5ed085b0214bb7e1ad216a60dd8
+    spriteID: 880b9d875dce09c44a01cb01d15f56f1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -801,7 +801,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 304}
-  - name: henry avery character model (1) (1)_Frame_34
+  - name: henry avery character model (1) (1) (1)_Frame_34
     originalName: 
     pivot: {x: 0.4848485, y: -0.034090906}
     alignment: 9
@@ -812,7 +812,7 @@ ScriptedImporter:
       y: 401
       width: 132
       height: 88
-    spriteID: b9c35a94ac9b5f146b9a0cb33872e052
+    spriteID: c1be441b953056f41b12ce020af02af9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -821,7 +821,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 401}
-  - name: henry avery character model (1) (1)_Frame_35
+  - name: henry avery character model (1) (1) (1)_Frame_35
     originalName: 
     pivot: {x: 0.503937, y: -0.034090906}
     alignment: 9
@@ -832,7 +832,7 @@ ScriptedImporter:
       y: 592
       width: 127
       height: 88
-    spriteID: 923add6eea2b24346b23d9f04bd15c26
+    spriteID: 763bffeb186c6b44e90880642f2b88d0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -841,7 +841,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 592}
-  - name: henry avery character model (1) (1)_Frame_36
+  - name: henry avery character model (1) (1) (1)_Frame_36
     originalName: 
     pivot: {x: 0.50793654, y: -0.03488372}
     alignment: 9
@@ -852,7 +852,7 @@ ScriptedImporter:
       y: 688
       width: 126
       height: 86
-    spriteID: 5c322f2e1a40f184fa2034318f5b3885
+    spriteID: 3a7127e6a1cccc14c960fdf8ce7cc6ff
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -861,7 +861,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 688}
-  - name: henry avery character model (1) (1)_Frame_37
+  - name: henry avery character model (1) (1) (1)_Frame_37
     originalName: 
     pivot: {x: 0.52032524, y: -0.036585364}
     alignment: 9
@@ -872,7 +872,7 @@ ScriptedImporter:
       y: 873
       width: 123
       height: 82
-    spriteID: 51154138e6c0c9441b43fcf2db74f089
+    spriteID: 571b8dc2097c9ee4c8bfd1a01236f171
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -881,7 +881,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 873}
-  - name: henry avery character model (1) (1)_Frame_38
+  - name: henry avery character model (1) (1) (1)_Frame_38
     originalName: 
     pivot: {x: 0.5423729, y: -0.03846154}
     alignment: 9
@@ -892,7 +892,7 @@ ScriptedImporter:
       y: 4
       width: 118
       height: 78
-    spriteID: 1fab07d58427a2341896d5a8fbdbc684
+    spriteID: 898a8544bfcf17840bd763c4944ddb4a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -901,7 +901,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 146, y: 4}
-  - name: henry avery character model (1) (1)_Frame_39
+  - name: henry avery character model (1) (1) (1)_Frame_39
     originalName: 
     pivot: {x: 0.5423729, y: -0.039473683}
     alignment: 9
@@ -912,7 +912,7 @@ ScriptedImporter:
       y: 90
       width: 118
       height: 76
-    spriteID: 5db410b45d27c23419f5a27bf9641e02
+    spriteID: 2ecc1bc37917924499ac1964eae59949
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -921,7 +921,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 146, y: 90}
-  - name: henry avery character model (1) (1)_Frame_40
+  - name: henry avery character model (1) (1) (1)_Frame_40
     originalName: 
     pivot: {x: 0.5714286, y: -0.04054054}
     alignment: 9
@@ -932,7 +932,7 @@ ScriptedImporter:
       y: 338
       width: 112
       height: 74
-    spriteID: 70d5def42537cbd46a72f3164ddbfa01
+    spriteID: bf1b021ac877d5c42a491883ca12a34b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -941,7 +941,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 146, y: 338}
-  - name: henry avery character model (1) (1)_Frame_41
+  - name: henry avery character model (1) (1) (1)_Frame_41
     originalName: 
     pivot: {x: 0.5818182, y: -0.04109589}
     alignment: 9
@@ -952,7 +952,7 @@ ScriptedImporter:
       y: 420
       width: 110
       height: 73
-    spriteID: 2616358a0ffcf5c4e878d9ce87f392ac
+    spriteID: ba909a15bfa177247aace6d2c1c362d4
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -961,7 +961,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 146, y: 420}
-  - name: henry avery character model (1) (1)_Frame_42
+  - name: henry avery character model (1) (1) (1)_Frame_42
     originalName: 
     pivot: {x: 0.5925926, y: -0.04109589}
     alignment: 9
@@ -972,7 +972,7 @@ ScriptedImporter:
       y: 501
       width: 108
       height: 73
-    spriteID: e675c4279ff3700408fa7f0125a1c80e
+    spriteID: 3b972f443032b774b949a3bf5d8dbe96
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -981,7 +981,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 146, y: 501}
-  - name: henry avery character model (1) (1)_Frame_43
+  - name: henry avery character model (1) (1) (1)_Frame_43
     originalName: 
     pivot: {x: 0.5981309, y: -0.04109589}
     alignment: 9
@@ -992,7 +992,7 @@ ScriptedImporter:
       y: 582
       width: 107
       height: 73
-    spriteID: c2e86f9d0b84d244cb9db7ff68f6c9ba
+    spriteID: b1f5349cc37773c45bf86c7f898709ac
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1001,7 +1001,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 146, y: 582}
-  - name: henry avery character model (1) (1)_Frame_44
+  - name: henry avery character model (1) (1) (1)_Frame_44
     originalName: 
     pivot: {x: 0.5981309, y: -0.04109589}
     alignment: 9
@@ -1012,7 +1012,7 @@ ScriptedImporter:
       y: 663
       width: 107
       height: 73
-    spriteID: bfbebe30cffb2644e9878424d1327da0
+    spriteID: dbe9fabeba541c14f93da6023750ce36
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1021,7 +1021,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 146, y: 663}
-  - name: henry avery character model (1) (1)_Frame_45
+  - name: henry avery character model (1) (1) (1)_Frame_45
     originalName: 
     pivot: {x: 0.7529412, y: -0.04109589}
     alignment: 9
@@ -1029,10 +1029,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 272
-      y: 328
+      y: 409
       width: 85
       height: 73
-    spriteID: 953dc48e8f337f946a084bd25ee32ab5
+    spriteID: 2ac9f0582503eb84889d78621d3864c0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1040,8 +1040,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 272, y: 328}
-  - name: henry avery character model (1) (1)_Frame_46
+    uvTransform: {x: 272, y: 409}
+  - name: henry avery character model (1) (1) (1)_Frame_46
     originalName: 
     pivot: {x: 0.74418604, y: -0.04109589}
     alignment: 9
@@ -1052,7 +1052,7 @@ ScriptedImporter:
       y: 906
       width: 86
       height: 73
-    spriteID: ab04737e723a11546a026919cf24480d
+    spriteID: 32a3b39b041331144892a101c66be4fa
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1061,7 +1061,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 146, y: 906}
-  - name: henry avery character model (1) (1)_Frame_47
+  - name: henry avery character model (1) (1) (1)_Frame_47
     originalName: 
     pivot: {x: 0.82051283, y: -0.04109589}
     alignment: 9
@@ -1072,7 +1072,7 @@ ScriptedImporter:
       y: 571
       width: 78
       height: 73
-    spriteID: 2cadb47250c8a1c479c714dd7831fd10
+    spriteID: 632a6f86bd4ac5c40bc367bc43d82e7e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1081,7 +1081,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 272, y: 571}
-  - name: henry avery character model (1) (1)_Frame_48
+  - name: henry avery character model (1) (1) (1)_Frame_48
     originalName: 
     pivot: {x: 0.969697, y: -0.04109589}
     alignment: 9
@@ -1092,7 +1092,7 @@ ScriptedImporter:
       y: 814
       width: 66
       height: 73
-    spriteID: 38625ac885165f346b88ac627ecac568
+    spriteID: de846f1b2750c6e4d905e30efbf2d743
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1101,7 +1101,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 272, y: 814}
-  - name: henry avery character model (1) (1)_Frame_49
+  - name: henry avery character model (1) (1) (1)_Frame_49
     originalName: 
     pivot: {x: 1, y: -0.04109589}
     alignment: 9
@@ -1112,7 +1112,7 @@ ScriptedImporter:
       y: 247
       width: 64
       height: 73
-    spriteID: 33280b035f00f70469318ad3674a2143
+    spriteID: aa3505fac8a077b46ab473eac5344519
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1121,7 +1121,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 437, y: 247}
-  - name: henry avery character model (1) (1)_Frame_50
+  - name: henry avery character model (1) (1) (1)_Frame_50
     originalName: 
     pivot: {x: 1, y: -0.04109589}
     alignment: 9
@@ -1132,7 +1132,7 @@ ScriptedImporter:
       y: 328
       width: 64
       height: 73
-    spriteID: 4a83d63700bb0434ca1ad239ba5b49f2
+    spriteID: 8a6dd6e10cf32c84e86a862747d12b5f
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1141,7 +1141,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 437, y: 328}
-  - name: henry avery character model (1) (1)_Frame_51
+  - name: henry avery character model (1) (1) (1)_Frame_51
     originalName: 
     pivot: {x: 1, y: -0.04109589}
     alignment: 9
@@ -1152,7 +1152,7 @@ ScriptedImporter:
       y: 409
       width: 64
       height: 73
-    spriteID: 20ab2937b858c574fbece9ee0c2ee2f5
+    spriteID: 495f0e29061d28640b4395b96a115dca
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1164,13 +1164,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -171618213
-    name: henry avery character model (1) (1)
+    guid: -1537789697
+    name: henry avery character model (1) (1) (1)
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: henry avery character model (1) (1)_Frame_0
+    - name: henry avery character model (1) (1) (1)_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -1178,8 +1178,8 @@ ScriptedImporter:
         y: 3
         width: 64
         height: 73
-      spriteId: 61ebe3e83bebb4d43b58047132af97ee
-    - name: henry avery character model (1) (1)_Frame_1
+      spriteId: 7d08e2a848e23e144940a9ea39c7cc76
+    - name: henry avery character model (1) (1) (1)_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -1187,8 +1187,8 @@ ScriptedImporter:
         y: 3
         width: 64
         height: 73
-      spriteId: 95631bcf38f780548ac859903c6a1770
-    - name: henry avery character model (1) (1)_Frame_2
+      spriteId: e08b1f996cc045848a3168f355adb8dd
+    - name: henry avery character model (1) (1) (1)_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -1196,8 +1196,8 @@ ScriptedImporter:
         y: 3
         width: 64
         height: 73
-      spriteId: 4fd6f39d0922c914db538820c29e7b43
-    - name: henry avery character model (1) (1)_Frame_3
+      spriteId: b05694a66b3860a4d833d673fbbfedbe
+    - name: henry avery character model (1) (1) (1)_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -1205,8 +1205,8 @@ ScriptedImporter:
         y: 3
         width: 64
         height: 73
-      spriteId: 148ab539edaa20b4ba8ebff4998905b9
-    - name: henry avery character model (1) (1)_Frame_4
+      spriteId: 7d8d8fccafc8be049a896720c1942d63
+    - name: henry avery character model (1) (1) (1)_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -1214,8 +1214,8 @@ ScriptedImporter:
         y: 3
         width: 64
         height: 73
-      spriteId: 931caea88601dde47a7cc47afcd7c58e
-    - name: henry avery character model (1) (1)_Frame_5
+      spriteId: e96384d67d379cd4ea74b755861043b1
+    - name: henry avery character model (1) (1) (1)_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -1223,8 +1223,8 @@ ScriptedImporter:
         y: 3
         width: 64
         height: 73
-      spriteId: 4ac9bf0b54ef55848ba4593f89f59019
-    - name: henry avery character model (1) (1)_Frame_6
+      spriteId: f38a7b59ead95b54a94369c4b28f1fb5
+    - name: henry avery character model (1) (1) (1)_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -1232,8 +1232,8 @@ ScriptedImporter:
         y: 3
         width: 64
         height: 73
-      spriteId: efc4781f78405514982b2d764881b661
-    - name: henry avery character model (1) (1)_Frame_7
+      spriteId: 992ca8bea8e69c64b9d1bb55072c1788
+    - name: henry avery character model (1) (1) (1)_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -1241,8 +1241,8 @@ ScriptedImporter:
         y: 3
         width: 64
         height: 73
-      spriteId: 59dd1e58b058c694cb80093b5f8161f2
-    - name: henry avery character model (1) (1)_Frame_8
+      spriteId: 838dee6eb5cc8524b90be00b4a402167
+    - name: henry avery character model (1) (1) (1)_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -1250,8 +1250,8 @@ ScriptedImporter:
         y: 3
         width: 64
         height: 73
-      spriteId: 491d8eca7b8f9ee4d86dec05bb852300
-    - name: henry avery character model (1) (1)_Frame_9
+      spriteId: e9e4044137973664bbff5e0c8526ca43
+    - name: henry avery character model (1) (1) (1)_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -1259,8 +1259,8 @@ ScriptedImporter:
         y: 3
         width: 64
         height: 73
-      spriteId: bd0f5a234088a5b48a2c3cfacb5b0375
-    - name: henry avery character model (1) (1)_Frame_10
+      spriteId: b65bab16b817a6d4882d76d3bb2b33f9
+    - name: henry avery character model (1) (1) (1)_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -1268,8 +1268,8 @@ ScriptedImporter:
         y: 3
         width: 64
         height: 73
-      spriteId: df6663ba956cebf4198320cfd755647d
-    - name: henry avery character model (1) (1)_Frame_11
+      spriteId: 96595a3bc73fc8143bf3772fc6139ab5
+    - name: henry avery character model (1) (1) (1)_Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -1277,8 +1277,8 @@ ScriptedImporter:
         y: 3
         width: 64
         height: 73
-      spriteId: 1bb8ec5920830ce41b9809c978efa058
-    - name: henry avery character model (1) (1)_Frame_12
+      spriteId: d28d1f6f7f479b44c9064550ee99d950
+    - name: henry avery character model (1) (1) (1)_Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -1286,8 +1286,8 @@ ScriptedImporter:
         y: 3
         width: 64
         height: 73
-      spriteId: 8aec3c581adfb4143abe083c7db64e5a
-    - name: henry avery character model (1) (1)_Frame_13
+      spriteId: 5ad0b5b49e271cd46b254ecc1034f7e0
+    - name: henry avery character model (1) (1) (1)_Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -1295,8 +1295,8 @@ ScriptedImporter:
         y: 3
         width: 64
         height: 73
-      spriteId: ee348085006359f4f906ea3c06851d8c
-    - name: henry avery character model (1) (1)_Frame_14
+      spriteId: 82292ab02b521be4f8448e8221718353
+    - name: henry avery character model (1) (1) (1)_Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -1304,8 +1304,8 @@ ScriptedImporter:
         y: 3
         width: 64
         height: 73
-      spriteId: 2827e05c1c16b764486f4d7a10ab9fee
-    - name: henry avery character model (1) (1)_Frame_15
+      spriteId: bb1f4f88339c74d4f80189064459e29c
+    - name: henry avery character model (1) (1) (1)_Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -1313,8 +1313,8 @@ ScriptedImporter:
         y: 3
         width: 64
         height: 73
-      spriteId: e358f4134a212d14c984c18b6f67c80e
-    - name: henry avery character model (1) (1)_Frame_16
+      spriteId: 11924a20f32bbdb498c72dde298f67b9
+    - name: henry avery character model (1) (1) (1)_Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -1322,8 +1322,8 @@ ScriptedImporter:
         y: 3
         width: 66
         height: 73
-      spriteId: 1bce1f1408173c3498b14198f85e5632
-    - name: henry avery character model (1) (1)_Frame_17
+      spriteId: 38c319966dbbd1944b942303e08274ba
+    - name: henry avery character model (1) (1) (1)_Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -1331,8 +1331,8 @@ ScriptedImporter:
         y: 3
         width: 70
         height: 73
-      spriteId: f6923b8adf0359d4180103681abe68f8
-    - name: henry avery character model (1) (1)_Frame_18
+      spriteId: dc1fd3c044b95d8428eb067cd2331c2f
+    - name: henry avery character model (1) (1) (1)_Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -1340,8 +1340,8 @@ ScriptedImporter:
         y: 3
         width: 78
         height: 73
-      spriteId: 83f78e61038221c409b741282879df77
-    - name: henry avery character model (1) (1)_Frame_19
+      spriteId: ff7900da6e726814d9e238aa31b6a49b
+    - name: henry avery character model (1) (1) (1)_Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -1349,8 +1349,8 @@ ScriptedImporter:
         y: 3
         width: 86
         height: 73
-      spriteId: 59fcd816fb2c59e4a8d7e84704c1c532
-    - name: henry avery character model (1) (1)_Frame_20
+      spriteId: cab18e18135b73e40869d0893fb5ca2e
+    - name: henry avery character model (1) (1) (1)_Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -1358,8 +1358,8 @@ ScriptedImporter:
         y: 3
         width: 86
         height: 73
-      spriteId: 6a8ab87c62d370948a301307c424f112
-    - name: henry avery character model (1) (1)_Frame_21
+      spriteId: 8ddd711e451b7f0458aac1f16a12823f
+    - name: henry avery character model (1) (1) (1)_Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -1367,17 +1367,17 @@ ScriptedImporter:
         y: 3
         width: 85
         height: 73
-      spriteId: 452036516641c014383f0783f83b401b
-    - name: henry avery character model (1) (1)_Frame_22
+      spriteId: ca618e0ff9b08ae42988d0dc96abfb84
+    - name: henry avery character model (1) (1) (1)_Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
         x: 11
         y: 3
-        width: 84
+        width: 85
         height: 73
-      spriteId: ac7913188c3e7384ab58693d22685f6b
-    - name: henry avery character model (1) (1)_Frame_23
+      spriteId: 21b2b24c9be5b4648b5207aecdc40c41
+    - name: henry avery character model (1) (1) (1)_Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -1385,8 +1385,8 @@ ScriptedImporter:
         y: 3
         width: 85
         height: 73
-      spriteId: c8bb1831276394b47afb9be044389bf5
-    - name: henry avery character model (1) (1)_Frame_24
+      spriteId: 5090c2e7b5b975e43ba73a9885c8c6e9
+    - name: henry avery character model (1) (1) (1)_Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -1394,8 +1394,8 @@ ScriptedImporter:
         y: 3
         width: 85
         height: 73
-      spriteId: 7e16fd0e3b32e874e9d73abb0a6c3dd0
-    - name: henry avery character model (1) (1)_Frame_25
+      spriteId: f005571e477f9f54caecf361a4445ee6
+    - name: henry avery character model (1) (1) (1)_Frame_25
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
@@ -1403,8 +1403,8 @@ ScriptedImporter:
         y: 3
         width: 85
         height: 73
-      spriteId: b79a24b4d9dac9f4cbb0f9742e096a20
-    - name: henry avery character model (1) (1)_Frame_26
+      spriteId: 8718b2669c34c504db160a3b73c11788
+    - name: henry avery character model (1) (1) (1)_Frame_26
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:
@@ -1412,8 +1412,8 @@ ScriptedImporter:
         y: 3
         width: 114
         height: 73
-      spriteId: ddde20d195d06cf40813e68b9c32d0fc
-    - name: henry avery character model (1) (1)_Frame_27
+      spriteId: 6813b7b2ee7bc7f46bb030a298b09e95
+    - name: henry avery character model (1) (1) (1)_Frame_27
       frameIndex: 27
       additiveSortOrder: 0
       cellRect:
@@ -1421,8 +1421,8 @@ ScriptedImporter:
         y: 3
         width: 115
         height: 75
-      spriteId: 624498697faead3428dba2202bf1453e
-    - name: henry avery character model (1) (1)_Frame_28
+      spriteId: 065b4c2f89ef55b42adaa3aede0340d5
+    - name: henry avery character model (1) (1) (1)_Frame_28
       frameIndex: 28
       additiveSortOrder: 0
       cellRect:
@@ -1430,8 +1430,8 @@ ScriptedImporter:
         y: 3
         width: 123
         height: 83
-      spriteId: c9bbe1ae73684584aba85b5edb12e5d2
-    - name: henry avery character model (1) (1)_Frame_29
+      spriteId: 676b505fd24ff974d8701f6466c555a9
+    - name: henry avery character model (1) (1) (1)_Frame_29
       frameIndex: 29
       additiveSortOrder: 0
       cellRect:
@@ -1439,8 +1439,8 @@ ScriptedImporter:
         y: 3
         width: 129
         height: 87
-      spriteId: e847e003df6158b4487757b205877864
-    - name: henry avery character model (1) (1)_Frame_30
+      spriteId: fb5bba9201c256645bc11bb540015ef8
+    - name: henry avery character model (1) (1) (1)_Frame_30
       frameIndex: 30
       additiveSortOrder: 0
       cellRect:
@@ -1448,8 +1448,8 @@ ScriptedImporter:
         y: 3
         width: 134
         height: 92
-      spriteId: fdbaf0c5c8b1f3343879979a2b1f51fb
-    - name: henry avery character model (1) (1)_Frame_31
+      spriteId: 79bb7c718cc343941a4d95d4c6ffce19
+    - name: henry avery character model (1) (1) (1)_Frame_31
       frameIndex: 31
       additiveSortOrder: 0
       cellRect:
@@ -1457,8 +1457,8 @@ ScriptedImporter:
         y: 3
         width: 133
         height: 92
-      spriteId: 7af804a78e6d46d4982bea097b9fdbf1
-    - name: henry avery character model (1) (1)_Frame_32
+      spriteId: 76c1c96def070de49abe3432744fbb18
+    - name: henry avery character model (1) (1) (1)_Frame_32
       frameIndex: 32
       additiveSortOrder: 0
       cellRect:
@@ -1466,8 +1466,8 @@ ScriptedImporter:
         y: 3
         width: 132
         height: 92
-      spriteId: 6e455be3df407b546a644dd0d1f633f3
-    - name: henry avery character model (1) (1)_Frame_33
+      spriteId: 8727743fb3450704a97de65a7f0929a7
+    - name: henry avery character model (1) (1) (1)_Frame_33
       frameIndex: 33
       additiveSortOrder: 0
       cellRect:
@@ -1475,8 +1475,8 @@ ScriptedImporter:
         y: 3
         width: 132
         height: 89
-      spriteId: 418de5ed085b0214bb7e1ad216a60dd8
-    - name: henry avery character model (1) (1)_Frame_34
+      spriteId: 880b9d875dce09c44a01cb01d15f56f1
+    - name: henry avery character model (1) (1) (1)_Frame_34
       frameIndex: 34
       additiveSortOrder: 0
       cellRect:
@@ -1484,8 +1484,8 @@ ScriptedImporter:
         y: 3
         width: 132
         height: 88
-      spriteId: b9c35a94ac9b5f146b9a0cb33872e052
-    - name: henry avery character model (1) (1)_Frame_35
+      spriteId: c1be441b953056f41b12ce020af02af9
+    - name: henry avery character model (1) (1) (1)_Frame_35
       frameIndex: 35
       additiveSortOrder: 0
       cellRect:
@@ -1493,8 +1493,8 @@ ScriptedImporter:
         y: 3
         width: 127
         height: 88
-      spriteId: 923add6eea2b24346b23d9f04bd15c26
-    - name: henry avery character model (1) (1)_Frame_36
+      spriteId: 763bffeb186c6b44e90880642f2b88d0
+    - name: henry avery character model (1) (1) (1)_Frame_36
       frameIndex: 36
       additiveSortOrder: 0
       cellRect:
@@ -1502,8 +1502,8 @@ ScriptedImporter:
         y: 3
         width: 126
         height: 86
-      spriteId: 5c322f2e1a40f184fa2034318f5b3885
-    - name: henry avery character model (1) (1)_Frame_37
+      spriteId: 3a7127e6a1cccc14c960fdf8ce7cc6ff
+    - name: henry avery character model (1) (1) (1)_Frame_37
       frameIndex: 37
       additiveSortOrder: 0
       cellRect:
@@ -1511,8 +1511,8 @@ ScriptedImporter:
         y: 3
         width: 123
         height: 82
-      spriteId: 51154138e6c0c9441b43fcf2db74f089
-    - name: henry avery character model (1) (1)_Frame_38
+      spriteId: 571b8dc2097c9ee4c8bfd1a01236f171
+    - name: henry avery character model (1) (1) (1)_Frame_38
       frameIndex: 38
       additiveSortOrder: 0
       cellRect:
@@ -1520,8 +1520,8 @@ ScriptedImporter:
         y: 3
         width: 118
         height: 78
-      spriteId: 1fab07d58427a2341896d5a8fbdbc684
-    - name: henry avery character model (1) (1)_Frame_39
+      spriteId: 898a8544bfcf17840bd763c4944ddb4a
+    - name: henry avery character model (1) (1) (1)_Frame_39
       frameIndex: 39
       additiveSortOrder: 0
       cellRect:
@@ -1529,8 +1529,8 @@ ScriptedImporter:
         y: 3
         width: 118
         height: 76
-      spriteId: 5db410b45d27c23419f5a27bf9641e02
-    - name: henry avery character model (1) (1)_Frame_40
+      spriteId: 2ecc1bc37917924499ac1964eae59949
+    - name: henry avery character model (1) (1) (1)_Frame_40
       frameIndex: 40
       additiveSortOrder: 0
       cellRect:
@@ -1538,8 +1538,8 @@ ScriptedImporter:
         y: 3
         width: 112
         height: 74
-      spriteId: 70d5def42537cbd46a72f3164ddbfa01
-    - name: henry avery character model (1) (1)_Frame_41
+      spriteId: bf1b021ac877d5c42a491883ca12a34b
+    - name: henry avery character model (1) (1) (1)_Frame_41
       frameIndex: 41
       additiveSortOrder: 0
       cellRect:
@@ -1547,8 +1547,8 @@ ScriptedImporter:
         y: 3
         width: 110
         height: 73
-      spriteId: 2616358a0ffcf5c4e878d9ce87f392ac
-    - name: henry avery character model (1) (1)_Frame_42
+      spriteId: ba909a15bfa177247aace6d2c1c362d4
+    - name: henry avery character model (1) (1) (1)_Frame_42
       frameIndex: 42
       additiveSortOrder: 0
       cellRect:
@@ -1556,8 +1556,8 @@ ScriptedImporter:
         y: 3
         width: 108
         height: 73
-      spriteId: e675c4279ff3700408fa7f0125a1c80e
-    - name: henry avery character model (1) (1)_Frame_43
+      spriteId: 3b972f443032b774b949a3bf5d8dbe96
+    - name: henry avery character model (1) (1) (1)_Frame_43
       frameIndex: 43
       additiveSortOrder: 0
       cellRect:
@@ -1565,8 +1565,8 @@ ScriptedImporter:
         y: 3
         width: 107
         height: 73
-      spriteId: c2e86f9d0b84d244cb9db7ff68f6c9ba
-    - name: henry avery character model (1) (1)_Frame_44
+      spriteId: b1f5349cc37773c45bf86c7f898709ac
+    - name: henry avery character model (1) (1) (1)_Frame_44
       frameIndex: 44
       additiveSortOrder: 0
       cellRect:
@@ -1574,8 +1574,8 @@ ScriptedImporter:
         y: 3
         width: 107
         height: 73
-      spriteId: bfbebe30cffb2644e9878424d1327da0
-    - name: henry avery character model (1) (1)_Frame_45
+      spriteId: dbe9fabeba541c14f93da6023750ce36
+    - name: henry avery character model (1) (1) (1)_Frame_45
       frameIndex: 45
       additiveSortOrder: 0
       cellRect:
@@ -1583,8 +1583,8 @@ ScriptedImporter:
         y: 3
         width: 85
         height: 73
-      spriteId: 953dc48e8f337f946a084bd25ee32ab5
-    - name: henry avery character model (1) (1)_Frame_46
+      spriteId: 2ac9f0582503eb84889d78621d3864c0
+    - name: henry avery character model (1) (1) (1)_Frame_46
       frameIndex: 46
       additiveSortOrder: 0
       cellRect:
@@ -1592,8 +1592,8 @@ ScriptedImporter:
         y: 3
         width: 86
         height: 73
-      spriteId: ab04737e723a11546a026919cf24480d
-    - name: henry avery character model (1) (1)_Frame_47
+      spriteId: 32a3b39b041331144892a101c66be4fa
+    - name: henry avery character model (1) (1) (1)_Frame_47
       frameIndex: 47
       additiveSortOrder: 0
       cellRect:
@@ -1601,8 +1601,8 @@ ScriptedImporter:
         y: 3
         width: 78
         height: 73
-      spriteId: 2cadb47250c8a1c479c714dd7831fd10
-    - name: henry avery character model (1) (1)_Frame_48
+      spriteId: 632a6f86bd4ac5c40bc367bc43d82e7e
+    - name: henry avery character model (1) (1) (1)_Frame_48
       frameIndex: 48
       additiveSortOrder: 0
       cellRect:
@@ -1610,8 +1610,8 @@ ScriptedImporter:
         y: 3
         width: 66
         height: 73
-      spriteId: 38625ac885165f346b88ac627ecac568
-    - name: henry avery character model (1) (1)_Frame_49
+      spriteId: de846f1b2750c6e4d905e30efbf2d743
+    - name: henry avery character model (1) (1) (1)_Frame_49
       frameIndex: 49
       additiveSortOrder: 0
       cellRect:
@@ -1619,8 +1619,8 @@ ScriptedImporter:
         y: 3
         width: 64
         height: 73
-      spriteId: 33280b035f00f70469318ad3674a2143
-    - name: henry avery character model (1) (1)_Frame_50
+      spriteId: aa3505fac8a077b46ab473eac5344519
+    - name: henry avery character model (1) (1) (1)_Frame_50
       frameIndex: 50
       additiveSortOrder: 0
       cellRect:
@@ -1628,8 +1628,8 @@ ScriptedImporter:
         y: 3
         width: 64
         height: 73
-      spriteId: 4a83d63700bb0434ca1ad239ba5b49f2
-    - name: henry avery character model (1) (1)_Frame_51
+      spriteId: 8a6dd6e10cf32c84e86a862747d12b5f
+    - name: henry avery character model (1) (1) (1)_Frame_51
       frameIndex: 51
       additiveSortOrder: 0
       cellRect:
@@ -1637,7 +1637,7 @@ ScriptedImporter:
         y: 3
         width: 64
         height: 73
-      spriteId: 20ab2937b858c574fbece9ee0c2ee2f5
+      spriteId: 495f0e29061d28640b4395b96a115dca
     linkedCells: []
     parentIndex: -1
   platformSettings: []

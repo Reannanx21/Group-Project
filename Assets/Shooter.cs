@@ -77,7 +77,7 @@ public class CharacterShooter : MonoBehaviour
     void Shoot()
     {
         Debug.Log("Fallback Shoot() called!");
-
+        audioSource.PlayOneShot(shootSound);
         GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, shootPoint.rotation);
         Projectile projScript = projectile.GetComponent<Projectile>();
         if (projScript != null)
