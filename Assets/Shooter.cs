@@ -7,6 +7,7 @@ public class CharacterShooter : MonoBehaviour
     public float damage = 10f;
 
     private Animator animator;
+    private bool isActionLocked = false;
 
     void Start()
     {
@@ -19,26 +20,36 @@ public class CharacterShooter : MonoBehaviour
 
     void Update()
     {
+        if (isActionLocked) return; // Block input during other animations
+
         if (Input.GetKeyDown(KeyCode.E))
         {
-            // Trigger the shoot animation
             if (animator != null)
             {
                 animator.SetTrigger("Shoot");
-                Debug.Log(" Shoot animation triggered!");
+                Debug.Log("Shoot animation triggered!");
+                LockAction();
             }
             else
             {
-                // Fallback: Just shoot immediately
-                Shoot();
+                Shoot(); // fallback
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Mouse0)) // Left click for attack?
+        {
+            if (animator != null)
+            {
+                animator.SetTrigger("Attack");
+                Debug.Log("Attack animation triggered!");
+                LockAction();
             }
         }
     }
 
-    // This gets called by the animation event!
     public void FireProjectileFromAnimation()
     {
-        Debug.Log(" Animation Event Triggered - Firing Projectile");
+        Debug.Log("Animation Event Triggered - Firing Projectile");
 
         if (projectilePrefab == null || shootPoint == null)
         {
@@ -47,7 +58,7 @@ public class CharacterShooter : MonoBehaviour
         }
 
         GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, shootPoint.rotation);
-        Debug.Log(" Projectile spawned from animation!");
+        Debug.Log("Projectile spawned from animation!");
 
         Projectile projScript = projectile.GetComponent<Projectile>();
         if (projScript != null)
@@ -56,10 +67,9 @@ public class CharacterShooter : MonoBehaviour
         }
     }
 
-    // Optional direct call method (fallback if animation fails)
     void Shoot()
     {
-        Debug.Log(" Fallback Shoot() called!");
+        Debug.Log("Fallback Shoot() called!");
 
         GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, shootPoint.rotation);
         Projectile projScript = projectile.GetComponent<Projectile>();
@@ -67,5 +77,18 @@ public class CharacterShooter : MonoBehaviour
         {
             projScript.SetDamage(damage);
         }
+    }
+
+    //  Call this at the start of any action
+    void LockAction()
+    {
+        isActionLocked = true;
+    }
+
+    //  Call this from an animation event at the END of shoot/attack
+    public void UnlockAction()
+    {
+        Debug.Log("Action unlocked");
+        isActionLocked = false;
     }
 }
