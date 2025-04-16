@@ -10743,6 +10743,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 777099621728093025, guid: 57ab693944b7367488a90daf3f238974, type: 3}
+      propertyPath: damage
+      value: 33.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 777099621728093025, guid: 57ab693944b7367488a90daf3f238974, type: 3}
       propertyPath: shootPoint
       value: 
       objectReference: {fileID: 1679311577}
@@ -10769,6 +10773,14 @@ PrefabInstance:
     - target: {fileID: 2646883139325277299, guid: 57ab693944b7367488a90daf3f238974, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4762602800741113820, guid: 57ab693944b7367488a90daf3f238974, type: 3}
+      propertyPath: m_Size.x
+      value: 0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 4762602800741113820, guid: 57ab693944b7367488a90daf3f238974, type: 3}
+      propertyPath: m_Size.y
+      value: 0.73
       objectReference: {fileID: 0}
     - target: {fileID: 6639232715074823394, guid: 57ab693944b7367488a90daf3f238974, type: 3}
       propertyPath: playerHealth
