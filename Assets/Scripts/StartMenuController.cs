@@ -7,11 +7,14 @@ using UnityEngine.SceneManagement;
 
 public class StartMenuController : MonoBehaviour
 {
-   
+    private Animator anim;
+
+    
     public void OnStartClick()
     {
+        anim = GetComponent<Animator>();
         SceneManager.LoadScene("Level 1 The Joys of Piracy");
-
+        anim.SetTrigger("StartGame");
     }
 
     public void OnExitClick()
@@ -23,7 +26,9 @@ public class StartMenuController : MonoBehaviour
     }
     public void OnControlsClick()
     {
+        anim = GetComponent<Animator>();
         SceneManager.LoadScene("Controls");
+        anim.SetTrigger("ControlFade");
     }
     public void OnBackClick()
     {
