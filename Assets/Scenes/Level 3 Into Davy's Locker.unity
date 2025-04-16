@@ -5434,6 +5434,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6639232715074823394, guid: 57ab693944b7367488a90daf3f238974, type: 3}
+      propertyPath: parrySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0e64df278af23dd4f9820926303d5c58, type: 3}
+    - target: {fileID: 6639232715074823394, guid: 57ab693944b7367488a90daf3f238974, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 650618667}
+    - target: {fileID: 6639232715074823394, guid: 57ab693944b7367488a90daf3f238974, type: 3}
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 650618666}

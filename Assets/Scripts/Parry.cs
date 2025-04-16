@@ -14,10 +14,14 @@ public class ParrySystem : MonoBehaviour
 
     private Animator anim;
 
+    public AudioSource audioSource;
+    public AudioClip parrySound;
+
     void Start()
     {
         parryCollider = GetComponent<Collider2D>();
         anim = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
 
         if (playerAttack == null)
             Debug.LogError("PlayerAttack reference not assigned in ParrySystem!");
@@ -54,6 +58,7 @@ public class ParrySystem : MonoBehaviour
 
     private void StartParry()
     {
+        audioSource.PlayOneShot(parrySound);
         if (isParrying) return;
 
         isParrying = true;

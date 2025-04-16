@@ -13517,6 +13517,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 147794664936506752, guid: ac2087401084cc4479c026ad9dc4b5ea, type: 3}
+      propertyPath: parrySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0e64df278af23dd4f9820926303d5c58, type: 3}
+    - target: {fileID: 147794664936506752, guid: ac2087401084cc4479c026ad9dc4b5ea, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 3021728422498305773}
     - target: {fileID: 762175600354360227, guid: ac2087401084cc4479c026ad9dc4b5ea, type: 3}
       propertyPath: attackSound
       value: 
