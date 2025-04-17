@@ -8,6 +8,54 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7529744924382483326, guid: ab63bc10d8d0cc845a970d91ab401510, type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2058716021978599365, guid: ab63bc10d8d0cc845a970d91ab401510, type: 3}
+      propertyPath: m_Color.b
+      value: 0.25471687
+      objectReference: {fileID: 0}
+    - target: {fileID: 2058716021978599365, guid: ab63bc10d8d0cc845a970d91ab401510, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5445131
+      objectReference: {fileID: 0}
+    - target: {fileID: 2058716021978599365, guid: ab63bc10d8d0cc845a970d91ab401510, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2058716021978599365, guid: ab63bc10d8d0cc845a970d91ab401510, type: 3}
+      propertyPath: m_LightType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2058716021978599365, guid: ab63bc10d8d0cc845a970d91ab401510, type: 3}
+      propertyPath: m_NormalMapQuality
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2058716021978599365, guid: ab63bc10d8d0cc845a970d91ab401510, type: 3}
+      propertyPath: m_LightCookieSprite
+      value: 
+      objectReference: {fileID: -7787272718132443681, guid: 2163f150f483a654cbdf7bb4ad44875d, type: 3}
+    - target: {fileID: 2058716021978599365, guid: ab63bc10d8d0cc845a970d91ab401510, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2058716021978599365, guid: ab63bc10d8d0cc845a970d91ab401510, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[1]
+      value: 479719927
+      objectReference: {fileID: 0}
+    - target: {fileID: 2058716021978599365, guid: ab63bc10d8d0cc845a970d91ab401510, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[2]
+      value: 580004597
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676592202639455762, guid: ab63bc10d8d0cc845a970d91ab401510, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676592202639455762, guid: ab63bc10d8d0cc845a970d91ab401510, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 6676592202639455762, guid: ab63bc10d8d0cc845a970d91ab401510, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.073
