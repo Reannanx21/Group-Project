@@ -12,7 +12,6 @@ public class Projectile : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("Projectile moving");
         transform.Translate(Vector2.right * speed * Time.deltaTime);
     }
 
@@ -20,6 +19,7 @@ public class Projectile : MonoBehaviour
     {
         Debug.Log("Projectile collided with: " + other.name);
 
+        // Damage enemy if it has EnemyHealth
         EnemyHealth enemy = other.GetComponent<EnemyHealth>();
         if (enemy != null)
         {
@@ -27,11 +27,20 @@ public class Projectile : MonoBehaviour
             enemy.TakeDamage(damage);
         }
 
+        // Damage object if it has ObjectHealth
+        ObjectHealth obj = other.GetComponent<ObjectHealth>();
+        if (obj != null)
+        {
+            Debug.Log("Object hit! Applying " + damage + " damage.");
+            obj.TakeDamage(damage);
+        }
+
+        // Optional: Stun enemies only
         EnemyStun enemyStun = other.GetComponent<EnemyStun>();
         if (enemyStun != null)
         {
             float stunDuration = 2f;
-            Debug.Log("Enemy can be stunned. Stunning for " + stunDuration + " seconds.");
+            Debug.Log("Stunning enemy for " + stunDuration + " seconds.");
             enemyStun.Stun(stunDuration);
         }
 
