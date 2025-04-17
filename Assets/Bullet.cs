@@ -27,6 +27,14 @@ public class Projectile : MonoBehaviour
             enemy.TakeDamage(damage);
         }
 
+        EnemyStun enemyStun = other.GetComponent<EnemyStun>();
+        if (enemyStun != null)
+        {
+            float stunDuration = 2f;
+            Debug.Log("Enemy can be stunned. Stunning for " + stunDuration + " seconds.");
+            enemyStun.Stun(stunDuration);
+        }
+
         Destroy(gameObject);
     }
 }

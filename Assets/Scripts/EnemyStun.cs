@@ -5,14 +5,14 @@ public class EnemyStun : MonoBehaviour
 {
     private bool isStunned = false;
     private Rigidbody2D rb;
-    private RigidbodyConstraints2D originalConstraints; // Store original constraints
+    private RigidbodyConstraints2D originalConstraints;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         if (rb != null)
         {
-            originalConstraints = rb.constraints; // Save the initial constraints
+            originalConstraints = rb.constraints;
         }
     }
 
