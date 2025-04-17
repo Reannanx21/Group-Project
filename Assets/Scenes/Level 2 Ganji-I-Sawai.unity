@@ -2415,7 +2415,7 @@ Transform:
   m_GameObject: {fileID: 516741697}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.122, y: 0.533, z: 0}
+  m_LocalPosition: {x: 0.2554, y: 0.5285, z: 0}
   m_LocalScale: {x: 0.07284, y: 0.05942, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4526,7 +4526,7 @@ Transform:
   m_GameObject: {fileID: 907347707}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -133.56116, y: -5.1100006, z: -10}
+  m_LocalPosition: {x: -137.55032, y: -5.1100006, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13159,9 +13159,10 @@ GameObject:
   - component: {fileID: 2111004253}
   - component: {fileID: 2111004252}
   - component: {fileID: 2111004251}
+  - component: {fileID: 2111004258}
   m_Layer: 11
   m_Name: eastindiacompany rifleman walk anim_Frame_0
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13350,6 +13351,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2111004258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111004250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cd36742bc420354fafda35ccf318483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2137222124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13541,7 +13554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8766990636202483789, guid: 1095867c5d02942469522570cc858119, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -133.56116
+      value: -137.55032
       objectReference: {fileID: 0}
     - target: {fileID: 8766990636202483789, guid: 1095867c5d02942469522570cc858119, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13740,7 +13753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 522c848deff4ea3458bd2075870a4feb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 8994818182478574821, guid: ab63bc10d8d0cc845a970d91ab401510, type: 3}
+  projectilePrefab: {fileID: 5632449908292554119, guid: a09d6fe51499f84408dcb04cbe5d01ef, type: 3}
   shootPoint: {fileID: 516741698}
   damage: 25
   shootSound: {fileID: 8300000, guid: dccbbd794441b384e871d8f8788b860f, type: 3}
@@ -13757,7 +13770,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: dccbbd794441b384e871d8f8788b860f, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

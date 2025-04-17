@@ -9,6 +9,7 @@ TagManager:
   - CoinDisplay
   - CoinsDisplay
   - Destructible
+  - Enemy
   layers:
   - Default
   - TransparentFX
