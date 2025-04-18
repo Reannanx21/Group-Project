@@ -10,7 +10,7 @@ public class CharacterShooter : MonoBehaviour
     public AudioClip shootSound;
     private AudioSource audioSource;
 
-    public AudioSource shootAudioSource; // New source for shooting SFX
+    public AudioSource shootAudioSource; 
 
     public CinemachineImpulseSource impulseSource;
 
@@ -46,11 +46,11 @@ public class CharacterShooter : MonoBehaviour
             {
                 animator.SetTrigger("Shoot");
                 Debug.Log("Shoot animation triggered!");
-                // FireProjectile() should be called from animation event
+                
             }
             else
             {
-                FireProjectile(); // fallback if no animator
+                FireProjectile(); 
             }
         }
 
@@ -66,7 +66,7 @@ public class CharacterShooter : MonoBehaviour
         }
     }
 
-    // Called from animation event OR fallback
+   
     public void FireProjectile()
     {
         GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, shootPoint.rotation);
@@ -78,7 +78,7 @@ public class CharacterShooter : MonoBehaviour
             projScript.SetDamage(damage);
         }
 
-        // Use external AudioSource if assigned, fallback to internal one
+        
         if (shootSound != null)
         {
             if (shootAudioSource != null)
@@ -93,7 +93,7 @@ public class CharacterShooter : MonoBehaviour
 
         if (impulseSource != null)
         {
-            impulseSource.GenerateImpulse(); // camera shake!
+            impulseSource.GenerateImpulse(); 
         }
     }
 }
