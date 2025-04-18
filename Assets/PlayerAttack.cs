@@ -28,6 +28,7 @@ public class PlayerAttack : MonoBehaviour
         if (Input.GetMouseButtonDown(0) )
         {
             Attack();
+            audioSource.PlayOneShot(attackSound);
         }
     }
 
