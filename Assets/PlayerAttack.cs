@@ -25,7 +25,7 @@ public class PlayerAttack : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) )
+        if (Input.GetMouseButtonDown(0))
         {
             Attack();
             audioSource.PlayOneShot(attackSound);
@@ -36,11 +36,6 @@ public class PlayerAttack : MonoBehaviour
     {
         isAttacking = true;
         anim.SetTrigger("Attack");
-
-        // Play attack sound
-       
-            audioSource.PlayOneShot(attackSound);
-        
 
         bool enemyHit = false;
 
@@ -55,14 +50,6 @@ public class PlayerAttack : MonoBehaviour
                 if (enemyHealth != null)
                 {
                     enemyHealth.TakeDamage(damage);
-                    enemyHit = true;
-                }
-
-                // Enemy stun
-                EnemyStun enemyStun = hit.GetComponent<EnemyStun>();
-                if (enemyStun != null)
-                {
-                    enemyStun.Stun(2f);
                     enemyHit = true;
                 }
 

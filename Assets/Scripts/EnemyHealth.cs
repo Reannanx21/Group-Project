@@ -4,15 +4,15 @@ public class EnemyHealth : MonoBehaviour
 {
     public float health = 50f;
     private Animator animator;
-    private CapsuleCollider2D capsuleCollider; // Changed to CapsuleCollider2D
-    private bool isDead = false; // Prevents multiple death triggers
+    private CapsuleCollider2D capsuleCollider; 
+    private bool isDead = false; 
     private CameraShake cameraShake;
 
     private void Start()
     {
         cameraShake = CameraShake.Instance;
         animator = GetComponent<Animator>();
-        capsuleCollider = GetComponent<CapsuleCollider2D>(); // Get CapsuleCollider2D instead of BoxCollider2D
+        capsuleCollider = GetComponent<CapsuleCollider2D>(); 
     }
 
     public void TakeDamage(float amount)
@@ -34,11 +34,13 @@ public class EnemyHealth : MonoBehaviour
     {
         if (isDead) return;
         isDead = true;
+        Destroy(gameObject);
+        //animator.SetBool("isDead", true);
+        //capsuleCollider.enabled = false;
+        // Debug.Log($"{gameObject.name} has died!");
 
-        animator.SetBool("isDead", true);
-        capsuleCollider.enabled = false; // Disable CapsuleCollider2D instead of BoxCollider2D
-        Debug.Log($"{gameObject.name} has died!");
+        //float deathAnimLength = animator.GetCurrentAnimatorStateInfo(0).length;
 
-        float deathAnimLength = animator.GetCurrentAnimatorStateInfo(0).length;
+
     }
 }

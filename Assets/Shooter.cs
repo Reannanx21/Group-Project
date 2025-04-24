@@ -1,5 +1,6 @@
 using UnityEngine;
 using Cinemachine;
+using System.Collections;
 
 public class CharacterShooter : MonoBehaviour
 {
@@ -10,13 +11,14 @@ public class CharacterShooter : MonoBehaviour
     public AudioClip shootSound;
     private AudioSource audioSource;
 
-    public AudioSource shootAudioSource; 
+    public AudioSource shootAudioSource;
 
     public CinemachineImpulseSource impulseSource;
 
     private Animator animator;
-    private float shootCooldown = 0.5f;
-    private float timeSinceLastShot = 0f;
+
+    private bool isOnCooldown = false;
+    public float cooldownTime = 5f;
 
     void Start()
     {
@@ -36,28 +38,23 @@ public class CharacterShooter : MonoBehaviour
 
     void Update()
     {
-        timeSinceLastShot += Time.deltaTime;
-
-        if (Input.GetKeyDown(KeyCode.E) && timeSinceLastShot >= shootCooldown)
+        if (Input.GetKeyDown(KeyCode.E) && !isOnCooldown)
         {
-            timeSinceLastShot = 0f;
-
             if (animator != null)
             {
                 animator.SetTrigger("Shoot");
                 Debug.Log("Shoot animation triggered!");
-                
             }
             else
             {
-                FireProjectile(); 
+                FireProjectile();
             }
+
+            StartCoroutine(ShootCooldown());
         }
 
-        if (Input.GetKeyDown(KeyCode.Mouse0) && timeSinceLastShot >= shootCooldown)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && !isOnCooldown)
         {
-            timeSinceLastShot = 0f;
-
             if (animator != null)
             {
                 animator.SetTrigger("Attack");
@@ -66,7 +63,6 @@ public class CharacterShooter : MonoBehaviour
         }
     }
 
-   
     public void FireProjectile()
     {
         GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, shootPoint.rotation);
@@ -78,7 +74,6 @@ public class CharacterShooter : MonoBehaviour
             projScript.SetDamage(damage);
         }
 
-        
         if (shootSound != null)
         {
             if (shootAudioSource != null)
@@ -93,7 +88,23 @@ public class CharacterShooter : MonoBehaviour
 
         if (impulseSource != null)
         {
-            impulseSource.GenerateImpulse(); 
+            impulseSource.GenerateImpulse();
         }
+    }
+
+    private IEnumerator ShootCooldown()
+    {
+        isOnCooldown = true;
+
+        float timer = cooldownTime;
+        while (timer > 0)
+        {
+            Debug.Log("Cooldown: {Mathf.Ceil(timer)}s remaining...");
+            yield return new WaitForSeconds(1f);
+            timer -= 1f;
+        }
+
+        Debug.Log("Gun is ready to fire again!");
+        isOnCooldown = false;
     }
 }
