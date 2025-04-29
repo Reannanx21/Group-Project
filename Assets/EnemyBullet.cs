@@ -7,7 +7,7 @@ public class EnemyBullet : MonoBehaviour
 
     void Start()
     {
-        Destroy(gameObject, lifeTime); 
+        Destroy(gameObject, lifeTime);
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -18,13 +18,25 @@ public class EnemyBullet : MonoBehaviour
             if (playerHealth != null)
             {
                 playerHealth.TakeDamage(damage);
+                Debug.Log("Bullet hit Player!");
             }
 
-            Destroy(gameObject); 
+            Destroy(gameObject);
+        }
+        else if (other.CompareTag("Enemy") && gameObject.tag == "PlayerBullet") // reflected shot hits enemy
+        {
+            EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();
+            if (enemyHealth != null)
+            {
+                enemyHealth.TakeDamage(damage); // assume you have this method
+                Debug.Log("Bullet hit Enemy!");
+            }
+
+            Destroy(gameObject);
         }
         else if (!other.isTrigger)
         {
-            
+            Debug.Log("Bullet hit non-trigger object, destroyed!");
             Destroy(gameObject);
         }
     }

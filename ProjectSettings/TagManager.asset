@@ -10,6 +10,7 @@ TagManager:
   - CoinsDisplay
   - Destructible
   - Enemy
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX

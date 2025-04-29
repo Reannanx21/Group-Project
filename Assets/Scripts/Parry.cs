@@ -5,10 +5,11 @@ public class ParrySystem : MonoBehaviour
     public float parryWindow = 0.2f;
     private float parryTimer = 0f;
     private bool isParrying = false;
-    private float parryCooldown = 0.7f; // cooldown between parries
+    private float parryCooldown = 0.7f;
     private float nextParryTime = 0f;
+    
 
-    private Collider2D parryCollider;
+
     public PlayerHealth playerHealth;
     public PlayerAttack playerAttack;
 
@@ -17,9 +18,10 @@ public class ParrySystem : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip parrySound;
 
+    public GameObject parryColliderObject; // NEW: External collider object
+
     void Start()
     {
-        parryCollider = GetComponent<Collider2D>();
         anim = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
 
@@ -28,6 +30,9 @@ public class ParrySystem : MonoBehaviour
 
         if (anim == null)
             Debug.LogError("Animator component not assigned in ParrySystem!");
+
+        if (parryColliderObject != null)
+            parryColliderObject.SetActive(false); // Ensure it's off at start
     }
 
     void Update()
@@ -35,17 +40,14 @@ public class ParrySystem : MonoBehaviour
         if (playerAttack == null || playerHealth == null)
             return;
 
-        // If attacking or dead, no parry allowed
         if (playerAttack.isAttacking || !canParry)
             return;
 
-        // Right mouse click = attempt parry, only if cooldown passed
         if (Input.GetMouseButtonDown(1) && Time.time >= nextParryTime)
         {
             StartParry();
         }
 
-        // Count down parry timer
         if (isParrying)
         {
             parryTimer -= Time.deltaTime;
@@ -67,12 +69,13 @@ public class ParrySystem : MonoBehaviour
 
         if (anim != null)
         {
-            anim.ResetTrigger("Parry"); // just to be safe
+            anim.ResetTrigger("Parry");
             anim.SetTrigger("Parry");
-            anim.SetBool("IsParrying", true); // optional, use in Animator if needed
+            anim.SetBool("IsParrying", true);
         }
 
-        // parryCollider.enabled = true; // optional
+        if (parryColliderObject != null)
+            parryColliderObject.SetActive(true); // Enable the parry collider
     }
 
     private void EndParry()
@@ -85,24 +88,22 @@ public class ParrySystem : MonoBehaviour
             anim.SetBool("IsParrying", false);
         }
 
-        // parryCollider.enabled = false;
+        if (parryColliderObject != null)
+            parryColliderObject.SetActive(false); // Disable parry collider
     }
 
     private bool canParry
     {
-        get
-        {
-            return !playerAttack.isAttacking && !playerHealth.isDead;
-        }
+        get { return !playerAttack.isAttacking && !playerHealth.isDead; }
     }
 
-    // Called from Animation Event
+    public bool IsParrying => isParrying;
+
     public void OnParryStart()
     {
         isParrying = true;
     }
 
-    // Called from Animation Event
     public void OnParryEnd()
     {
         EndParry();
