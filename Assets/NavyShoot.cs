@@ -5,12 +5,19 @@ public class EnemyShoot : MonoBehaviour
     public Transform player;
     public GameObject bulletPrefab;
     public Transform firePoint;
+    public AudioClip shootSound; // Step 2: Assign this in the inspector
 
     public float shootDistance = 5f;
     public float shootCooldown = 1.5f;
     public float bulletSpeed = 10f;
 
     private float shootTimer;
+    private AudioSource audioSource; // Step 1: Reference to AudioSource
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>(); // Initialize AudioSource
+    }
 
     void Update()
     {
@@ -38,6 +45,10 @@ public class EnemyShoot : MonoBehaviour
             rb.velocity = direction * bulletSpeed;
         }
 
-        
+        // Step 3: Play the shoot sound
+        if (shootSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(shootSound);
+        }
     }
 }

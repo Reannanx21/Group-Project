@@ -409,7 +409,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Henry Every
+  m_text: Henry Avery
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: aeae11932c1c62a44a9062ff57fa5c9e, type: 2}
   m_sharedMaterial: {fileID: 1460209327681732939, guid: aeae11932c1c62a44a9062ff57fa5c9e, type: 2}
