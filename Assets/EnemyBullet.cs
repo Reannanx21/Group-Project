@@ -15,10 +15,17 @@ public class EnemyBullet : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
+            PlayerMovement playerController = other.GetComponent<PlayerMovement>();
+
             if (playerHealth != null)
             {
                 playerHealth.TakeDamage(damage);
                 Debug.Log("Bullet hit Player!");
+            }
+
+            if (playerController != null)
+            {
+                playerController.Stun(2f); // 2 seconds stun
             }
 
             Destroy(gameObject);
@@ -28,7 +35,7 @@ public class EnemyBullet : MonoBehaviour
             EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();
             if (enemyHealth != null)
             {
-                enemyHealth.TakeDamage(damage); // assume you have this method
+                enemyHealth.TakeDamage(damage);
                 Debug.Log("Bullet hit Enemy!");
             }
 
