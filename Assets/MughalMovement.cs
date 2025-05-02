@@ -1,124 +1,135 @@
 using UnityEngine;
-
-public class MughalMovement : MonoBehaviour
+using System.Collections;
+public class EnemyMovement : MonoBehaviour
 {
     public Transform player;
     public float moveSpeed = 5f;
-    public float detectionRange = 10f; // Detection range where enemy starts following
-    public float stopDistance = 3f;    // Minimum distance to the player before the enemy stops moving
+    public float dashSpeed = 15f;  // Dash speed
+    public float dashCooldown = 5f; // Dash cooldown
+    public float dashDuration = 0.5f; // Dash duration
+    public float detectionRange = 10f;  // Detection range to start following player
+    private float dashCooldownTimer = 0f;
+    private bool isDashing = false;
 
-    private Camera mainCam;
+    public float recoilDistance = 1f;  // Distance the enemy moves back when colliding with the player
+    public float recoilTime = 0.2f;  // Duration for recoil effect
+
     private Rigidbody2D rb;
     private Animator animator;
-
-    public float groundDistance = 0.5f;
-    public float gravityScale = 3f;
-
-    public int maxHealth = 100;
-    private int currentHealth;
+    private bool isRecoiling = false; // Flag to check if the enemy is in recoil
 
     void Start()
     {
-        currentHealth = maxHealth;
-        mainCam = Camera.main;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        rb.gravityScale = gravityScale;
     }
 
     void Update()
     {
         if (player == null) return;
 
-        // Calculate distance from player
+        // Calculate distance from the player
         float distance = Vector2.Distance(transform.position, player.position);
 
-        // Only follow the player if within detection range
+        // If within detection range, follow the player
         if (distance <= detectionRange)
         {
-            // Calculate direction to player
+            // Move towards the player
             Vector2 direction = (player.position - transform.position).normalized;
 
-            // If the player is farther than the stop distance, move towards them
-            if (distance > stopDistance)
+            // Handle dash logic (every dashCooldown seconds)
+            dashCooldownTimer -= Time.deltaTime;
+            if (dashCooldownTimer <= 0f && !isDashing)
             {
-                MoveEnemy(direction);
+                StartCoroutine(DashTowardsPlayer(direction));
+                dashCooldownTimer = dashCooldown;  // Reset cooldown timer
             }
-            // If the player is closer than the stop distance, stop moving
-            else
-            {
-                rb.velocity = new Vector2(0, rb.velocity.y); // Stop movement on X-axis
-            }
-
-            animator.SetBool("isWalking", Mathf.Abs(rb.velocity.x) > 0.1f);
         }
-        else
+
+        // Optional: Stop movement when player is within a certain distance (e.g., attack range)
+        if (Vector2.Distance(transform.position, player.position) < 2f)
         {
-            // Optional: Set idle state if not following player
-            animator.SetBool("isWalking", false);
+            rb.velocity = Vector2.zero;
         }
 
-        // Keep the enemy grounded
-        KeepOnGround();
+        // Handle regular movement (walking) when not recoiling or dashing
+        if (!isDashing && !isRecoiling)
+        {
+            Vector2 direction = (player.position - transform.position).normalized;
+            MoveEnemy(direction);
+        }
+
+        // Optional: Set walking animation based on movement
+        animator.SetBool("isWalking", Mathf.Abs(rb.velocity.x) > 0.1f);
+    }
+
+    IEnumerator DashTowardsPlayer(Vector2 direction)
+    {
+        isDashing = true;
+        float dashTime = 0f;
+
+        // Dash towards player for dashDuration
+        while (dashTime < dashDuration)
+        {
+            rb.velocity = direction * dashSpeed;
+            dashTime += Time.deltaTime;
+            yield return null;
+        }
+
+        // Stop the dash
+        rb.velocity = Vector2.zero;
+        isDashing = false;
     }
 
     void MoveEnemy(Vector2 direction)
     {
+        // Regular movement
         Vector2 targetVelocity = direction * moveSpeed;
         rb.velocity = new Vector2(targetVelocity.x, rb.velocity.y);
     }
 
-    void KeepOnGround()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, groundDistance);
-
-        if (hit.collider == null)
+        // Check if the enemy collides with the player
+        if (collision.collider.CompareTag("Player"))
         {
-            rb.velocity = new Vector2(rb.velocity.x, -0.5f); // Apply small downward velocity if not grounded
+            // Assuming the player has a method to handle damage
+            PlayerHealth playerHealth = collision.collider.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(10); // Damage the player (you can change this value)
+                Debug.Log("Enemy collided with the player and dealt damage!");
+            }
+
+            // Recoil effect: Move back slightly and pause for recoil time
+            if (!isRecoiling)
+            {
+                StartCoroutine(RecoilEffect());
+            }
         }
     }
 
-    public void TakeDamage(int amount)
+    IEnumerator RecoilEffect()
     {
-        currentHealth -= amount;
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
+        isRecoiling = true;
+        Vector2 recoilDirection = (transform.position - player.position).normalized;
+        Vector2 recoilVector = recoilDirection * recoilDistance;
 
-        StartCoroutine(CameraShake(0.15f, 0.3f)); // Camera shake effect when hit
-    }
+        // Apply recoil by moving the enemy back slightly
+        rb.velocity = recoilVector;
 
-    void Die()
-    {
-        // Handle enemy death, like triggering a death animation
-        Destroy(gameObject, 2f); // Destroy after delay to give time for animations
-    }
+        // Wait for recoil duration before resuming movement
+        yield return new WaitForSeconds(recoilTime);
 
-    System.Collections.IEnumerator CameraShake(float duration, float magnitude)
-    {
-        Vector3 originalPos = mainCam.transform.localPosition;
-        float elapsed = 0f;
-
-        while (elapsed < duration)
-        {
-            float x = Random.Range(-1f, 1f) * magnitude;
-            float y = Random.Range(-1f, 1f) * magnitude;
-
-            mainCam.transform.localPosition = new Vector3(x, y, originalPos.z);
-            elapsed += Time.deltaTime;
-            yield return null;
-        }
-
-        mainCam.transform.localPosition = originalPos;
+        // Stop recoil and resume normal movement
+        rb.velocity = Vector2.zero;
+        isRecoiling = false;
     }
 
     private void OnDrawGizmos()
     {
-        // Visualize the detection range and ground distance in the editor
+        // Optional: Draw detection range for debugging
         Gizmos.color = Color.green;
-        Gizmos.DrawWireSphere(transform.position, detectionRange); // Detection range
-        Gizmos.color = Color.red;
-        Gizmos.DrawRay(transform.position, Vector2.down * groundDistance); // Ground check
+        Gizmos.DrawWireSphere(transform.position, detectionRange);
     }
 }
