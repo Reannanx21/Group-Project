@@ -7,8 +7,6 @@ public class ParrySystem : MonoBehaviour
     private bool isParrying = false;
     private float parryCooldown = 0.7f;
     private float nextParryTime = 0f;
-    
-
 
     public PlayerHealth playerHealth;
     public PlayerAttack playerAttack;
@@ -45,6 +43,7 @@ public class ParrySystem : MonoBehaviour
 
         if (Input.GetMouseButtonDown(1) && Time.time >= nextParryTime)
         {
+            Debug.Log("Parry Input Detected");
             StartParry();
         }
 
@@ -53,6 +52,7 @@ public class ParrySystem : MonoBehaviour
             parryTimer -= Time.deltaTime;
             if (parryTimer <= 0f)
             {
+                Debug.Log("Parry Timer Ended");
                 EndParry();
             }
         }
@@ -60,9 +60,10 @@ public class ParrySystem : MonoBehaviour
 
     private void StartParry()
     {
-        audioSource.PlayOneShot(parrySound);
         if (isParrying) return;
 
+        Debug.Log("Starting Parry!");
+        audioSource.PlayOneShot(parrySound);
         isParrying = true;
         parryTimer = parryWindow;
         nextParryTime = Time.time + parryCooldown;
@@ -75,7 +76,10 @@ public class ParrySystem : MonoBehaviour
         }
 
         if (parryColliderObject != null)
+        {
             parryColliderObject.SetActive(true); // Enable the parry collider
+            Debug.Log("Parry Collider Enabled");
+        }
     }
 
     private void EndParry()
@@ -89,7 +93,10 @@ public class ParrySystem : MonoBehaviour
         }
 
         if (parryColliderObject != null)
+        {
             parryColliderObject.SetActive(false); // Disable parry collider
+            Debug.Log("Parry Collider Disabled");
+        }
     }
 
     private bool canParry
