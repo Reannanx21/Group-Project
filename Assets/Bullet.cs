@@ -19,7 +19,7 @@ public class Projectile : MonoBehaviour
     {
         Debug.Log("Projectile collided with: " + other.name);
 
-        // Damage enemy if it has EnemyHealth
+        
         EnemyHealth enemy = other.GetComponent<EnemyHealth>();
         if (enemy != null)
         {
@@ -27,7 +27,7 @@ public class Projectile : MonoBehaviour
             enemy.TakeDamage(damage);
         }
 
-        // Damage object if it has ObjectHealth
+       
         ObjectHealth obj = other.GetComponent<ObjectHealth>();
         if (obj != null)
         {
@@ -35,7 +35,7 @@ public class Projectile : MonoBehaviour
             obj.TakeDamage(damage);
         }
 
-        // Optional: Stun enemies only
+        
         EnemyStun enemyStun = other.GetComponent<EnemyStun>();
         if (enemyStun != null)
         {

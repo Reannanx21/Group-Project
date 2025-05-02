@@ -15,7 +15,7 @@ public class ParryCollider : MonoBehaviour
     {
         if (!parrySystem.IsParrying)
         {
-            return; // Only react if parrying is active
+            return; 
         }
 
         Debug.Log($"Parry Collider Triggered by: {other.name}");
@@ -27,8 +27,8 @@ public class ParryCollider : MonoBehaviour
             {
                 Debug.Log($"Parried Bullet: {other.name}, Velocity before: {rb.velocity}");
                 rb.velocity = -rb.velocity;
-                other.tag = "PlayerBullet";  // Change the bullet tag to reflect the new state
-                other.gameObject.layer = LayerMask.NameToLayer("PlayerBullet");  // Optional: Change layer
+                other.tag = "PlayerBullet"; 
+                other.gameObject.layer = LayerMask.NameToLayer("PlayerBullet");  
                 Debug.Log($"Parried Bullet: {other.name}, Velocity after: {rb.velocity}");
             }
         }

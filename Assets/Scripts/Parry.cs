@@ -75,7 +75,7 @@ public class ParrySystem : MonoBehaviour
         }
 
         if (parryColliderObject != null)
-            parryColliderObject.SetActive(true); // Enable the parry collider
+            parryColliderObject.SetActive(true); 
     }
 
     private void EndParry()

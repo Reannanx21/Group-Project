@@ -45,7 +45,7 @@ public class PlayerAttack : MonoBehaviour
 
             foreach (Collider2D hit in enemiesHit)
             {
-                // Enemy damage
+                
                 EnemyHealth enemyHealth = hit.GetComponent<EnemyHealth>();
                 if (enemyHealth != null)
                 {
@@ -53,7 +53,7 @@ public class PlayerAttack : MonoBehaviour
                     enemyHit = true;
                 }
 
-                // Destructible object damage
+                
                 if (hit.CompareTag("Destructible"))
                 {
                     ObjectHealth objectHealth = hit.GetComponent<ObjectHealth>();
@@ -72,7 +72,7 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
-    public void ResetAttack() // Call this from animation event
+    public void ResetAttack() 
     {
         isAttacking = false;
     }

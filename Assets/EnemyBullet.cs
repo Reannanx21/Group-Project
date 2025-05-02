@@ -25,12 +25,12 @@ public class EnemyBullet : MonoBehaviour
 
             if (playerController != null)
             {
-                playerController.Stun(2f); // 2 seconds stun
+                playerController.Stun(2f);
             }
 
             Destroy(gameObject);
         }
-        else if (other.CompareTag("Enemy") && gameObject.tag == "PlayerBullet") // reflected shot hits enemy
+        else if (other.CompareTag("Enemy") && gameObject.tag == "PlayerBullet") 
         {
             EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();
             if (enemyHealth != null)

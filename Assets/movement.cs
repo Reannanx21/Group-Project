@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Stun FX")]
     public float stunDuration = 2f;
-    public GameObject stunVFX; // Optional particle prefab
+    public GameObject stunVFX; 
     public AudioClip stunSFX;
 
     private AudioSource sfxAudioSource;
@@ -63,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
 
         isGrounded = IsGrounded();
 
-        // Footstep sound
+       
         if (Mathf.Abs(Move) > 0.01f && isGrounded)
         {
             if (!footstepAudio.isPlaying)
