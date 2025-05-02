@@ -7494,7 +7494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 571065655237296716, guid: 72e94d897c4d6cb41bd537fa7317affd, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4354238421784495642, guid: 72e94d897c4d6cb41bd537fa7317affd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7708,7 +7708,7 @@ Transform:
   m_GameObject: {fileID: 904559656}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 190.29953, y: 1.3999996, z: -10}
+  m_LocalPosition: {x: -141.10046, y: 1.3999996, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10109,7 +10109,7 @@ PrefabInstance:
       objectReference: {fileID: 860235708}
     - target: {fileID: 8470575594629597763, guid: c2520e40e2d14ab4fbbc90aaf973f8d3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 173.2
+      value: -158.2
       objectReference: {fileID: 0}
     - target: {fileID: 8470575594629597763, guid: c2520e40e2d14ab4fbbc90aaf973f8d3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -17627,6 +17627,7 @@ MonoBehaviour:
   detectionRange: 40
   recoilDistance: 1
   recoilTime: 0.1
+  damage: 20
 --- !u!1001 &2089781333
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17723,7 +17724,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 571065655237296716, guid: 72e94d897c4d6cb41bd537fa7317affd, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 571065655237296716, guid: 72e94d897c4d6cb41bd537fa7317affd, type: 3}
       propertyPath: m_TagString
@@ -18538,7 +18539,7 @@ PrefabInstance:
       objectReference: {fileID: 427118703}
     - target: {fileID: 3886596469225486788, guid: 172e74f744fe18140a88b2c7a353c267, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 190.69952
+      value: -140.70047
       objectReference: {fileID: 0}
     - target: {fileID: 3886596469225486788, guid: 172e74f744fe18140a88b2c7a353c267, type: 3}
       propertyPath: m_LocalPosition.y

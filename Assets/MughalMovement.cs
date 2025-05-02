@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+
 public class EnemyMovement : MonoBehaviour
 {
     public Transform player;
@@ -13,6 +14,8 @@ public class EnemyMovement : MonoBehaviour
 
     public float recoilDistance = 1f;  // Distance the enemy moves back when colliding with the player
     public float recoilTime = 0.2f;  // Duration for recoil effect
+
+    public float damage = 10f;  // Damage to deal to the player when collision occurs, now editable in the Inspector
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -97,8 +100,8 @@ public class EnemyMovement : MonoBehaviour
             PlayerHealth playerHealth = collision.collider.GetComponent<PlayerHealth>();
             if (playerHealth != null)
             {
-                playerHealth.TakeDamage(10); // Damage the player (you can change this value)
-                Debug.Log("Enemy collided with the player and dealt damage!");
+                playerHealth.TakeDamage(damage); // Damage the player (now using the public 'damage' value)
+                Debug.Log($"Enemy collided with the player and dealt {damage} damage!");
             }
 
             // Recoil effect: Move back slightly and pause for recoil time
